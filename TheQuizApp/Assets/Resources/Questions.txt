@@ -1,0 +1,306 @@
+{Economics}
+	
+1[Economics is the study of] ;d1 ;i8 ;a3 % (2) Ch1, q1
+	production technology
+	consumption decisions
+	how society decides what, how, and for whom to produce
+	the best way to run society
+2[The opportunity cost of a good is] ;d3 ;i6 ;a2 % (2) Ch1, q3	
+	he time lost in finding it
+	the quantity of other goods sacrificed to get another unit of that good
+	the expenditure on the good
+	the loss of interest in using savings	
+3[A market can accurately be described as] ;d2 ;i8 ;a3 % (2) Ch1, q4
+	a place to buy things
+	a place to sell things
+	the process by which prices adjust to reconcile the allocation of resources
+	a place where buyers and sellers meet
+4[In a free market] ;d5 ;i6 ;a4 % (2) Ch1, q6
+	governments intervene
+	governments plan production
+	governments interfere
+	prices adjust to reconcile scarcity and desires
+5[In the mixed economy] ;d7 ;i5 ;a1 % (2) Ch1, q7
+	economic problems are solved by the government and market
+	economic decisions are made by the private sector and free market
+	economic allocation is achieved by the invisible hand
+	economic questions are solved by government departments
+6[Normative economics forms ... based on ...] ;d8 ;i4 ;a2 % (2) Ch1, q9
+	positive statements / facts
+	opinions / personal values
+	positive statements / values
+	opinions / facts
+7[Microeconomics is concerned with] ;d1 ;i6 ;a3 % (2) Ch1, q10
+	the economy as a whole
+	the electronics industry
+	the study of individual economic behaviour
+	the interactions within the entire economy
+8[Macroeconomics is the study of] ;d1 ;i6 ;a4 % (2) Ch1, q11
+	individual building blocks in the economy
+	the relationship between different sectors of the economy
+	household purchase decisions
+	the economy as a whole
+9[Data are important in economics because] ;d3 ;i5 ;a1 % (2) Ch1, q13
+	they suggest relationships for explanation and allow testing of hypotheses
+	they can be used for tables and they can be graphed
+	they can be used in computers and governments use them
+	they provide interesting information and can be summarised
+10[Time series data show information about] ;d2 ;i6 ;a2 % (2) Ch1, q14
+	the same point in time over different places
+	different points in time over the same variable
+	different variables over different places
+	different points in time over different places
+11[The retail price index is used to] ;d6 ;i5 ;a3 % (2) Ch1, q16
+	construct price lists
+	compare shop prices
+	measure changes in the cost of living
+	none of the answers are correct
+12[A real value can be derived from a nominal value by adjusting for] ;d4 ;i6 ;a4 % (2) Ch1, q17
+	changes over time
+	data collection errors
+	population changes
+	changes in prices
+13[If your income during one year is £10,000 and the following year it is £12,000, then it has grown by] ;d1 ;i6 ;a1 % (2) Ch1, q19
+	20%
+	2%
+	12%
+	16%		
+14[A straight-line diagram can be drawn by knowing the] ;d8 ;i3 ;a3 % (2) Ch1, q20
+	vertical axis and horizontal axis
+	intercept and slope
+	scale and slope
+	intercept and scale
+15[On a graph, a positive linear relationship moves] ;d1 ;i7 ;a3 % (2) Ch1, q21
+	down to the right
+	up to the left
+	up to the right
+	down to the left
+16[If the diagram of a line shows that lower values on the vertical scale are associated with higher values on the horizontal scale, this is an example of] ;d2 ;i8 ;a4 % (2) Ch1, q22
+	a nonlinear relationship
+	a positive linear relationship
+	a scatter diagram
+	a negative linear relationship
+17[When we know the quantity of a product that buyers wish to purchase at each possible price, we know] ;d2 ;i6 ;a1 % (2) Ch1, q23
+	demand
+	supply
+	excess demand
+	excess supply		
+18[The equilibrium price clears the market; it is the price at which] ;d3 ;i5 ;a3 % (2) Ch1, q25
+	everything is sold
+	buyers spend all their money
+	quantity demanded equals quantity supplied and Excess demand is zero
+	all the answers are correct
+19[When a market is in equilibrium] ;d5 ;i7 ;a4 % (2) Ch1, q26
+	Quantity demanded equals quantity supplied
+	Excess demand and excess supply are zero
+	The market is cleared by the equilibrium price
+	all the answers are correct
+20[... do not directly affect the demand curve] ;d2 ;i7 ;a3 % (2) Ch1, q27
+	The price of related goods and consumer incomes
+	Consumer incomes and tastes
+	The costs of production and bank opening hours
+	The price of related goods and preferences
+21[A demand curve can shift because of changing] ;d2 ;i7 ;a4 % (2) Ch1, q29
+	incomes
+	prices of related goods
+	tastes
+	all the answers are correct
+22[A supply curve is directly affected by] ;d4 ;i8 ;a4 % (2) Ch1, q30
+	technology
+	input costs
+	government regulation
+	all the answers are correct
+23[If a price increase of good A increases the quantity demanded of good B, then good B is] ;d7 ;i3 ;a1 % (2) Ch1, q32
+	a substitute good
+	a complementary good
+	a bargain
+	an inferior good
+24[An increase in consumer income will increase demand for ... but decrease demand for ...] ;d7 ;i4 ;a2 % (2) Ch1, q33
+	a substitute good / an inferior good
+	a normal good / an inferior good
+	an inferior good / a normal good
+	a normal good / a complementary good
+
+{Marketing}
+
+1[... is the extent to which a firm fulfills a customer's needs, desires, and expectations.] ;d1 ;i4 ;a3 % (1) Ch1, q1
+	Form utility
+	Production
+	Customer satisfaction
+	Micro marketing
+2[Possession utility is provided when] ;d4 ;i3 ;a1 % (1) Ch1, q3
+	a good or service is obtained and there is a right to use or consume it	
+	a product is available where someone wants it		
+	someone performs a task for someone else	
+	someone produces something tangible
+3[The performance of activities that seek to accomplish an organization's objectives by anticipating customer or client needs and directing a flow of need-satisfying goods and services to a customer or client is] ;d1 ;i4 ;a3 % (1) Ch1, q5
+	a planned economic system
+	macro-marketing
+	micro-marketing
+	an intermediary
+4[There are two basic kinds of economic systems. They are] ;d6 ;i4 ;a3 % (1) Ch1, q6
+	planned and spontaneous
+	market-directed and pure subsistence
+	planned and market-directed
+	none of the answers are correct
+5[Which of the following is NOT an objective of the World Trade Organization agreements ?] ;d4 ;i5 ;a4 % (1) Ch1, q8
+	To help the free-flow of trade
+	To facilitate additional negotiation
+	To provide an impartial means of settling disputes
+	To encourage the development of a common international currency
+6[The universal functions of marketing include] ;d3 ;i7 ;a4 % (1) Ch1, q9
+	buying, selling and risk taking
+	transporting, standardization and grading
+	storing, financing, and market information
+	all the answers are correct
+7[A social process that directs an economy's flow of goods and services from producers to consumers in a way that effectively matches supply and demand and accomplishes the objectives of society is called] ;d1 ;i4 ;a2 % (1) Ch1, q13
+	Micro-marketing
+	Macro-marketing
+	Global-marketing
+	Planned economic system
+8[... is the way an economy organizes to use scarce resources and produce goods and services and distribute them for consumption by various people and groups in the society.] ;d3 ;i7 ;a1 % (1) Ch1, q14
+	An economic system
+	A resource allocation system
+	A micro-macro dilemma
+	Macro-marketing
+9[Firms that provide marketing functions other than buying or selling include advertising agencies, marketing research firms, independent product-testing laboratories, and Internet service providers. These firms are known as] ;d5 ;i3 ;a2 % (1) Ch1, q16
+	Enhancers
+	Facilitators
+	Adjuncts
+	Coordinators
+10[Exchanges between individuals or organizations - and activities that facilitate those exchanges - based on applications of information technology are called] ;d4 ;i2 ;a2 % (1) Ch1, q17
+	Internet commerce
+	E-commerce
+	Web commerce
+	High-tech commerce
+	
+{Basic Spanish}
+	
+{Vocabulary}
+	
+{Armenian History}
+
+1[Armenian plateau is located in the middle of ... and Iranian highland.] ;d8 ;i1 ;a3 % Shtemaran 5-6, Ch1 - q1
+	Small Caucasus mountain range 
+	Midland Districts 
+	Asia Minor (Anatolia)
+	Armenian Taurus mountain range
+2[What is the approximate height of the Armenian plateau ?] ;d9 ;i1 ;a2 % Shtemaran 5-6, Ch1 - q2
+	1300 - 1500 meters
+	1500 - 1800 meters
+	1800 - 2000 meters
+	2000 - 2200 meters
+3[What is the height of the mountain Ararat ?] ;d2 ;i5 ;a4 % Shtemaran 5-6, Ch1 - q4
+	3050 meters
+	4095 meters
+	4434 meters
+	5165 meters
+4[Which river flowed in between Greater Armenia and Lesser Armenia ?] ;d9 ;i3 ;a2 % Shtemaran 5-6, Ch1 - q11
+	Aratsani
+	Western Euphrates
+	Aras (Araqs)
+	Jorokh (Chorokh) 
+5[Where did the Urartu clan live ?] ;d9 ;i1 ;a1 % Shtemaran 5-6, Ch3 - q1
+	In the south of Armenian plateau
+	In the north of Armenian plateau
+	In the west of Armenian plateau
+	In the east of Armenian plateau
+6[How did the locals call their coutry in the years of the Kingdom of Van ?] ;d9 ;i6 ;a2 % Shtemaran 5-6, Ch3 - q3
+	Urartu
+	Biaynili
+	Kingdom of Van
+	Araratyan Kingdom
+7[Who was the founder king of the capital of Urartu, Tushpa (later, known as Van) ?] ;d8 ;i3 ;a2 % Shtemaran 5-6, Ch3 - q5
+	Arame
+	Sarduri I
+	Ishpuini
+	Argishti I
+8[Which of the answers is complete ? : The army of Urartu consisted of] ;d3 ;i7 ;a3 % Shtemaran 5-6, Ch3 - q19
+	infantry and cavalry 
+	infantry, cavalry and navy
+	infantry, cavalry and chariots 
+	infantry, cavalry and elephants
+9[Who founded the dynasty of Ervanduni ?] ;d6 ;i3 ;a1 % Shtemaran 5-6, Ch4 - q12
+	Ervand Sakavakyanc
+	Ervand Erkarakyac
+	Tigran I Ervandyan
+	Shavarsh Ervandyan
+10[How much military power did Ervand Sakavakyanc has ?] ;d7 ;i3 ;a1 % Shtemaran 5-6, Ch4 - q9
+	8 thousand horseman and 40 thousand infantry
+	10 thousand horseman and 30 thousand infantry
+	11 thousand horseman and 60 thousand infantry
+	3 thousand horseman and 25 thousand infantry
+
+{US History}
+	
+1[The purpose of the 1964 Freedom Summer in Mississippi was to] ;d8 ;i5 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q1
+	help and encourage blacks to become registered voters
+	persuade the state legislature to ratify the Equal Rights Amendment
+	protest the escalation of the Vietnam War
+	desegregate schools
+2[Malcolm X advocated all of the following except] ;d3 ;i8 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q2
+	blacks should be proud of their blackness and their African roots
+	blacks should rely on nonviolence and should earn their freedom by passive resistance
+	blacks should control their own destinies
+	blacks should separate themselves from whites
+3[Which of the following statements about Martin Luther King Jr.'s speech to the 1963 Washington civil-rights rally is correct ?] ;d1 ;i8 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q3
+	It was a failure because the turnout at the rally was poor and it came at the end of a long and hot day of lengthy speeches
+	It was ignored by the media
+	It was dramatically interrupted when a white racist shot King as he spoke on the steps of the Lincoln Memorial
+	It turned a political rally into a historic event and recalled the nation to the ideals of justice and equality
+4[Between 1964 and 1968 some urban blacks around the country expressed their reaction to the civil rights movement by] ;d6 ;i7 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q4
+	launching the most vigorous voter-registration drive in American history
+	looting, rioting and destroying property
+	staging sit-ins at banks in order to get more loans for black-run businesses
+	organizing a series of mass demonstrations and marches that paralyzed city affairs for days at a time
+5[Why did John Mitchell, E. Howard Hunt, and G. Gordon Liddy arrange the break-in at the Watergate complex ?] ;d7 ;i8 ;a3 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q1
+	To destroy the Democratic National Committee's files of of potential campaign contributors
+	To find information about Daniel Ellsburg that would discredit him
+	To wiretap the telephone of the Democratic National Committee
+	None of the answers are correct
+6[The Nixon's administration's "enemies list" included] ;d7 ;i6 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q2
+	prominent Americans who were to be harassed by the government for opposing Nixon's policies
+	leaders of North Vietnam, China, and Kampuchea
+	known communists who were working in either the State or Defense Department
+	Spiro Agnew, John Mitchell, and G. Gordon Liddy
+7[What did the White House tapes reveal ?] ;d8 ;i8 ;a3 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q3
+	President Nixon had attempted to halt the dirty tricks of his supporters
+	President Nixon had an affair with a White House intern
+	President Nixon had ordered a coverup in the Watergate affair
+	The Watergate burglary was simply a third-rate caper
+8[President Nixon] ;d2 ;i8 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q4
+	resigned to allow vice-president Spiro Agnew to take over the reins of power
+	resigned from office before the House could impeach him, which it was likely to do
+	was impeached by the House of Representatives for obstruction of justice and abuse of power
+	apologized to the American people for his decisions and declared he was wrong to abuse power
+9[George McGovern overwhelmingly lost the 1972 presidential election because] ;d7 ;i6 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q5
+	he only won one state (Massachusetts) plus the District of Columbia
+	his first vice-presidential running mate had received electric-shock treatment for depression
+	the Nixon campaign kept information about the Watergate burglary contained
+	all the answers are correct
+10[Which of the following is NOT true about John F. Kennedy ?] ;d5 ;i4 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q1
+	He had won a Pulitzer Prize for "Profiles in Courage," a book written primarily by one of his staff members
+	He had compiled an impressive record of achievement during his years in Congress and had sponsored much notable reform legislation
+	He was the first Roman Catholic president
+	He was esteemed as a war hero and projected an image of vigor and rugged good looks
+11[The most serious conflict between the U.S. and the Soviet Union during the Kennedy administration occurred over] ;d2 ;i8 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q2
+	Cuba
+	Berlin
+	Turkey
+	Vietnam
+12[Pres. Johnson's vision of a Great Society was one in which] ;d4 ;i5 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q3
+	independent farmers and small shop owners would once again form the backbone of a free and democratic citizenry in the Jeffersonian mold
+	inequalities between social classes could be eliminated by government wealth-distribution schemes
+	individuals and corporations could work as partners to eliminate poverty without the need for elaborate government-sponsored social welfare programs
+	poverty and racial injustice would be eliminated, and economic opportunity would be available to all
+13[Which of the following was NOT one of the Warren Court decisions in the 1960s ?] ;d8 ;i3 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q4
+	If a defendant could not afford an attorney, one must be provided by the state
+	Bible reading and organized prayer were not permissible in public schools
+	Police had to advise a suspect of his or her constitutional right to remain silent
+	The Constitution protected a woman's right to an abortion
+	
+{Computer Science}
+
+{Physics}
+
+{Space}
