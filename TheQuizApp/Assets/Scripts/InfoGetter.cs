@@ -8,7 +8,7 @@ public class InfoGetter : MonoBehaviour
     private List<QuestionData> questionData = new List<QuestionData>();
 
     private InfoManager infoManager;
-    private int quesPerRound = 10;
+    private int quesPerRound = 4;
     private string topicName;
     private int numOfQuestions;
     private int startLine;

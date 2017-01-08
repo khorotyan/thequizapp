@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\LoadManager.cs" />
     <Compile Include="Assets\Scripts\QuestionData.cs" />
     <Compile Include="Assets\Scripts\SaveManager.cs" />
+    <Compile Include="Assets\Scripts\UIResizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Easy Save 2\changelog.txt" />
