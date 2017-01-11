@@ -10,8 +10,8 @@ public class UIResizer : MonoBehaviour
     private Text[] texts = new Text[4];
 
     private CurrSessionManager csm;
-    private int textLineLength = 40;
-    private int charsPerLine = 60;
+    private int textLineLength = 55;
+    private int charsPerLine = 70;
 
     void Awake ()
     {
@@ -38,7 +38,7 @@ public class UIResizer : MonoBehaviour
             int heightMultiplier = (int) Mathf.Floor(texts[i].text.Length / charsPerLine);
 
             int totalHeight = Mathf.Max(textLineLength * heightMultiplier, 200);
-            texts[i].GetComponent<RectTransform>().sizeDelta = new Vector2(800, totalHeight);
+            texts[i].GetComponent<RectTransform>().sizeDelta = new Vector2(850, totalHeight);
         }
     }
 

@@ -11,43 +11,56 @@ public class CurrSessionManager : MonoBehaviour
     public GameObject questionPanel;
 
     public Text questionText;
+    public Button nextButton;
     public Button[] buttons = new Button[4];
     private Text[] texts = new Text[4];
+    private Color32 defButtonColor;
 
     [HideInInspector]
     public bool topicSelected = false;
+    [HideInInspector]
+    public bool canClickAnswer = true;
+    [HideInInspector]
+    public bool canClickNext = false;
+    [HideInInspector]
+    public bool answerSelected = false;
 
     private UIResizer uiResizer;
+    private SessionTimerManager qpageInfoMger;
+    private SessionCurrencyManager sessionCurrencyManager;
     private List<QuestionData> qsFromDivisions;
     private int sessionCorrAnsNum;
+    private int currButtonNum;
     private int sessionQCount = 0;
     private int currQNumber = 0;
-    private bool waitedForAnswer = false;
 
     private void Awake()
     {
         uiResizer = gameObject.GetComponent<UIResizer>();
+        qpageInfoMger = gameObject.GetComponent<SessionTimerManager>();
+        sessionCurrencyManager = gameObject.GetComponent<SessionCurrencyManager>();
+
+        nextButton.onClick.AddListener(() => OnNextClick());
 
         texts[0] = buttons[0].GetComponentInChildren<Text>();
         texts[1] = buttons[1].GetComponentInChildren<Text>();
         texts[2] = buttons[2].GetComponentInChildren<Text>();
         texts[3] = buttons[3].GetComponentInChildren<Text>();
 
-        buttons[0].onClick.AddListener(() => CurrQManager(1));
-        buttons[1].onClick.AddListener(() => CurrQManager(2));
-        buttons[2].onClick.AddListener(() => CurrQManager(3));
-        buttons[3].onClick.AddListener(() => CurrQManager(4));
+        buttons[0].onClick.AddListener(() => OnAnswerClick(1));
+        buttons[1].onClick.AddListener(() => OnAnswerClick(2));
+        buttons[2].onClick.AddListener(() => OnAnswerClick(3));
+        buttons[3].onClick.AddListener(() => OnAnswerClick(4));
+
+        defButtonColor = buttons[0].GetComponent<Image>().color;
     }
 
     private void Update()
     {
-        if (waitedForAnswer == true)
-        {
-            ManageQShuffle();
-            waitedForAnswer = false;
-        }
+        
     }
 
+    // Gets information about the questions for the session consisting of "sessionQCount" questions
     public void ManageCurrSession(List<QuestionData> qsFromDivisions, int sessionQCount)
     {
         currQNumber = 0;
@@ -55,10 +68,42 @@ public class CurrSessionManager : MonoBehaviour
         this.qsFromDivisions = qsFromDivisions;
         this.sessionQCount = sessionQCount;
 
-        CurrQManager(1);
+        CurrQManager();
+        ManageQShuffle();
+        sessionCurrencyManager.CurrencyCalculations();
     }
 
-    public void CurrQManager(int buttonNumber)
+    public void OnAnswerClick(int currButtonNum)
+    {
+        this.currButtonNum = currButtonNum;
+
+        if (canClickAnswer == true && answerSelected == false)
+        {
+            CurrQManager();
+            answerSelected = true;
+            qpageInfoMger.CancelInvoke("TimerCalculator");
+        }
+        else
+        {
+            // Say that the question was answered too quickly
+        }        
+    }
+
+    public void OnNextClick()
+    {
+        if (canClickNext == true)
+        {
+            ManageQShuffle();
+
+            answerSelected = false;
+            canClickNext = false;
+
+            sessionCurrencyManager.CurrencyCalculations();
+        }
+        
+    }
+
+    public void CurrQManager()
     {
         if (topicPanel.activeSelf == true && questionPanel.activeSelf == false)
         {
@@ -68,32 +113,31 @@ public class CurrSessionManager : MonoBehaviour
 
         if (currQNumber != 0)
         {
-            if (buttonNumber == sessionCorrAnsNum)
+            // Correct Answer
+            if (currButtonNum == sessionCorrAnsNum)
             {
-                //buttons[buttonNumber - 1].GetComponent<Image>().color = new Color(99, 199, 108);
                 buttons[sessionCorrAnsNum - 1].GetComponent<Image>().color = Color.green;
 
-                //Debug.Log("Correct");
+                sessionCurrencyManager.CurrencyOnCorrAns();
             }
-            else
+            else // Incorrect Answer
             {
-                //buttons[buttonNumber - 1].GetComponent<Image>().color = new Color(99, 199, 108);
                 buttons[sessionCorrAnsNum - 1].GetComponent<Image>().color = Color.green;
 
                 for (int i = 0; i < 4; i++)
                 {
                     if (i != sessionCorrAnsNum - 1)
                     {
-                        //buttons[i].GetComponent<Image>().color = new Color(255, 120, 120);
                         buttons[i].GetComponent<Image>().color = Color.red;
                     }
                 }
 
-                //Debug.Log("Incorrect");
+                sessionCurrencyManager.CurrencyOnIncorrAns();
             }
-        }
 
-        StartCoroutine(AnswerWaiter());
+            canClickNext = true;
+            canClickAnswer = false;
+        }
     }
 
     private void ManageQShuffle()
@@ -124,14 +168,18 @@ public class CurrSessionManager : MonoBehaviour
             // Shuffle the numbers of the list randomly
             answerNums = answerNums.OrderBy(item => rand.Next()).ToList();
 
-            sessionCorrAnsNum = answerNums[answerNums.IndexOf(sessionCorrAnsNum)];
-            Debug.Log("sessionCorrAnsNum : " + sessionCorrAnsNum);
+            // Get the correct answer number after the shuffle
+            sessionCorrAnsNum = answerNums.IndexOf(sessionCorrAnsNum) + 1;
+            Debug.Log("Correct Answer : " + sessionCorrAnsNum);
 
             for (int i = 0; i < 4; i++)
             {
                 newAnswers[i] = answers[answerNums[i] - 1];
                 texts[i].text = newAnswers[i];
             }
+
+            // Calculate the amount of time given for the current question and manage the timer
+            qpageInfoMger.DoTimerCalculations(qsFromDivisions[currQNumber]);   
         }
         else
         {
@@ -144,18 +192,12 @@ public class CurrSessionManager : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            buttons[i].gameObject.GetComponent<Image>().color = new Color(225, 225, 225);
+            buttons[i].gameObject.GetComponent<Image>().color = defButtonColor;
         }
 
         // Resize the buttons and the texts
-        uiResizer.ResizeUI();
+        uiResizer.ResizeUI();      
 
         currQNumber++;
     } 
-
-    IEnumerator AnswerWaiter()
-    {
-        yield return new WaitForSeconds(0.5f);
-        waitedForAnswer = true;
-    }
 }
