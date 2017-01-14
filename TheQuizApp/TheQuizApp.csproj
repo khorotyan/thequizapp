@@ -98,10 +98,13 @@
     <Compile Include="Assets\Assets\Easy Save 2\Types\ES2_Sprite.cs" />
     <Compile Include="Assets\Assets\OneMinuteGui\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\CurrSessionManager.cs" />
+    <Compile Include="Assets\Scripts\HelpersDuringSess.cs" />
     <Compile Include="Assets\Scripts\InfoGetter.cs" />
     <Compile Include="Assets\Scripts\InfoManager.cs" />
     <Compile Include="Assets\Scripts\LoadManager.cs" />
+    <Compile Include="Assets\Scripts\MainScreenManager.cs" />
     <Compile Include="Assets\Scripts\QuestionData.cs" />
+    <Compile Include="Assets\Scripts\ResultsPageManager.cs" />
     <Compile Include="Assets\Scripts\SaveManager.cs" />
     <Compile Include="Assets\Scripts\SessionCurrencyManager.cs" />
     <Compile Include="Assets\Scripts\SessionTimerManager.cs" />

@@ -56,4 +56,16 @@ public class LoadManager : MonoBehaviour
 
         return answeredQNos;
     }
+
+    public int LoadAllTimeMaxScore()
+    {
+        int allTimeMaxScore = 0;
+
+        if (ES2.Exists("svt.txt?tag=allTimeMaxScore"))
+        {
+            allTimeMaxScore = ES2.Load<int>("svt.txt?tag=allTimeMaxScore");
+        }
+
+        return allTimeMaxScore;       
+    }
 }

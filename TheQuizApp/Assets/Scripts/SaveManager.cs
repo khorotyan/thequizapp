@@ -30,4 +30,9 @@ public class SaveManager : MonoBehaviour
     {
         ES2.Save(answeredQNos, "svt.txt?tag=answeredQNos" + topicName);
     }
+
+    public void SaveAllTimeMaxScore(int allTimeMaxScore)
+    {
+        ES2.Save(allTimeMaxScore, "svt.txt?tag=allTimeMaxScore");
+    }
 }

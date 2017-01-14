@@ -14,7 +14,7 @@ public class InfoManager : MonoBehaviour
     private List<QuestionData> answeredQs = new List<QuestionData>();
 
     // Later Save to a file in order to load the question numbers only once (Later, include for updates too)
-    bool questionNosLoaded = false; // Later, Make True as the bool is going to be loaded from a text file
+    private bool questionNosLoaded = false; // Later, Make True as the bool is going to be loaded from a text file
 
     private void Awake()
     {
@@ -32,13 +32,13 @@ public class InfoManager : MonoBehaviour
 
         // Load "notAnsweredQNos" List
         if (questionNosLoaded == false)
-        {   
+        {
             notAnsweredQs = questionData;
 
             // Returns the question numbers from the "notAnsweredQs" list of custom data
             List<int> notAnsweredQNos = notAnsweredQs.Select(item => item.QuestionNumber).ToList();
 
-            questionNosLoaded = true;
+            questionNosLoaded = false;
             //-saveManager.SaveQuestionLoadChecker(questionNosLoaded, topicName); // Save "questionNosLoaded" bool
             // Save all questio numbers since the topic is played only once
             //-saveManager.SaveNotAnsweredQNumbers(notAnsweredQNos, topicName); 
@@ -108,7 +108,7 @@ public class InfoManager : MonoBehaviour
         {
             System.Random r = new System.Random();
 
-            int endPoint = (int)Math.Ceiling((1.0 * (totalNumberOfQs - 1) / sessionQs) * i);
+            int endPoint = (int) Math.Ceiling((1.0 * (totalNumberOfQs - 1) / sessionQs) * i);
 
             if (i == sessionQs)
             {
@@ -119,6 +119,6 @@ public class InfoManager : MonoBehaviour
             qsFromDivisions.Add(currQData[r.Next(startPoint, endPoint)]);
 
             startPoint = endPoint;
-        }
+        }   
     }
 }

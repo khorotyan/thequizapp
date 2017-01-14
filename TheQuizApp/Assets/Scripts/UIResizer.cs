@@ -10,7 +10,7 @@ public class UIResizer : MonoBehaviour
     private Text[] texts = new Text[4];
 
     private CurrSessionManager csm;
-    private int textLineLength = 55;
+    private int textLineLength = 60;
     private int charsPerLine = 70;
 
     void Awake ()

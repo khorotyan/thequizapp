@@ -6,12 +6,15 @@ using UnityEngine.UI;
 
 // Manage the questions that the user answers during the session
 public class CurrSessionManager : MonoBehaviour
-{
-    public GameObject topicPanel;
-    public GameObject questionPanel;
-
-    public Text questionText;
-    public Button nextButton;
+{   
+    [SerializeField]
+    private GameObject topicPanel;
+    [SerializeField]
+    private GameObject questionPanel;
+    [SerializeField]
+    private Text questionText;
+    [SerializeField]
+    private Button nextButton;
     public Button[] buttons = new Button[4];
     private Text[] texts = new Text[4];
     private Color32 defButtonColor;
@@ -26,19 +29,24 @@ public class CurrSessionManager : MonoBehaviour
     public bool answerSelected = false;
 
     private UIResizer uiResizer;
-    private SessionTimerManager qpageInfoMger;
+    private SessionTimerManager sessionTimerManager;
     private SessionCurrencyManager sessionCurrencyManager;
+    private ResultsPageManager resultsPageManager;
+    private HelpersDuringSess helpersDuringSess;
     private List<QuestionData> qsFromDivisions;
     private int sessionCorrAnsNum;
     private int currButtonNum;
     private int sessionQCount = 0;
     private int currQNumber = 0;
+    private int numOfCorrAnss = 0;
 
     private void Awake()
     {
         uiResizer = gameObject.GetComponent<UIResizer>();
-        qpageInfoMger = gameObject.GetComponent<SessionTimerManager>();
+        sessionTimerManager = gameObject.GetComponent<SessionTimerManager>();
         sessionCurrencyManager = gameObject.GetComponent<SessionCurrencyManager>();
+        resultsPageManager = gameObject.GetComponent<ResultsPageManager>();
+        helpersDuringSess = gameObject.GetComponent<HelpersDuringSess>();
 
         nextButton.onClick.AddListener(() => OnNextClick());
 
@@ -55,15 +63,12 @@ public class CurrSessionManager : MonoBehaviour
         defButtonColor = buttons[0].GetComponent<Image>().color;
     }
 
-    private void Update()
-    {
-        
-    }
-
     // Gets information about the questions for the session consisting of "sessionQCount" questions
     public void ManageCurrSession(List<QuestionData> qsFromDivisions, int sessionQCount)
     {
         currQNumber = 0;
+        numOfCorrAnss = 0;
+        sessionCurrencyManager.BeforeANewGame();
 
         this.qsFromDivisions = qsFromDivisions;
         this.sessionQCount = sessionQCount;
@@ -73,24 +78,35 @@ public class CurrSessionManager : MonoBehaviour
         sessionCurrencyManager.CurrencyCalculations();
     }
 
+    // When an answer is clicked, the this method is run
     public void OnAnswerClick(int currButtonNum)
     {
         this.currButtonNum = currButtonNum;
 
+        // The question was normally answered
         if (canClickAnswer == true && answerSelected == false)
         {
             CurrQManager();
             answerSelected = true;
-            qpageInfoMger.CancelInvoke("TimerCalculator");
+            sessionTimerManager.CancelInvoke("TimerCalculator");
         }
-        else
+        // The question was answered again 
+        else if (canClickAnswer == false && answerSelected == true)
         {
-            // Say that the question was answered too quickly
-        }        
+            helpersDuringSess.OtherButtonClickedAfterAnswering();
+        }
+
+        // The question was answered too quickly
+        if (sessionTimerManager.answerIsFake == true)
+        {
+            helpersDuringSess.AnsweredTooQuickly();
+        }     
     }
 
+    // When the Next Button is clicked, the question is changed
     public void OnNextClick()
     {
+        // If the user is allowed to click next
         if (canClickNext == true)
         {
             ManageQShuffle();
@@ -99,10 +115,22 @@ public class CurrSessionManager : MonoBehaviour
             canClickNext = false;
 
             sessionCurrencyManager.CurrencyCalculations();
+
+            // When the user finishes the current game, the Results page opens
+            if (currQNumber == sessionQCount + 1)
+            {
+                resultsPageManager.UpdateResultsPage(sessionCurrencyManager.totalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
+            }
+        }
+        // The user clicked next without answering the question
+        else
+        {         
+            helpersDuringSess.ClickedNextWithoutAnswering();
         }
         
     }
 
+    // Determines whether the question answer is correct or wrong
     public void CurrQManager()
     {
         if (topicPanel.activeSelf == true && questionPanel.activeSelf == false)
@@ -118,6 +146,7 @@ public class CurrSessionManager : MonoBehaviour
             {
                 buttons[sessionCorrAnsNum - 1].GetComponent<Image>().color = Color.green;
 
+                numOfCorrAnss++;
                 sessionCurrencyManager.CurrencyOnCorrAns();
             }
             else // Incorrect Answer
@@ -179,15 +208,13 @@ public class CurrSessionManager : MonoBehaviour
             }
 
             // Calculate the amount of time given for the current question and manage the timer
-            qpageInfoMger.DoTimerCalculations(qsFromDivisions[currQNumber]);   
+            sessionTimerManager.DoTimerCalculations(qsFromDivisions[currQNumber]);   
         }
         else
         {
-            questionPanel.SetActive(false);
-            topicPanel.SetActive(true);
+            
 
             // The end of the questions
-            // A new page can open and write the session score, earned coins, ...
         }
 
         for (int i = 0; i < 4; i++)

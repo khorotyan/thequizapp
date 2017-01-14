@@ -49,6 +49,8 @@ public class InfoGetter : MonoBehaviour
     // Extracts the questions and the answers to them from the text lines
     private void QuestionAnswerExtractor()
     {
+        questionData.Clear();
+
         for (int i = startLine - 1, j = 0; i < endLine; i+=5, j++)
         {
             string currLine = textLines[i];

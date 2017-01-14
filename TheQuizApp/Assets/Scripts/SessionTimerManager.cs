@@ -5,18 +5,23 @@ using UnityEngine.UI;
 
 public class SessionTimerManager : MonoBehaviour
 {
-    public Text timerText;
-    public Slider timerSlider;
-    public GameObject slideFillObj;
-    CurrSessionManager currSessionManager;
+    [SerializeField]
+    private Text timerText;
+    [SerializeField]
+    private Slider timerSlider;
+    [SerializeField]
+    private GameObject slideFillObj;
+    private CurrSessionManager currSessionManager;
 
     private Color fillObjColor;
 
+    public bool answerIsFake = false;
     private bool canStartTimerSubtracting = false;
     private bool timerWarning = false;
-    private bool timerStateChanged = false;
+    private bool timerStateChanged = false; 
     private float totalTime;
     private float wordsPerSecond = 1.2f;
+    private float fakeAnswerPercentage = 0.95f;
 
     private void Awake()
     {
@@ -39,19 +44,21 @@ public class SessionTimerManager : MonoBehaviour
                 timerWarning = true;
             }
 
-            if (totalTime > 0.9f * timerSlider.maxValue)
+            if (totalTime > fakeAnswerPercentage * timerSlider.maxValue)
             {
                 timerText.color = Color.white;
 
+                answerIsFake = true;
                 timerWarning = false;
                 currSessionManager.canClickAnswer = false;
                 // If a button is clicked, the User Randomly answered a question
                 // Show that the question was answered too quickly
             }
 
-            if (totalTime <= (0.9f * timerSlider.maxValue) && totalTime > 0)
+            if (totalTime <= (fakeAnswerPercentage * timerSlider.maxValue) && totalTime > 0)
             {
                 currSessionManager.canClickAnswer = true;
+                answerIsFake = false;
             }
 
             if (totalTime <= 0)

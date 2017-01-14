@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,7 +19,10 @@ public class SessionCurrencyManager : MonoBehaviour
     private int wrongAnswerCount = 0;
     private float protectedAmount = 0.0f; 
 
-    private int totalMoney = 0;
+    [HideInInspector]
+    public int totalMoney = 0;
+    [HideInInspector]
+    public int maxConCorAns = 0;
     private int currMoney; 
     private float multiplier;
     private int deduceAmount;
@@ -27,14 +30,15 @@ public class SessionCurrencyManager : MonoBehaviour
     // Do the calculations for the case of answering correctly
     public void CurrencyOnCorrAns()
     {
-        totalMoney += Mathf.CeilToInt(currMoney * multiplier);
+        totalMoney += (int) Math.Ceiling(currMoney * multiplier);
         consecutiveCorrAnss++;
+        maxConCorAns = consecutiveCorrAnss > maxConCorAns ? consecutiveCorrAnss : maxConCorAns;
     }
     
     // Do the calculations for the case of answering incorrectly
     public void CurrencyOnIncorrAns()
-    {  
-        totalMoney = Mathf.CeilToInt(protectedAmount * totalMoney) + Mathf.CeilToInt((1 - protectedAmount) * totalMoney) / deduceAmount;
+    {
+        totalMoney = (int) Math.Ceiling( Math.Ceiling(protectedAmount * totalMoney) + Math.Ceiling((1 - protectedAmount) * totalMoney) / deduceAmount );
         wrongAnswerCount++;
         consecutiveCorrAnss = 0;
     }
@@ -43,7 +47,7 @@ public class SessionCurrencyManager : MonoBehaviour
     public void CurrencyCalculations()
     {
         // The amount of money that the user can get this round by answering correctly
-        currMoney = Mathf.CeilToInt(Mathf.Sqrt(currQPrice * Mathf.Pow(questionNumber + 1, currQPrice) + 2 * currQPrice));
+        currMoney = (int) Math.Ceiling(Mathf.Sqrt(currQPrice * Mathf.Pow(questionNumber + 1, currQPrice) + 2 * currQPrice));
 
         // The multiplier for the amount of currency for the current question
         multiplier = 1 + (comboMultiplier * consecutiveCorrAnss) * 0.2f;
@@ -61,5 +65,15 @@ public class SessionCurrencyManager : MonoBehaviour
         totalMoneyText.text = totalMoney.ToString();
         currMoneyText.text = currMoney.ToString();
         multiplierText.text = multiplier.ToString();
+    }
+
+    public void BeforeANewGame()
+    {
+        consecutiveCorrAnss = 0;
+        comboMultiplier = 1;
+        questionNumber = 0;
+        wrongAnswerCount = 0;
+        totalMoney = 0;
+        maxConCorAns = 0;
     }
 }
