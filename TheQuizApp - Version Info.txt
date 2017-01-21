@@ -19,3 +19,49 @@ Added:
 	a. Total money made during the session
 	b. Correct / Wrong answer ratio
 	c. Maximum consecutive correct answers
+5. Question time is dependent on the amout of text on the question, answer 
+	and also depends on the difficulty level of the question
+6. The answer boxes get bigger depending on the amount of text they contain
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+version 0.xx.000 / --- January xx, 2017 --- \
+
+Added:
+1. Save and Load mechanism for managing the nonanswered, wrong answered and the correctly answered questions
+	The system circulates between the lists of the states in order to minimize question repetition and learning
+	from the wrong answered questions
+2. Whenever the game is updated and new questions are added to the game, the questions get added to the 
+	not answered question list, meaning that the game progress does not get interrupted because of an update
+
+Changes & Improvements:
+1. Drag threshold was increased to make clicking easy 
+	before, the program hardly differentiated between a scroll and a click
+2. Green and Red colors were altered to make them pleasing to the eye
+	the previous ones were very bright 
+
+Upcoming:
+1. Lower the timer to lower the cheating rate
+2. A bug occurs and the timer goes to negative after answering the question
+	or an error comes out some time after when end page opens
+3. A system that will add the newly added questions (from an update) to the game 
+4. When the game is exited during the session, save the question numbers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

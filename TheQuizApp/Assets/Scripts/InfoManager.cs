@@ -5,21 +5,21 @@ using UnityEngine;
 
 public class InfoManager : MonoBehaviour
 {
-    //-private SaveManager saveManager;
-    //-private LoadManager loadManager;
+    private SaveManager saveManager;
+    private LoadManager loadManager;
     private CurrSessionManager currSessionManager;
 
-    private List<QuestionData> notAnsweredQs = new List<QuestionData>();
-    private List<QuestionData> wrongAnsweredQs = new List<QuestionData>();
-    private List<QuestionData> answeredQs = new List<QuestionData>();
+    public List<QuestionData> notAnsweredQs = new List<QuestionData>();
+    public List<QuestionData> wrongAnsweredQs = new List<QuestionData>();
+    public List<QuestionData> answeredQs = new List<QuestionData>();
 
     // Later Save to a file in order to load the question numbers only once (Later, include for updates too)
     private bool questionNosLoaded = false; // Later, Make True as the bool is going to be loaded from a text file
 
     private void Awake()
     {
-        //-saveManager = gameObject.GetComponent<SaveManager>();
-        //-loadManager = gameObject.GetComponent<LoadManager>();
+        saveManager = gameObject.GetComponent<SaveManager>();
+        loadManager = gameObject.GetComponent<LoadManager>();
         currSessionManager = gameObject.GetComponent<CurrSessionManager>();
     }
 
@@ -28,7 +28,7 @@ public class InfoManager : MonoBehaviour
         List<QuestionData> qsFromDivisions = new List<QuestionData>();
 
         questionData.Sort();
-        //-questionNosLoaded = loadManager.LoadQuestionLoadChecker(topicName);
+        questionNosLoaded = loadManager.LoadQuestionLoadChecker(topicName);
 
         // Load "notAnsweredQNos" List
         if (questionNosLoaded == false)
@@ -38,24 +38,58 @@ public class InfoManager : MonoBehaviour
             // Returns the question numbers from the "notAnsweredQs" list of custom data
             List<int> notAnsweredQNos = notAnsweredQs.Select(item => item.QuestionNumber).ToList();
 
-            questionNosLoaded = false;
-            //-saveManager.SaveQuestionLoadChecker(questionNosLoaded, topicName); // Save "questionNosLoaded" bool
+            questionNosLoaded = true;
+
+            saveManager.SaveQuestionLoadChecker(questionNosLoaded, topicName); // Save "questionNosLoaded" bool
             // Save all questio numbers since the topic is played only once
-            //-saveManager.SaveNotAnsweredQNumbers(notAnsweredQNos, topicName); 
+            saveManager.SaveNotAnsweredQNumbers(notAnsweredQNos, topicName); 
         }
         else
         {
-            //-List<int> notAnsweredQNos = loadManager.LoadNotAnsweredQNumbers(topicName);
-            //-List<int> wrongAnsweredQNos = loadManager.LoadWrongAnsweredQNumbers(topicName);
-            //-List<int> answeredQNos = loadManager.LoadAnsweredQNumbers(topicName);
+            List<int> notAnsweredQNos = loadManager.LoadNotAnsweredQNumbers(topicName);
+            List<int> wrongAnsweredQNos = loadManager.LoadWrongAnsweredQNumbers(topicName);
+            List<int> answeredQNos = loadManager.LoadAnsweredQNumbers(topicName);
+
+            int prevTotalNumOfQs = loadManager.LoadNumberOfQuestions(topicName);
+
+            // If new questions are added to the topic, add them to the question numbers
+            if (numOfQuestions > prevTotalNumOfQs)
+            {
+                for (int i = prevTotalNumOfQs + 1; i <= numOfQuestions; i++)
+                {
+                    notAnsweredQNos.Add(i);
+                }
+            }
 
             // Get the data from "questionData" such that its "QuestionNumber" is in the "notAnsweredQNos" list
             //      Thus, using the question numbers, we reconstruct our custom list of not answered questions from the whole list
-            //-notAnsweredQs = questionData.Select( item => questionData[notAnsweredQNos.FindIndex(x => x == item.QuestionNumber)] ).ToList();
+            notAnsweredQs = new List<QuestionData>();
+            for (int i = 0; i < notAnsweredQNos.Count; i++)
+            {
+                notAnsweredQs.Add(questionData.Find(item => item.QuestionNumber == notAnsweredQNos[i]));
+            }
 
-            //-wrongAnsweredQs = questionData.Select( item => questionData[wrongAnsweredQNos.FindIndex(x => x == item.QuestionNumber)] ).ToList();
-            //-answeredQs = questionData.Select( item => questionData[answeredQNos.FindIndex(x => x == item.QuestionNumber)] ).ToList();
+            wrongAnsweredQs = new List<QuestionData>();
+            for (int i = 0; i < wrongAnsweredQNos.Count; i++)
+            {
+                wrongAnsweredQs.Add(questionData.Find(item => item.QuestionNumber == wrongAnsweredQNos[i]));
+            }
+
+            answeredQs = new List<QuestionData>();
+            for (int i = 0; i < answeredQNos.Count; i++)
+            {
+                answeredQs.Add(questionData.Find(item => item.QuestionNumber == answeredQNos[i]));
+            }
+
+            if (notAnsweredQs.Count == 0 && wrongAnsweredQs.Count < quesPerRound)
+            {
+                notAnsweredQs = answeredQs;
+                answeredQs = new List<QuestionData>();
+            }
         }
+
+        // Save the total number question count of the selected topic
+        saveManager.SaveNumberOfQuestions(numOfQuestions, topicName);
 
         // Select the questions for the current session
         //
@@ -95,7 +129,7 @@ public class InfoManager : MonoBehaviour
         }
 
         // Manage the questions that the user answers during the session
-        currSessionManager.ManageCurrSession(qsFromDivisions, quesPerRound);
+        currSessionManager.ManageCurrSession(topicName, qsFromDivisions, quesPerRound);
         currSessionManager.topicSelected = true; // Let the class know that it can do its job
     }
 

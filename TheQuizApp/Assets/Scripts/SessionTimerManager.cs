@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class SessionTimerManager : MonoBehaviour
 {
+    public Color32 beautyRed = new Color32(242, 68, 57, 255);
+    public Color32 beautyGreen = new Color32(0, 151, 136, 255);
+
     [SerializeField]
     private Text timerText;
     [SerializeField]
@@ -21,7 +24,7 @@ public class SessionTimerManager : MonoBehaviour
     private bool timerStateChanged = false; 
     private float totalTime;
     private float wordsPerSecond = 1.2f;
-    private float fakeAnswerPercentage = 0.95f;
+    private float fakeAnswerPercentage = 0.999f;
 
     private void Awake()
     {
@@ -103,7 +106,7 @@ public class SessionTimerManager : MonoBehaviour
     public void RemainingTimeCalculator()
     {
         totalTime -= 1 * Time.deltaTime;
-        fillObjColor = Color.Lerp(new Color32(242, 68, 57, 255), new Color32(0, 151, 136, 255), totalTime / timerSlider.maxValue);
+        fillObjColor = Color.Lerp(beautyRed, beautyGreen, totalTime / timerSlider.maxValue);
 
         timerSlider.value = totalTime;
         timerText.text = Math.Ceiling(totalTime).ToString();
@@ -113,7 +116,7 @@ public class SessionTimerManager : MonoBehaviour
     // Changes the timer text whenever the timer is about to end and back up when it is not
     public void ChangeTimerText()
     {
-        Color32 textColor = new Color32(242, 68, 57, 255);
+        Color32 textColor = beautyRed;
 
         if (timerText.fontSize == 30)
         {

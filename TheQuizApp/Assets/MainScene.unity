@@ -2229,8 +2229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 446.29, y: -921.6}
-  m_SizeDelta: {x: 160, y: 65.2}
+  m_AnchoredPosition: {x: 403.2, y: -921.6}
+  m_SizeDelta: {x: 246.3, y: 65.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &432565774
 MonoBehaviour:
@@ -2264,7 +2264,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v0.10.000
+  m_Text: v0.11.000
 --- !u!222 &432565775
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3753,7 +3753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
-  m_DragThreshold: 5
+  m_DragThreshold: 25
 --- !u!4 &665636869
 Transform:
   m_ObjectHideFlags: 0
@@ -9135,6 +9135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bebf51a4d027d41902e22c1dc50c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beautyRed:
+    serializedVersion: 2
+    rgba: 4281943282
+  beautyGreen:
+    serializedVersion: 2
+    rgba: 4287141632
   timerText: {fileID: 915981562}
   timerSlider: {fileID: 1096413939}
   slideFillObj: {fileID: 13622566}

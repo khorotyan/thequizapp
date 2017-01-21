@@ -141,7 +141,7 @@
 4[There are two basic kinds of economic systems. They are] ;d6 ;i4 ;a3 % (1) Ch1, q6
 	planned and spontaneous
 	market-directed and pure subsistence
-	planned and market-directed
+	planned and market-directedz
 	none of the answers are correct
 5[Which of the following is NOT an objective of the World Trade Organization agreements ?] ;d4 ;i5 ;a4 % (1) Ch1, q8
 	To help the free-flow of trade

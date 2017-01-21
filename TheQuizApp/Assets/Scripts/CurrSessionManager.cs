@@ -33,7 +33,9 @@ public class CurrSessionManager : MonoBehaviour
     private SessionCurrencyManager sessionCurrencyManager;
     private ResultsPageManager resultsPageManager;
     private HelpersDuringSess helpersDuringSess;
+    private InfoManager infoManager;
     private List<QuestionData> qsFromDivisions;
+    private string topicName;
     private int sessionCorrAnsNum;
     private int currButtonNum;
     private int sessionQCount = 0;
@@ -47,6 +49,7 @@ public class CurrSessionManager : MonoBehaviour
         sessionCurrencyManager = gameObject.GetComponent<SessionCurrencyManager>();
         resultsPageManager = gameObject.GetComponent<ResultsPageManager>();
         helpersDuringSess = gameObject.GetComponent<HelpersDuringSess>();
+        infoManager = gameObject.GetComponent<InfoManager>();
 
         nextButton.onClick.AddListener(() => OnNextClick());
 
@@ -64,8 +67,10 @@ public class CurrSessionManager : MonoBehaviour
     }
 
     // Gets information about the questions for the session consisting of "sessionQCount" questions
-    public void ManageCurrSession(List<QuestionData> qsFromDivisions, int sessionQCount)
+    public void ManageCurrSession(string topicName, List<QuestionData> qsFromDivisions, int sessionQCount)
     {
+        this.topicName = topicName;
+
         currQNumber = 0;
         numOfCorrAnss = 0;
         sessionCurrencyManager.BeforeANewGame();
@@ -119,7 +124,7 @@ public class CurrSessionManager : MonoBehaviour
             // When the user finishes the current game, the Results page opens
             if (currQNumber == sessionQCount + 1)
             {
-                resultsPageManager.UpdateResultsPage(sessionCurrencyManager.totalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
+                resultsPageManager.UpdateResultsPage(topicName, sessionCurrencyManager.totalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
             }
         }
         // The user clicked next without answering the question
@@ -144,24 +149,36 @@ public class CurrSessionManager : MonoBehaviour
             // Correct Answer
             if (currButtonNum == sessionCorrAnsNum)
             {
-                buttons[sessionCorrAnsNum - 1].GetComponent<Image>().color = Color.green;
+                buttons[sessionCorrAnsNum - 1].GetComponent<Image>().color = sessionTimerManager.beautyGreen;
 
                 numOfCorrAnss++;
                 sessionCurrencyManager.CurrencyOnCorrAns();
+
+                infoManager.notAnsweredQs.Remove(qsFromDivisions[currQNumber - 1]);
+                infoManager.wrongAnsweredQs.Remove(qsFromDivisions[currQNumber - 1]);
+                infoManager.answeredQs.Remove(qsFromDivisions[currQNumber - 1]);
+
+                infoManager.answeredQs.Add(qsFromDivisions[currQNumber - 1]);            
             }
             else // Incorrect Answer
             {
-                buttons[sessionCorrAnsNum - 1].GetComponent<Image>().color = Color.green;
+                buttons[sessionCorrAnsNum - 1].GetComponent<Image>().color = sessionTimerManager.beautyGreen;
 
                 for (int i = 0; i < 4; i++)
                 {
                     if (i != sessionCorrAnsNum - 1)
                     {
-                        buttons[i].GetComponent<Image>().color = Color.red;
+                        buttons[i].GetComponent<Image>().color = sessionTimerManager.beautyRed;
                     }
                 }
 
                 sessionCurrencyManager.CurrencyOnIncorrAns();
+
+                infoManager.notAnsweredQs.Remove(qsFromDivisions[currQNumber - 1]);
+                infoManager.wrongAnsweredQs.Remove(qsFromDivisions[currQNumber - 1]);
+                infoManager.answeredQs.Remove(qsFromDivisions[currQNumber - 1]);
+
+                infoManager.wrongAnsweredQs.Add(qsFromDivisions[currQNumber - 1]);
             }
 
             canClickNext = true;
@@ -212,8 +229,6 @@ public class CurrSessionManager : MonoBehaviour
         }
         else
         {
-            
-
             // The end of the questions
         }
 

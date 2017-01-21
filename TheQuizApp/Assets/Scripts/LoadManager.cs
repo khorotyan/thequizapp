@@ -21,6 +21,18 @@ public class LoadManager : MonoBehaviour
         return theChecker;
     }
 
+    public int LoadNumberOfQuestions(string topicName)
+    {
+        int totalQuestions = 0;
+
+        if (ES2.Exists("svt.txt?tag=totalQuestions" + topicName))
+        {
+            totalQuestions = ES2.Load<int>("svt.txt?tag=totalQuestions" + topicName);
+        }
+
+        return totalQuestions;
+    }
+
     public List<int> LoadNotAnsweredQNumbers(string topicName)
     {
         List<int> notAnsweredQNos = new List<int>();

@@ -13,8 +13,11 @@ public class HelpersDuringSess : MonoBehaviour
     [SerializeField]
     private Text messageText;
 
+    private SessionTimerManager sessionTimerManager;
+
     private void Awake()
     {
+        sessionTimerManager = gameObject.GetComponent<SessionTimerManager>();
         messageTitleImage = messageTitleText.transform.parent.GetComponent<Image>();
     }
 
@@ -40,7 +43,7 @@ public class HelpersDuringSess : MonoBehaviour
     public void ClickedNextWithoutAnswering()
     {
         messageTitleText.text = "Info";
-        messageTitleImage.color = Color.green;
+        messageTitleImage.color = sessionTimerManager.beautyGreen;
         messageText.text = "Please Answer the Question and Then Click Next";
 
         OpenCloseSessionHelpers();
@@ -49,7 +52,7 @@ public class HelpersDuringSess : MonoBehaviour
     public void OtherButtonClickedAfterAnswering()
     {
         messageTitleText.text = "Info";
-        messageTitleImage.color = Color.green;
+        messageTitleImage.color = sessionTimerManager.beautyGreen;
         messageText.text = "Please Click the Next Button Below to Move On to the Next Question";
 
         OpenCloseSessionHelpers();

@@ -6,14 +6,14 @@ using UnityEngine;
 public class SaveManager : MonoBehaviour
 {
 
-    public void SaveAllQNos()
-    {
-
-    }
-
     public void SaveQuestionLoadChecker(bool theChecker, string topicName)
     {
         ES2.Save(theChecker, "svt.txt?tag=loadChecker" + topicName);
+    }
+
+    public void SaveNumberOfQuestions(int totalQuestions, string topicName)
+    {
+        ES2.Save(totalQuestions, "svt.txt?tag=totalQuestions" + topicName);
     }
 
     public void SaveNotAnsweredQNumbers(List<int> notAnsweredQNos, string topicName)
@@ -34,5 +34,5 @@ public class SaveManager : MonoBehaviour
     public void SaveAllTimeMaxScore(int allTimeMaxScore)
     {
         ES2.Save(allTimeMaxScore, "svt.txt?tag=allTimeMaxScore");
-    }
+    }   
 }
