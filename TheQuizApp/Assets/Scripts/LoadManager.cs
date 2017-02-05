@@ -80,4 +80,30 @@ public class LoadManager : MonoBehaviour
 
         return allTimeMaxScore;       
     }
+
+    // Load XP Class Objects
+    public int LoadCurrentLevel()
+    {
+        int currLevel = 0;
+
+        if (ES2.Exists("svt.txt?tag=currLevel"))
+        {
+            currLevel = ES2.Load<int>("svt.txt?tag=currLevel");
+        }
+
+        return currLevel;
+    }
+
+    public int LoadTotalXP()
+    {
+        int totalXP = 0;
+
+        if (ES2.Exists("svt.txt?tag=totalXP"))
+        {
+            totalXP = ES2.Load<int>("svt.txt?tag=totalXP");
+        }
+
+        return totalXP;
+    }
+    // End of - Load XP Class Objects
 }

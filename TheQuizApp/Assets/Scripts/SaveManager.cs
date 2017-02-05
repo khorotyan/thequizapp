@@ -34,5 +34,17 @@ public class SaveManager : MonoBehaviour
     public void SaveAllTimeMaxScore(int allTimeMaxScore)
     {
         ES2.Save(allTimeMaxScore, "svt.txt?tag=allTimeMaxScore");
-    }   
+    }
+
+    // Save XP Class Objects
+    public void SaveCurrentLevel(int currLevel)
+    {
+        ES2.Save(currLevel, "svt.txt?tag=currLevel");
+    }
+
+    public void SaveTotalXP(int totalXP)
+    {
+        ES2.Save(totalXP, "svt.txt?tag=totalXP");
+    }
+    // End of - Save XP Class Objects
 }

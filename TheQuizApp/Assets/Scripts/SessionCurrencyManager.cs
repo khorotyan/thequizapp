@@ -12,9 +12,12 @@ public class SessionCurrencyManager : MonoBehaviour
     [SerializeField]
     private Text multiplierText;
 
-    private int currQPrice = 2; // After the perk upgrade, it will defer depending on Q difficulty
+    private SessionXPManager sessionXPManager;
+    
+    private int currQPrice = 3; // After the perk upgrade, it will change depending on Q difficulty
     private int consecutiveCorrAnss = 0;
-    private float comboMultiplier = 1;
+    private float comboMultiplier = 0.2f;
+    private float moneyMultiplier = 1;
     private int questionNumber = 0;
     private int wrongAnswerCount = 0;
     private float protectedAmount = 0.0f; 
@@ -27,9 +30,16 @@ public class SessionCurrencyManager : MonoBehaviour
     private float multiplier;
     private int deduceAmount;
 
+    private void Awake()
+    {
+        sessionXPManager = gameObject.GetComponent<SessionXPManager>();
+    }
+
     // Do the calculations for the case of answering correctly
     public void CurrencyOnCorrAns()
     {
+        sessionXPManager.AddXPOnCorrect(consecutiveCorrAnss);
+
         totalMoney += (int) Math.Ceiling(currMoney * multiplier);
         consecutiveCorrAnss++;
         maxConCorAns = consecutiveCorrAnss > maxConCorAns ? consecutiveCorrAnss : maxConCorAns;
@@ -38,6 +48,8 @@ public class SessionCurrencyManager : MonoBehaviour
     // Do the calculations for the case of answering incorrectly
     public void CurrencyOnIncorrAns()
     {
+        sessionXPManager.AddXPOnWrong();
+
         totalMoney = (int) Math.Ceiling( Math.Ceiling(protectedAmount * totalMoney) + Math.Ceiling((1 - protectedAmount) * totalMoney) / deduceAmount );
         wrongAnswerCount++;
         consecutiveCorrAnss = 0;
@@ -47,10 +59,10 @@ public class SessionCurrencyManager : MonoBehaviour
     public void CurrencyCalculations()
     {
         // The amount of money that the user can get this round by answering correctly
-        currMoney = (int) Math.Ceiling(Mathf.Sqrt(currQPrice * Mathf.Pow(questionNumber + 1, currQPrice) + 2 * currQPrice));
+        currMoney = (int) Math.Ceiling(Mathf.Sqrt(currQPrice * Mathf.Pow(questionNumber + 1, currQPrice) + 2 * currQPrice) * moneyMultiplier);
 
         // The multiplier for the amount of currency for the current question
-        multiplier = 1 + (comboMultiplier * consecutiveCorrAnss) * 0.2f;
+        multiplier = 1 + consecutiveCorrAnss * comboMultiplier;
 
         // The amount that will be reduces if answered wrongly
         deduceAmount = wrongAnswerCount + 2;
@@ -70,7 +82,7 @@ public class SessionCurrencyManager : MonoBehaviour
     public void BeforeANewGame()
     {
         consecutiveCorrAnss = 0;
-        comboMultiplier = 1;
+        comboMultiplier = 0.2f; // Later assign the value from the saved file
         questionNumber = 0;
         wrongAnswerCount = 0;
         totalMoney = 0;

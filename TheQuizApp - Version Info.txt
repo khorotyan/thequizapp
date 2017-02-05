@@ -24,7 +24,7 @@ Added:
 6. The answer boxes get bigger depending on the amount of text they contain
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-version 0.xx.000 / --- January xx, 2017 --- \
+version 0.11.000 / --- January 21, 2017 --- \
 
 Added:
 1. Save and Load mechanism for managing the nonanswered, wrong answered and the correctly answered questions
@@ -43,10 +43,38 @@ Upcoming:
 1. Lower the timer to lower the cheating rate
 2. A bug occurs and the timer goes to negative after answering the question
 	or an error comes out some time after when end page opens
-3. A system that will add the newly added questions (from an update) to the game 
-4. When the game is exited during the session, save the question numbers
+3. When the game is exited during the session, save the question numbers
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+version 0.20.000 / --- January xx, 2017 --- \
 
+Added:
+1. The XP System
+	a. The Player gets XP when answering to the questions
+		i. 1 xp, when asnwered wrongly
+		ii. 5xp + number of consequtive answers, when answered correctly
+	b. Results page shows some information about XP
+		i. Current level
+		ii. Amount of xp earned during the session
+		iii. Total xp
+		iv. Remaining xp to the next level
+	c. After some time, the XP panel values interpolate linearly
+		i. Amount of xp earned during the session gets lower, untill disappears
+		ii. Remaining and total xp, and the slider current and max values update 
+			according to the value of i.
+		iii. If the player levels up
+			Wait for some time, recalcculate all the values and continue the interpolation
+
+Changes & Improvements:
+1. 
+
+Upcoming:
+1. Lower the timer to lower the cheating rate
+2. A bug occurs after the end screen, the last question opens and time goes to negative 
+	(correct answer is shown and you can answer the question again, but cannot click next)
+	or an error comes out some time after when end page opens
+3. When the game is exited during the session, save the question numbers
+4. Main screen scrolling issue
 
 
 
