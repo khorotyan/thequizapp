@@ -10,6 +10,7 @@ public class ResultsPageManager : MonoBehaviour
     private LoadManager loadManager;
     private InfoManager infoManager;
     private SessionXPManager sessionXPManager;
+    private StoreManager storeManager;
 
     [SerializeField]
     private GameObject topicsPanel;
@@ -25,7 +26,7 @@ public class ResultsPageManager : MonoBehaviour
     [SerializeField]
     private Text scoreNewIndicator;
     [SerializeField]
-    private Text totalMoneyText;
+    private Text sessTotalMoneyText;
     [SerializeField]
     private Text corrWrongRatioText;
     [SerializeField]
@@ -46,7 +47,7 @@ public class ResultsPageManager : MonoBehaviour
 
     private bool canStartXPAnimation = false;
     private float curInterPolTime = 0f;
-    private float interpolAdder = 0.3f;
+    private float interpolAdder = 0.4f;
 
     private float totalXPCopy;
     private float currSessXPCopy;
@@ -61,6 +62,7 @@ public class ResultsPageManager : MonoBehaviour
         loadManager = gameObject.GetComponent<LoadManager>();
         infoManager = gameObject.GetComponent<InfoManager>();
         sessionXPManager = gameObject.GetComponent<SessionXPManager>();
+        storeManager = gameObject.GetComponent<StoreManager>();
     }
 
     private void Update()
@@ -84,13 +86,14 @@ public class ResultsPageManager : MonoBehaviour
     */
     
     // Update the results in the Results panel
-    public void UpdateResultsPage(string topicName, int totalMoney, int sessionQCount, int numOfCorrAnss, int maxConsCorrAnss)
+    public void UpdateResultsPage(string topicName, int sessTotalMoney, int sessionQCount, int numOfCorrAnss, int maxConsCorrAnss)
     {
         ShowXPInfo();
         SaveSessionInfo(topicName);       
 
-        scoreNewIndicator.gameObject.SetActive(DetermineIfIsNewScore(totalMoney) == true);
-        totalMoneyText.text = totalMoney.ToString();
+        scoreNewIndicator.gameObject.SetActive(DetermineIfIsNewScore(sessTotalMoney) == true);
+        sessTotalMoneyText.text = sessTotalMoney.ToString();
+        storeManager.UpdateTMoneyOnResults(sessTotalMoney);
         corrWrongRatioText.text = numOfCorrAnss + " : " + (sessionQCount - numOfCorrAnss);
         maxConsecutiveAnssText.text = maxConsCorrAnss.ToString();
 
@@ -113,12 +116,6 @@ public class ResultsPageManager : MonoBehaviour
         {
             return false;
         }
-    }
-
-    public void OnResultsPageClose()
-    {
-        resultsPagePanel.SetActive(false);
-        topicsPanel.SetActive(true);
     }
 
     private void SaveSessionInfo(string topicName)
@@ -216,7 +213,7 @@ public class ResultsPageManager : MonoBehaviour
                 canStartXPAnimation = false;
                 SessionXPManager.currSessXP = 0;
 
-                interpolAdder = 0.3f;
+                interpolAdder = 0.4f;
                 curInterPolTime = 0f;
             }
         }
@@ -227,5 +224,11 @@ public class ResultsPageManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         canStartXPAnimation = true;
+    }
+
+    public void OnResultsPageClose()
+    {
+        resultsPagePanel.SetActive(false);
+        topicsPanel.SetActive(true);
     }
 }

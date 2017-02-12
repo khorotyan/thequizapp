@@ -47,4 +47,11 @@ public class SaveManager : MonoBehaviour
         ES2.Save(totalXP, "svt.txt?tag=totalXP");
     }
     // End of - Save XP Class Objects
+
+    // Save Store Class Objects
+    public void SaveTotalMoney(int totalMoney)
+    {
+        ES2.Save(totalMoney, "svt.txt?tag=totalMoney");
+    }
+    // End of - Save Store Class Objects
 }

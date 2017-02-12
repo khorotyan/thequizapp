@@ -109,6 +109,7 @@
     <Compile Include="Assets\Scripts\SessionCurrencyManager.cs" />
     <Compile Include="Assets\Scripts\SessionTimerManager.cs" />
     <Compile Include="Assets\Scripts\SessionXPManager.cs" />
+    <Compile Include="Assets\Scripts\StoreManager.cs" />
     <Compile Include="Assets\Scripts\UIResizer.cs" />
   </ItemGroup>
   <ItemGroup>

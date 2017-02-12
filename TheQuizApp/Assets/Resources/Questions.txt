@@ -177,6 +177,307 @@
 {Basic Spanish}
 	
 {Vocabulary}
+
+1[What is the closest definition of the word inside the quotation marks ? 'Disheveled' appearance:] ;d7 ;i4 ;a1 % (1), Ch1 - q1
+	untidy
+	fierce
+	foolish
+	peculiar
+2[What is the closest definition of the word inside the quotation marks ? A 'baffling' problem:] ;d2 ;i5 ;a3 % (1), Ch1 - q2
+	difficult
+	simple
+	puzzling
+	long
+3[What is the closest definition of the word inside the quotation marks ? 'Lenient' parent:] ;d4 ;i6 ;a2 % (1), Ch1 - q3
+	tall
+	not strict
+	wise
+	severe
+4[What is the closest definition of the word inside the quotation marks ? 'Repulsive' personality:] ;d6 ;i5 ;a1 % (1), Ch1 - q4
+	disgusting
+	attractive
+	normal
+	conceited
+5[What is the closest definition of the word inside the quotation marks ? 'Audacious' attempt:] ;d6 ;i5 ;a2 % (1), Ch1 - q5
+	useless
+	bold
+	foolish
+	necessary
+6[What is the closest definition of the word inside the quotation marks ? 'Parry' a blow:] ;d5 ;i3 ;a1 % (1), Ch1 - q6
+	ward off
+	ignore
+	expect
+	invite
+7[What is the closest definition of the word inside the quotation marks ? 'Prevalent' disease:] ;d3 ;i5 ;a4 % (1), Ch1 - q7
+	dangerous
+	catching
+	fatal
+	widespread
+8[What is the closest definition of the word inside the quotation marks ? 'Ominous' report:] ;d4 ;i6 ;a2 % (1), Ch1 - q8
+	loud
+	threatening
+	untrue
+	serious
+9[What is the closest definition of the word inside the quotation marks ? An 'incredible' story:] ;d2 ;i5 ;a4 % (1), Ch1 - q9
+	true
+	interesting
+	unknown
+	unbelievable
+10[What is the closest definition of the word inside the quotation marks ? An 'ophthalmologist':] ;d3 ;i5 ;a1 % (1), Ch1 - q10
+	eye doctor
+	skin doctor
+	heart doctor
+	cancer specialist
+11[What is the closest definition of the word inside the quotation marks ? Will 'supersede' the old law:] ;d4 ;i7 ;a3 % (1), Ch1 - q11
+	enforce
+	specify penalties for
+	take the place of
+	repeal
+12[What is the closest definition of the word inside the quotation marks ? An 'anonymous' donor:] ;d1 ;i4 ;a4 % (1), Ch1 - q12
+	generous
+	stingy
+	well-known
+	one whose name is not known
+13[What is the closest definition of the word inside the quotation marks ? Performed an 'autopsy':] ;d5 ;i7 ;a2 % (1), Ch1 - q13
+	examination of living tissue
+	examination of a corpse to determine the cause of death
+	process in the manufacture of optical lenses
+	operation to cure an organic disease
+14[What is the closest definition of the word inside the quotation marks ? An 'indefatigable' worker:] ;d5 ;i6 ;a4 % (1), Ch1 - q14
+	well-paid
+	tired
+	skillful
+	tireless
+15[What is the closest definition of the word inside the quotation marks ? A confirmed 'atheist':] ;d1 ;i4 ;a2 % (1), Ch1 - q15
+	bachelor
+	disbeliever in God
+	believer in science
+	priest
+16[What is the closest definition of the word inside the quotation marks ? Endless 'loquacity':] ;d6 ;i6 ;a5 % (1), Ch1 - q16
+	misery
+	fantasy
+	repetitiousness
+	talkativeness
+17[What is the closest definition of the word inside the quotation marks ? A 'glib' talker:] ;d4 ;i6 ;a1 % (1), Ch1 - q17
+	smooth
+	awkward
+	friendly
+	boring
+18[What is the closest definition of the word inside the quotation marks ? An 'incorrigible' optimist:] ;d4 ;i6 ;a2 % (1), Ch1 - q18
+	happy
+	beyond correction or reform
+	foolish
+	hopeful
+19[What is the closest definition of the word inside the quotation marks ? An 'ocular' problem:] ;d6 ;i7 ;a3 % (1), Ch1 - q19
+	unexpected
+	insoluble
+	visual
+	imaginary
+20[What is the closest definition of the word inside the quotation marks ? A notorious 'demagogue':] ;d8 ;i4 ;a1 % (1), Ch1 - q20
+	rabble-rouser
+	gambler
+	perpetrator of financial frauds
+	spendthrift
+21[What is the closest definition of the word inside the quotation marks ? A 'naive' attitude:] ;d6 ;i4 ;a3 % (1), Ch1 - q21
+	unwise
+	hostile
+	unsophisticated
+	friendly
+22[What is the closest definition of the word inside the quotation marks ? Living in 'affluence':] ;d3 ;i5 ;a4 % (1), Ch1 - q22
+	difficult circumstances
+	countrified surroundings
+	poverty
+	wealth
+23[What is the closest definition of the word inside the quotation marks ? In 'retrospect':] ;d4 ;i6 ;a1 % (1), Ch1 - q23
+	view of the past
+	artistic balance
+	anticipation
+	anticipation
+24[What is the closest definition of the word inside the quotation marks ? A 'gourmet':] ;d3 ;i6 ;a4 % (1), Ch1 - q24
+	seasoned traveler
+	greedy eater
+	skillful chef
+	connoisseur of good food
+25[What is the closest definition of the word inside the quotation marks ? To 'simulate' interest:] ;d3 ;i5 ;a1 % (1), Ch1 - q25
+	pretend
+	feel
+	lose
+	ask for
+26[What is the closest definition of the word inside the quotation marks ? A 'magnanimous' action:] ;d7 ;i7 ;a2 % (1), Ch1 - q26
+	puzzling
+	generous
+	foolish
+	unnecessary
+27[What is the closest definition of the word inside the quotation marks ? A 'clandestine' meeting:] ;d5 ;i7 ;a4 % (1), Ch1 - q27
+	prearranged
+	important
+	public
+	secret
+28[What is the closest definition of the word inside the quotation marks ? The 'apathetic' citizens:] ;d7 ;i8 ;a4 % (1), Ch1 - q28
+	made up of separate ethnic groups
+	keenly vigilant of their rights
+	terrified
+	indifferent, uninterested, uninvolved
+29[What is the closest definition of the word inside the quotation marks ? To 'placate' his son:] ;d7 ;i5 ;a4 % (1), Ch1 - q29
+	please
+	help
+	make arrangements for
+	change a feeling of hostility to one of friendliness
+30[What is the closest definition of the word inside the quotation marks ? To 'vacillate' continually:] ;d6 ;i4 ;a2 % (1), Ch1 - q30
+	avoid
+	swing back and forth in indecision
+	inject
+	treat
+31[What is the closest definition of the word inside the quotation marks ? A 'nostalgic' feeling:] ;d2 ;i5 ;a2 % (1), Ch1 - q31
+	nauseated
+	homesick
+	sharp
+	delighted
+32[What is the closest definition of the word inside the quotation marks ? Feel 'antipathy':] ;d3 ;i4 ;a4 % (1), Ch1 - q32
+	bashfulness
+	stage fright
+	suspense
+	hostility
+33[What is the closest definition of the word inside the quotation marks ? Be more 'circumspect':] ;d5 ;i6 ;a3 % (1), Ch1 - q33
+	restrained
+	confident
+	cautious
+	intelligent
+34[What is the closest definition of the word inside the quotation marks ? An 'intrepid' fighter for human rights:] ;d3 ;i4 ;a1 % (1), Ch1 - q34
+	fearless
+	popular
+	experienced
+	eloquent
+35[What is the closest definition of the word inside the quotation marks ? 'Diaphanous' material:] ;d8 ;i7 ;a2 % (1), Ch1 - q35
+	strong
+	sheer and gauzy
+	expensive
+	colorful
+36[What is the closest definition of the word inside the quotation marks ? A 'taciturn' host:] ;d8 ;i4 ;a3 % (1), Ch1 - q36
+	stingy
+	generous
+	disinclined to conversation
+	charming
+37[What is the closest definition of the word inside the quotation marks ? To 'malign' his friend:] ;d8 ;i5 ;a4 % (1), Ch1 - q37
+	accuse
+	help
+	disbelieve
+	slander
+38[What is the closest definition of the word inside the quotation marks ? A 'congenital' deformity:] ;d9 ;i7 ;a2 % (1), Ch1 - q38
+	hereditary
+	occurring at or during birth
+	incurable
+	crippling
+39[What is the closest definition of the word inside the quotation marks ? A definite 'neurosis':] ;d4 ;i5 ;a2 % (1), Ch1 - q39
+	plan
+	emotional disturbance
+	physical disease
+	feeling of fear
+40[What is the closest definition of the word inside the quotation marks ? Made an 'unequivocal' statement:] ;d4 ;i6 ;a4 % (1), Ch1 - q40
+	hard to understand
+	lengthy
+	supporting
+	clear and forthright
+41[What is the closest definition of the word inside the quotation marks ? 'Vicarious' enjoyment:] ;d6 ;i3 ;a3 % (1), Ch1 - q41
+	complete
+	unspoiled
+	occurring from a feeling of identification with another
+	long-continuing
+42[What is the closest definition of the word inside the quotation marks ? 'Psychogenic' ailment:] ;d8 ;i4 ;a3 % (1), Ch1 - q42
+	incurable
+	contagious
+	originating in the mind
+	imaginary
+43[What is the closest definition of the word inside the quotation marks ? An 'anachronous' attitude:] ;d3 ;i5 ;a3 % (1), Ch1 - q43
+	unexplainable
+	unreasonable
+	belonging to a different time
+	unusual
+44[What is the closest definition of the word inside the quotation marks ? Her 'iconoclastic' phase:] ;d4 ;i3 ;a2 % (1), Ch1 - q44
+	artistic
+	sneering at tradition
+	troubled
+	religious
+45[What is the closest definition of the word inside the quotation marks ? A 'tyro':] ;d7 ;i5 ;a2 % (1), Ch1 - q45
+	dominating personality
+	beginner
+	accomplished musician
+	serious student
+46[What is the closest definition of the word inside the quotation marks ? A 'laconic' reply:] ;d5 ;i5 ;a3 % (1), Ch1 - q46
+	immediate
+	assured
+	terse and meaningful
+	angry
+47[What is the closest definition of the word inside the quotation marks ? 'Semantic' confusion:] ;d4 ;i6 ;a1 % (1), Ch1 - q47
+	relating to the meaning of words
+	caused by inner turmoil
+	having to do with the emotions
+	relating to mathematics
+48[What is the closest definition of the word inside the quotation marks ? 'Cavalier' treatment:] ;d8 ;i3 ;a2 % (1), Ch1 - q48
+	courteous
+	haughty and high-handed
+	negligent
+	expensive
+49[What is the closest definition of the word inside the quotation marks ? An 'anomalous' situation:] ;d3 ;i4 ;a3 % (1), Ch1 - q49
+	dangerous
+	intriguing
+	unusual
+	unhappy
+50[What is the closest definition of the word inside the quotation marks ? 'Posthumous' child:] ;d6 ;i5 ;a4 % (1), Ch1 - q50
+	cranky
+	brilliant
+	physically weak
+	born after the death of the father
+51[What is the closest definition of the word inside the quotation marks ? Feels 'enervated':] ;d5 ;i5 ;a3 % (1), Ch1 - q51
+	full of ambition
+	full of strength
+	completely exhausted
+	full of renewed energy
+52[What is the closest definition of the word inside the quotation marks ? Shows 'perspicacity':] ;d7 ;i2 ;a2 % (1), Ch1 - q52
+	sincerity
+	mental keenness
+	faithfulness
+	love
+53[What is the closest definition of the word inside the quotation marks ? An unpopular 'martinet':] ;d7 ;i5 ;a3 % (1), Ch1 - q53
+	candidate
+	military leader
+	strict disciplinarian
+	supervisor
+54[What is the closest definition of the word inside the quotation marks ? 'Gregarious' person:] ;d8 ;i5 ;a2 % (1), Ch1 - q54
+	outwardly calm
+	very sociable
+	completely untrustworthy
+	self-effacing and timid
+55[What is the closest definition of the word inside the quotation marks ? Generally 'phlegmatic':] ;d4 ;i5 ;a4 % (1), Ch1 - q55
+	smug, self-satisfied
+	easily pleased
+	lacking in social graces
+	emotionally unresponsive
+56[What is the closest definition of the word inside the quotation marks ? An 'inveterate' gambler:] ;d3 ;i6 ;a3 % (1), Ch1 - q56
+	impoverished
+	successful
+	habitual
+	superstitious
+57[What is the closest definition of the word inside the quotation marks ? An 'egregious' error:] ;d9 ;i8 ;a1 % (1), Ch1 - q57
+	outstandingly bad
+	slight
+	unnecessary
+	deliberate
+58[What is the closest definition of the word inside the quotation marks ? 'Cacophony' of a large city:] ;d8 ;i8 ;a4 % (1), Ch1 - q58
+	political administration
+	crowded living conditions
+	busy traffic
+	unpleasant noises, harsh sounds
+59[What is the closest definition of the word inside the quotation marks ? A 'prurient' adolescent:] ;d8 ;i7 ;a2 % (1), Ch1 - q59
+	tall and gangling
+	sexually longing
+	clumsy, awkward
+	sexually attractive
+60[What is the closest definition of the word inside the quotation marks ? 'Uxorious' husband:] ;d7 ;i8 ;a4 % (1), Ch1 - q60
+	tightfisted, penny-pinching
+	suspicious
+	guilty of infidelity
+	fondly and foolishly doting on his wife
 	
 {Armenian History}
 

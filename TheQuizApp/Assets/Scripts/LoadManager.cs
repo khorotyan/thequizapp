@@ -106,4 +106,18 @@ public class LoadManager : MonoBehaviour
         return totalXP;
     }
     // End of - Load XP Class Objects
+
+    // Load Store Class Objects
+    public int LoadTotalMoney()
+    {
+        int totalMoney = 0;
+
+        if (ES2.Exists("svt.txt?tag=totalMoney"))
+        {
+            totalMoney = ES2.Load<int>("svt.txt?tag=totalMoney");
+        }
+
+        return totalMoney;
+    }
+    // End of - Load Store Class Objects
 }

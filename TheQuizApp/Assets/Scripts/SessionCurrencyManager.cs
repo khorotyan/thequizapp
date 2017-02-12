@@ -23,9 +23,10 @@ public class SessionCurrencyManager : MonoBehaviour
     private float protectedAmount = 0.0f; 
 
     [HideInInspector]
-    public int totalMoney = 0;
+    public int sessTotalMoney = 0;
     [HideInInspector]
     public int maxConCorAns = 0;
+
     private int currMoney; 
     private float multiplier;
     private int deduceAmount;
@@ -40,7 +41,7 @@ public class SessionCurrencyManager : MonoBehaviour
     {
         sessionXPManager.AddXPOnCorrect(consecutiveCorrAnss);
 
-        totalMoney += (int) Math.Ceiling(currMoney * multiplier);
+        sessTotalMoney += (int) Math.Ceiling(currMoney * multiplier);
         consecutiveCorrAnss++;
         maxConCorAns = consecutiveCorrAnss > maxConCorAns ? consecutiveCorrAnss : maxConCorAns;
     }
@@ -50,7 +51,7 @@ public class SessionCurrencyManager : MonoBehaviour
     {
         sessionXPManager.AddXPOnWrong();
 
-        totalMoney = (int) Math.Ceiling( Math.Ceiling(protectedAmount * totalMoney) + Math.Ceiling((1 - protectedAmount) * totalMoney) / deduceAmount );
+        sessTotalMoney = (int) Math.Ceiling( Math.Ceiling(protectedAmount * sessTotalMoney) + Math.Ceiling((1 - protectedAmount) * sessTotalMoney) / deduceAmount );
         wrongAnswerCount++;
         consecutiveCorrAnss = 0;
     }
@@ -74,7 +75,7 @@ public class SessionCurrencyManager : MonoBehaviour
 
     public void ChangeVisualStuff()
     {
-        totalMoneyText.text = totalMoney.ToString();
+        totalMoneyText.text = sessTotalMoney.ToString();
         currMoneyText.text = currMoney.ToString();
         multiplierText.text = multiplier.ToString();
     }
@@ -85,7 +86,7 @@ public class SessionCurrencyManager : MonoBehaviour
         comboMultiplier = 0.2f; // Later assign the value from the saved file
         questionNumber = 0;
         wrongAnswerCount = 0;
-        totalMoney = 0;
+        sessTotalMoney = 0;
         maxConCorAns = 0;
     }
 }

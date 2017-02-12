@@ -46,7 +46,7 @@ Upcoming:
 3. When the game is exited during the session, save the question numbers
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-version 0.20.000 / --- January xx, 2017 --- \
+version 0.20.000 / --- February xx, 2017 --- \
 
 Added:
 1. The XP System
@@ -65,16 +65,30 @@ Added:
 		iii. If the player levels up
 			Wait for some time, recalcculate all the values and continue the interpolation
 
-Changes & Improvements:
-1. 
+2. The Store
+	a. 50/50 Perk
+	b. Vault Perk
+	c. Combo Multiplier Perk
+	d. More Money Perk
+	e. Bonus Time Perk
 
-Upcoming:
-1. Lower the timer to lower the cheating rate
-2. A bug occurs after the end screen, the last question opens and time goes to negative 
+3. New questions were added 
+	a. 60 vocabulary questions
+
+Changes & Improvements:
+1. Fixed - A bug occurs after the end screen, the last question opens and time goes to negative 
 	(correct answer is shown and you can answer the question again, but cannot click next)
 	or an error comes out some time after when end page opens
-3. When the game is exited during the session, save the question numbers
-4. Main screen scrolling issue
+	- The problem was that the timer did not stop subtrackting after the end of the session
+2. Timer changes
+	a. Timer is lowered
+	b. Timer cannot be lower than 20s
+	c. Bonus time depending on the question difficulty is lowered twice
+	
+Upcoming:
+
+1. Main screen scrolling issue
+2. When a new level is gained, show the current level change with an animation
 
 
 

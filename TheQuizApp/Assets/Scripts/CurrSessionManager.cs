@@ -124,7 +124,8 @@ public class CurrSessionManager : MonoBehaviour
             // When the user finishes the current game, the Results page opens
             if (currQNumber == sessionQCount + 1)
             {
-                resultsPageManager.UpdateResultsPage(topicName, sessionCurrencyManager.totalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
+                resultsPageManager.UpdateResultsPage(topicName, sessionCurrencyManager.sessTotalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
+                SessionTimerManager.canStartTimerSubtracting = false;
             }
         }
         // The user clicked next without answering the question

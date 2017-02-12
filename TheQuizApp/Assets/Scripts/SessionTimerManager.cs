@@ -19,11 +19,11 @@ public class SessionTimerManager : MonoBehaviour
     private Color fillObjColor;
 
     public bool answerIsFake = false;
-    private bool canStartTimerSubtracting = false;
+    public static bool canStartTimerSubtracting = false;
     private bool timerWarning = false;
     private bool timerStateChanged = false; 
     private float totalTime;
-    private float wordsPerSecond = 1.2f;
+    private float wordsPerSecond = 0.8f;
     private float fakeAnswerPercentage = 0.999f;
 
     private void Awake()
@@ -93,9 +93,9 @@ public class SessionTimerManager : MonoBehaviour
 
         int numOfWords = totalString.Count(item => item.Equals(' ')) + 5;
 
-        float timeAdder = (0.2f * currQData.DifficultyRate);
+        float timeAdder = (0.1f * currQData.DifficultyRate);
 
-        totalTime = 5 * (int) (numOfWords * (wordsPerSecond + timeAdder) / 5);
+        totalTime = Math.Max(20, 5 * (int) (numOfWords * (wordsPerSecond + timeAdder) / 5));
         timerText.text = totalTime.ToString();
         timerSlider.maxValue = totalTime;
 

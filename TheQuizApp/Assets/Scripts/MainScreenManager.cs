@@ -5,15 +5,38 @@ using UnityEngine.UI;
 
 public class MainScreenManager : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject mainPage;
-    [SerializeField]
-    private GameObject categoriesPage;
+    private SaveManager saveManager;
+    private LoadManager loadManager;
+    private StoreManager storeManager;
 
-    public void OpenCloseCategories()
+    public Button categoriesButton;
+    public Button storeButton;
+    public GameObject mainPage;
+    public GameObject categoriesPage;
+    public GameObject storePage;
+
+    private void Awake()
+    {
+        saveManager = gameObject.GetComponent<SaveManager>();
+        loadManager = gameObject.GetComponent<LoadManager>();
+        storeManager = gameObject.GetComponent<StoreManager>();
+
+        categoriesButton.onClick.AddListener(OpenCategories);
+        storeButton.onClick.AddListener(OpenStore);
+    }
+
+    public void OpenCategories()
     {
         mainPage.SetActive(!mainPage.activeSelf);
         categoriesPage.SetActive(!categoriesPage.activeSelf);
+    }
+
+    public void OpenStore()
+    {
+        mainPage.SetActive(!mainPage.activeSelf);
+        storePage.SetActive(!storePage.activeSelf);
+
+        storeManager.OnStoreOpen();
     }
 	
 }
