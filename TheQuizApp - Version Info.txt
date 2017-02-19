@@ -66,6 +66,12 @@ Added:
 			Wait for some time, recalcculate all the values and continue the interpolation
 
 2. The Store
+	Perk Information updates whenever the store is opened
+	Whenever a perk is clicked, a responce checker pops up, it closes whenever 	
+		back button is pressed, store list is scrolled or other perk is clicked
+	If the person clicks yes on the checker page, having enough money will upgrade the perk
+		else a text pops up saying that the user does not have enough money
+	
 	a. 50/50 Perk
 	b. Vault Perk
 	c. Combo Multiplier Perk

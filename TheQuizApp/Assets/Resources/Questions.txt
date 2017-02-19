@@ -16,7 +16,7 @@
 	the process by which prices adjust to reconcile the allocation of resources
 	a place where buyers and sellers meet
 4[In a free market] ;d5 ;i6 ;a4 % (2) Ch1, q6
-	governments intervene
+	ws intervene
 	governments plan production
 	governments interfere
 	prices adjust to reconcile scarcity and desires
@@ -599,6 +599,66 @@
 	Bible reading and organized prayer were not permissible in public schools
 	Police had to advise a suspect of his or her constitutional right to remain silent
 	The Constitution protected a woman's right to an abortion
+14[President Clinton] ;d4 ;i8 ;a1 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q1
+	became only the second president in American history to be impeached
+	admitted to having affairs with Gennifer Flowers, Monica Lewinsky, and many other women
+	was successful in his campaign to end all discrimination against homosexuals in the military
+	opposed the NAFTA agreement
+15[To what was Ronald Reagan referring when he spoke of the evil empire ?] ;d3 ;i5 ;a1 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q3
+	The Soviet Union
+	The People's Republic of China
+	The growing federal bureaucracy
+	The Democratic Party
+16[Which of the following issues did evangelical Christians target in the 1970s ?] ;d6 ;i5 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q4
+	Abortion
+	Homosexuality
+	Public-school prayer
+	All the answers are correct
+17[The North American Free Trade Agreement] ;d7 ;i6 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q5
+	was a plan to encourage the Big Three automakers to move their production facilities to Mexico
+	admitted Mexico to a free-trade zone that had been formed by the U.S. and Canada
+	was opposed by most Mexicans out of fear that high wage jobs would flee to Canada
+	was supported by organized labor in the U.S.
+18[Opponents of American involvement in the Vietnam War said that] ;d8 ;i7 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q1
+	the war was a civil conflict in which the U.S. had no business meddling
+	the war would force drastic cutbacks in Great Society social programs
+	the U.S. could never win the war without impossible expense
+	all the answers are correct
+19[What policy did Lyndon Johnson follow with regard to American involvement in Vietnam ?] ;d8 ;i8 ;a3 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q2
+	Pull out immediately and declare that the U.S. had achieved its goals
+	Rapidly send American ground troops in for a massive invasion of North Vietnam
+	Gradually escalate the direct American role in the war
+	None of the answers are correct
+20[Which of the following statements most accurately describes conditions in the American army in Vietnam by 1969 ?] ;d6 ;i8 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q3
+	Morale had plummeted
+	Drug use had soared
+	Racial conflict among American soldiers had increased
+	All the answers are correct
+21[President Nixon's policy in Southeast Asia included all of the following except] ;d9 ;i7 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q4
+	escalation of American bombing of North Vietnam
+	massive increases in American ground troops to invade North Vietnam
+	secret direct negotiations with North Vietnam's foreign minister
+	widening of the war by invading Cambodia
+22[President Eisenhower was associated with each of the following except] ;d9 ;i4 ;a1 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q1
+	bringing about the downfall of Joseph McCarthy by publicly denouncing his irresponsible accusations
+	appointing Earl Warren as Chief Justice of the Supreme Court
+	bringing an end to the Korean War with the signing of an armistice in 1953
+	warning the nation about the growing power of the military and big industrial corporations in American life
+23[The United States' initial involvement in Vietnam consisted of] ;d5 ;i5 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q3
+	furnishing aid to the nationalist group, the Vietminh
+	furnishing aid to the French, who were trying to reconquer their former colony
+	committing atomic weapons to assist the French
+	none of the answers are correct
+24[Television in the 1950s] ;d6 ;i7 ;a3 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q4
+	helped to demolish old gender and racial stereotypes
+	exposed American viewers to the harsh realities of poverty in America
+	reinforced consumerism and conformity
+	was dominated by quality cultural shows
+25[Martin Luther King's philosophy of civil disobedience incorporated] ;d4 ;i6 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q5
+	nonviolent resistance
+	direct action
+	ideas of Thoreau and Gandhi
+	all the answers are correct
 	
 {Computer Science}
 

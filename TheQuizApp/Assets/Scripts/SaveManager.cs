@@ -53,5 +53,10 @@ public class SaveManager : MonoBehaviour
     {
         ES2.Save(totalMoney, "svt.txt?tag=totalMoney");
     }
+
+    public void SavePerkLevel(int perkLvl, int perkID)
+    {
+        ES2.Save(perkLvl, "svt.txt?tag=perkLvl" + perkID);
+    }
     // End of - Save Store Class Objects
 }

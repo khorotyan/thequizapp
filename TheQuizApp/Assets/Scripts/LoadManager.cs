@@ -119,5 +119,17 @@ public class LoadManager : MonoBehaviour
 
         return totalMoney;
     }
+
+    public int LoadPerkLevel(int perkID)
+    {
+        int perkLvl = 0;
+
+        if (ES2.Exists("svt.txt?tag=perkLvl" + perkID))
+        {
+            perkLvl = ES2.Load<int>("svt.txt?tag=perkLvl" + perkID);
+        }
+
+        return perkLvl;
+    }
     // End of - Load Store Class Objects
 }

@@ -21,6 +21,18 @@ public class StoreManager : MonoBehaviour
     public GameObject StoreMoreMoneyObj;
     public GameObject StoreBonusTimeObj;
 
+    int store5050Lvl = 0;
+    int storeVaultLvl = 0;
+    int storeComboMultLvl = 0;
+    int storeMoreMoneyLvl = 0;
+    int storeBonusTimeLvl = 0;
+
+    int store5050Price;
+    StoreItemInfo[] storeVaultInfo = new StoreItemInfo[6]; // ID = 1
+    StoreItemInfo[] storeComboMultInfo = new StoreItemInfo[4]; // ID = 2
+    StoreItemInfo[] storeMoreMoneyInfo = new StoreItemInfo[4]; // ID = 3
+    StoreItemInfo[] storeBonusTimeInfo = new StoreItemInfo[4]; // ID = 4
+
     public static int totalMoney = 0;
 
     private void Awake()
@@ -29,61 +41,237 @@ public class StoreManager : MonoBehaviour
         loadManager = gameObject.GetComponent<LoadManager>();
 
         backButton.onClick.AddListener(OnStorePageClose);
-    }
-    
-    public void OnStoreOpen()
-    {
-        totalMoney = loadManager.LoadTotalMoney();
-        UpdateTotalMoneyText();
-        CheckAllPerkLevels();
+
+        AllPerkInfo();
     }
 
-    public void ManageStore5050()
+    // Creates the information of the levels of perks (prices and values)
+    private void AllPerkInfo()
     {
-        int price = 75;
+        store5050Price = 75;
 
-        
-    }
-
-    public void ManageStoreVault()
-    {
-        StoreItemInfo[] storeVaultInfo = new StoreItemInfo[10];
-
-        storeVaultInfo[0] = new StoreItemInfo(100, 20, 0);
-        storeVaultInfo[1] = new StoreItemInfo(250, 30, 0);
-        storeVaultInfo[2] = new StoreItemInfo(475, 40, 0);
-        storeVaultInfo[3] = new StoreItemInfo(800, 45, 0);
-        storeVaultInfo[4] = new StoreItemInfo(1250, 50, 0);
-    }
-
-    public void ManageStoreComboMult()
-    {
-        StoreItemInfo[] storeComboMultInfo = new StoreItemInfo[10];
+        storeVaultInfo[0] = new StoreItemInfo(0, 0, 0);
+        storeVaultInfo[1] = new StoreItemInfo(100, 20, 0);
+        storeVaultInfo[2] = new StoreItemInfo(250, 30, 0);
+        storeVaultInfo[3] = new StoreItemInfo(475, 40, 0);
+        storeVaultInfo[4] = new StoreItemInfo(800, 45, 0);
+        storeVaultInfo[5] = new StoreItemInfo(1250, 50, 0);
 
         storeComboMultInfo[0] = new StoreItemInfo(0, 0.2f, 0);
         storeComboMultInfo[1] = new StoreItemInfo(225, 0.35f, 0);
         storeComboMultInfo[2] = new StoreItemInfo(525, 0.45f, 0);
         storeComboMultInfo[3] = new StoreItemInfo(900, 0.5f, 0);
+
+        storeMoreMoneyInfo[0] = new StoreItemInfo(0, 1f, 0);
+        storeMoreMoneyInfo[1] = new StoreItemInfo(650, 1.5f, 0);
+        storeMoreMoneyInfo[2] = new StoreItemInfo(1050, 1.75f, 0);
+        storeMoreMoneyInfo[3] = new StoreItemInfo(1500, 2f, 0);
+
+        storeBonusTimeInfo[0] = new StoreItemInfo(0, 0, 0);
+        storeBonusTimeInfo[1] = new StoreItemInfo(875, 0.3f, 0.1f);
+        storeBonusTimeInfo[2] = new StoreItemInfo(1450, 0.35f, 0.15f);
+        storeBonusTimeInfo[3] = new StoreItemInfo(2100, 0.4f, 0.2f);
+    }
+    
+    // Runs whenever the store opens
+    public void OnStoreOpen()
+    {
+        totalMoney = loadManager.LoadTotalMoney();
+        UpdateTotalMoneyText();
+        CheckAllPerkLevels();
+
+        // Load the perk levels
+        store5050Lvl = loadManager.LoadPerkLevel(0);
+        storeVaultLvl = loadManager.LoadPerkLevel(1);
+        storeComboMultLvl = loadManager.LoadPerkLevel(2);
+        storeMoreMoneyLvl = loadManager.LoadPerkLevel(3);
+        storeBonusTimeLvl = loadManager.LoadPerkLevel(4);
+
+        UpdateSingleItemVisuals(Store5050Obj.transform.GetChild(0), store5050Lvl);
+        UpdateStoreItemVisuals(StoreVaultObj.transform.GetChild(0), storeVaultInfo, storeVaultLvl, false);
+        UpdateStoreItemVisuals(StoreComboMultObj.transform.GetChild(0), storeComboMultInfo, storeComboMultLvl, false);
+        UpdateStoreItemVisuals(StoreMoreMoneyObj.transform.GetChild(0), storeMoreMoneyInfo, storeMoreMoneyLvl, false);
+        UpdateStoreItemVisuals(StoreBonusTimeObj.transform.GetChild(0), storeBonusTimeInfo, storeBonusTimeLvl, true);
+    }
+
+    // Update the the texts and the level indicators of the perk
+    private void UpdateStoreItemVisuals(Transform perkObj, StoreItemInfo[] perkInfo, int perkLvl, bool hasOtherValue)
+    {
+        if (perkLvl < perkInfo.Length - 1)
+        {
+            string perkCost = "Cost: " + perkInfo[perkLvl + 1].price.ToString() + " $";
+            perkObj.transform.GetChild(3).GetComponent<Text>().text = perkCost;
+
+            string perkAmount = "x: " + perkInfo[perkLvl].value + " -> " + perkInfo[perkLvl + 1].value;
+
+            if (hasOtherValue == true)
+            {
+                string perkAmount2 = "y: " + perkInfo[perkLvl].value2 + " -> " + perkInfo[perkLvl + 1].value2;
+                perkAmount += "\n" + perkAmount2;
+            }
+
+            perkObj.transform.GetChild(4).GetComponent<Text>().text = perkAmount;
+        }
+        else
+        {
+            perkObj.transform.GetChild(3).gameObject.SetActive(false);
+            perkObj.transform.GetChild(4).GetComponent<Text>().text = "Maxed Out";
+            perkObj.gameObject.GetComponent<Button>().interactable = false;
+        }
+
+        for (int i = 0; i < perkLvl; i++)
+        {
+            perkObj.transform.GetChild(5).GetChild(0).GetChild(i).GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+        }
+    }
+
+    private void UpdateSingleItemVisuals(Transform perkObj, int perkLvl)
+    {
+        if (perkLvl == 1)
+        {
+            perkObj.transform.GetChild(3).gameObject.SetActive(false);
+            perkObj.transform.GetChild(4).GetComponent<Text>().text = "Maxed Out";
+            perkObj.transform.GetChild(5).GetChild(0).GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            perkObj.gameObject.GetComponent<Button>().interactable = false;
+        }
+    }
+
+    // Runs whenever a perk is clicked
+    public void OnStoreItemClick(int itemID)
+    {
+        if (itemID == 0) { CheckPurchase(Store5050Obj.transform.GetChild(2).gameObject); }
+        else if (itemID == 1) { CheckPurchase(StoreVaultObj.transform.GetChild(2).gameObject); }
+        else if (itemID == 2) { CheckPurchase(StoreComboMultObj.transform.GetChild(2).gameObject); }
+        else if (itemID == 3) { CheckPurchase(StoreMoreMoneyObj.transform.GetChild(2).gameObject); }
+        else if (itemID == 4) { CheckPurchase(StoreBonusTimeObj.transform.GetChild(2).gameObject); }
+    }
+
+    private void CheckPurchase(GameObject ResponceCheckerObj)
+    {
+        ClosePurchaseChecker();
+        ResponceCheckerObj.SetActive(true);
+    }
+
+    public void ClosePurchaseChecker()
+    {
+        if (Store5050Obj.transform.GetChild(2).gameObject.activeSelf == true) { Store5050Obj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (StoreVaultObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreVaultObj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (StoreComboMultObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreComboMultObj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (StoreMoreMoneyObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreMoreMoneyObj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (StoreBonusTimeObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreBonusTimeObj.transform.GetChild(2).gameObject.SetActive(false); }
+    }
+
+    public void ManageStore5050()
+    {
+        ClosePurchaseChecker();
+
+        if (totalMoney >= store5050Price)
+        {
+            totalMoney -= store5050Price;   
+
+            store5050Lvl++;
+        }
+        else
+        {  
+            Store5050Obj.transform.GetChild(3).gameObject.SetActive(true);
+            StartCoroutine(DisableNotEnMoney());
+        }
+
+        UpdateTotalMoneyText();
+
+        UpdateSingleItemVisuals(Store5050Obj.transform.GetChild(0), store5050Lvl);
+
+    }
+
+    public void ManageStoreVault()
+    {
+        ClosePurchaseChecker();
+
+        if (totalMoney >= storeVaultInfo[storeVaultLvl + 1].price)
+        {
+            totalMoney -= storeVaultInfo[storeVaultLvl + 1].price;
+
+            storeVaultLvl++;
+        }
+        else
+        { 
+            StoreVaultObj.transform.GetChild(3).gameObject.SetActive(true);
+            StartCoroutine(DisableNotEnMoney());
+        }
+
+        UpdateTotalMoneyText();
+
+        UpdateStoreItemVisuals(StoreVaultObj.transform.GetChild(0), storeVaultInfo, storeVaultLvl, false);
+        
+    }
+
+    public void ManageStoreComboMult()
+    {
+        ClosePurchaseChecker();
+
+        if (totalMoney >= storeComboMultInfo[storeComboMultLvl + 1].price)
+        {
+            totalMoney -= storeComboMultInfo[storeComboMultLvl + 1].price;
+
+            storeComboMultLvl++;
+        }
+        else
+        {       
+            StoreComboMultObj.transform.GetChild(3).gameObject.SetActive(true);
+            StartCoroutine(DisableNotEnMoney());
+        }
+
+        UpdateTotalMoneyText();
+
+        UpdateStoreItemVisuals(StoreComboMultObj.transform.GetChild(0), storeComboMultInfo, storeComboMultLvl, false);
+        
     }
 
     public void ManageStoreMoreMoney()
     {
-        StoreItemInfo[] storeMoreMoneyInfo = new StoreItemInfo[10];
+        ClosePurchaseChecker();
 
-        storeMoreMoneyInfo[0] = new StoreItemInfo(650, 1.5f, 0);
-        storeMoreMoneyInfo[1] = new StoreItemInfo(1050, 1.75f, 0);
-        storeMoreMoneyInfo[2] = new StoreItemInfo(1500, 2f, 0);
+        if (totalMoney >= storeMoreMoneyInfo[storeMoreMoneyLvl + 1].price)
+        {
+            totalMoney -= storeMoreMoneyInfo[storeMoreMoneyLvl + 1].price;
+
+            storeMoreMoneyLvl++;
+        }
+        else
+        {
+            StoreMoreMoneyObj.transform.GetChild(3).gameObject.SetActive(true);
+            StartCoroutine(DisableNotEnMoney());
+        }
+
+        UpdateTotalMoneyText();
+
+        UpdateStoreItemVisuals(StoreMoreMoneyObj.transform.GetChild(0), storeMoreMoneyInfo, storeMoreMoneyLvl, false);
+        
     }
 
     public void ManageStoreBonusTime()
     {
-        StoreItemInfo[] storeBonusTimeInfo = new StoreItemInfo[10];
+        ClosePurchaseChecker();
 
-        storeBonusTimeInfo[0] = new StoreItemInfo(875, 0.3f, 0.1f);
-        storeBonusTimeInfo[1] = new StoreItemInfo(1450, 0.35f, 0.15f);
-        storeBonusTimeInfo[2] = new StoreItemInfo(2100, 0.4f, 0.2f);
+        if (totalMoney >= storeBonusTimeInfo[storeBonusTimeLvl + 1].price)
+        {
+            totalMoney -= storeBonusTimeInfo[storeBonusTimeLvl + 1].price;
+
+            storeBonusTimeLvl++;
+        }
+        else
+        {
+            StoreBonusTimeObj.transform.GetChild(3).gameObject.SetActive(true);
+            StartCoroutine(DisableNotEnMoney());
+        }
+
+        UpdateTotalMoneyText();
+
+        UpdateStoreItemVisuals(StoreBonusTimeObj.transform.GetChild(0), storeBonusTimeInfo, storeBonusTimeLvl, true);
+
     }
 
+    // Checks all the perk levels
     private void CheckAllPerkLevels()
     {
         // 50/50 Perk
@@ -127,20 +315,41 @@ public class StoreManager : MonoBehaviour
         saveManager.SaveTotalMoney(totalMoney);
     }
 
+    // Updates total money text
     private void UpdateTotalMoneyText()
     {
         totalMoneyText.text = "Money: " + totalMoney.ToString();
     }
 
+    // Runs whenever the store page closes
     public void OnStorePageClose()
     {
         storePagePanel.SetActive(false);
         mainPanel.SetActive(true);
 
         saveManager.SaveTotalMoney(totalMoney);
+
+        // Save perk levels
+        saveManager.SavePerkLevel(store5050Lvl, 0);
+        saveManager.SavePerkLevel(storeVaultLvl, 1);
+        saveManager.SavePerkLevel(storeComboMultLvl, 2);
+        saveManager.SavePerkLevel(storeMoreMoneyLvl, 3);
+        saveManager.SavePerkLevel(storeBonusTimeLvl, 4);
+    }
+
+    IEnumerator DisableNotEnMoney()
+    {
+        yield return new WaitForSeconds(1);
+
+        if (Store5050Obj.transform.GetChild(3).gameObject.activeSelf == true) { Store5050Obj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (StoreVaultObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreVaultObj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (StoreComboMultObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreComboMultObj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (StoreMoreMoneyObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreMoreMoneyObj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (StoreBonusTimeObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreBonusTimeObj.transform.GetChild(3).gameObject.SetActive(false); }
     }
 }
 
+// Custom datatype containing each perk level information
 class StoreItemInfo
 {
     public int price { get; set; }
