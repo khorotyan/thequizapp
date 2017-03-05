@@ -16,7 +16,7 @@
 	the process by which prices adjust to reconcile the allocation of resources
 	a place where buyers and sellers meet
 4[In a free market] ;d5 ;i6 ;a4 % (2) Ch1, q6
-	ws intervene
+	governments intervene
 	governments plan production
 	governments interfere
 	prices adjust to reconcile scarcity and desires
@@ -120,7 +120,182 @@
 	a normal good / an inferior good
 	an inferior good / a normal good
 	a normal good / a complementary good
-
+25[The price elasticity of demand measures] ;d6 ;i5 ;a1 % (2) Ch2, q1
+	the responsiveness of quantity demanded to a change in price
+	how far a demand curve shifts
+	a change in price
+	a change in quantity demanded	
+26[If demand is ... then price cuts will ... spending] ;d8 ;i5 ;a2 % (2) Ch2, q2
+	inelastic / increase
+	elastic / increase
+	elastic / decrease
+	none of the answers are correct	
+27[Positive cross-elasticities suggest that goods are ... and negative cross-elasticities that goods are ...] ;d7 ;i5 ;a3 % (2) Ch2, q4
+	substitutes / inferior
+	normal / complements
+	substitutes / complements
+	normal / inferior
+28[A measurement showing how quantity demanded varies with income is the] ;d3 ;i5 ;a4 % (2) Ch2, q5
+	price elasticity of demand
+	cross-price elasticity of demand
+	budget elasticity of demand
+	income elasticity of demand
+29[Inferior goods have ... and luxury goods have ...] ;d8 ;i5 ;a1 % (2) Ch2, q6
+	negative income elasticities / income elasticities greater than 1
+	income elasticities greater than 1 / negative income elasticities
+	positive income elasticities / negative income elasticities
+	none of the answers are correct
+30[If your income doubles and the prices of the goods you buy double, then your demand for these goods will likely] ;d3 ;i6 ;a2 % (2) Ch2, q7
+	increase
+	not change
+	decrease
+	shift
+31[The income effect of a price increase of a normal good is to ... of that good and the substitution effect is to ... of that good] ;d6 ;i7 ;a3 % (2) Ch2, q9
+	increase quantity demanded / reduce quantity demanded
+	increase quantity demanded / increase quantity demanded
+	reduce quantity demanded / reduce quantity demanded
+	reduce quantity demanded / increase quantity demanded
+32[The opportunity cost of a student is] ;d5 ;i8 ;a3 % (2) Ch2, q10
+	course fees and rent
+	a loan from the bank
+	what the student could have earned in the best job available by not studying
+	what the student will earn after graduation
+33[Economics assumes that people consume goods and services to achieve] ;d4 ;i6 ;a3 % (2) Ch2, q11
+	status
+	prestige
+	utility
+	self-esteem
+34[The extra utility from consuming one more unit of a good is called] ;d8 ;i3 ;a1 % (2) Ch2, q12
+	marginal utility
+	additional utility
+	surplus utility
+	bonus utility
+35[Adding up the quantities demanded of a good by different people facing the same price gives us the] ;d6 ;i7 ;a2 % (2) Ch2, q13
+	supply curve
+	market demand curve
+	demand curve
+	market supply curve
+36[Firms are assumed to ... costs and to ... profits] ;d1 ;i2 ;a4 % (2) Ch2, q14
+	incur / desire
+	pay / make
+	charge / earn
+	minimize / maximize
+37[The increase in total cost when one more unit is produced is known as] ;d5 ;i4 ;a1 % (2) Ch2, q15
+	marginal cost
+	opportunity cost
+	limited cost
+	average cost
+38[Marginal revenue is the ... when output is ...] ;d6 ;i5 ;a2 % (2) Ch2, q16
+	change in average revenue / increased
+	change in total revenue / increased by one unit
+	change in average revenue / increased by one unit
+	change in total revenue / increased
+39[Profits are maximized when] ;d6 ;i8 ;a4 % (2) Ch2, q17
+	costs are minimized
+	revenue is maximized
+	average cost is less than average revenue
+	marginal cost equals marginal revenue
+40[If a firm's wage costs increase this will cause] ;d6 ;i6 ;a1 % (2) Ch2, q19
+	marginal cost to increase and output to fall
+	marginal revenue to increase and output to fall
+	opportunity cost to increase and the firm will close
+	average cost will rise and output will increase
+41[An upward shift in marginal cost ... output and an upward shift in marginal revenue ... output] ;d7 ;i3 ;a2 % (2) Ch2, q20
+	reduces / reduces
+	reduces / increases
+	increases / increases
+	increases / reduces
+42[A firm that breaks even after all economic costs are paid is earning] ;d8 ;i4 ;a3 % (2) Ch2, q22
+	economic profit
+	accounting profit
+	normal profit
+	supernormal profit
+43[A firm that makes profit in addition to normal profit is making] ;d3 ;i5 ;a4 % (2) Ch2, q23
+	economic profit
+	accounting profit
+	normal profit
+	supernormal profit	
+44[If both marginal cost and marginal revenue increase, a firm] ;d5 ;i7 ;a3 % (2) Ch2, q24
+	should increase output
+	should reduce output
+	will require further information on how to respond
+	should not change output
+45[A production technique is technically efficient if] ;d5 ;i6 ;a3 % (2) Ch3, q1
+	output is maximized
+	inputs are minimized
+	there is no way to make a given output using less of one input and no more of the other inputs
+	costs are minimized
+46[Decreasing returns to scale means that] ;d8 ;i4 ;a4 % (2) Ch3, q3
+	short run marginal costs rises as output rises
+	long run marginal cost rises as output rises
+	short run average cost rises as output rises
+	long run average cost rises as output rises
+47[If a long run average cost curve is falling from left to right this is an example of] ;d6 ;i5 ;a1 % (2) Ch3, q4
+	increasing returns to scale
+	decreasing returns to scale
+	constant returns to scale
+	the minimum efficient scale
+48[If a firm is not operating at the output necessary to achieve all scale economies, it has not achieved its] ;d3 ;i6 ;a4 % (2) Ch3, q5
+	efficient scale
+	average efficient scale
+	maximum efficient scale
+	minimum efficient scale
+49[When average cost is falling marginal cost is ... and when average cost is rising marginal cost is ...] ;d8 ;i6 ;a2 % (2) Ch3, q6
+	greater than average cost / greater than average cost
+	less than average cost / greater than average cost
+	less than average cost / less than average cost
+	greater than average cost / less than average cost
+50[The firms long run output decision will be where] ;d6 ;i6 ;a3 % (2) Ch3, q7
+	long run average cost is lowest
+	marginal revenue equals output
+	marginal revenue equals long run marginal cost
+	marginal cost equals output
+51[Short run average total costs are equal to the sum of] ;d5 ;i7 ;a4 % (2) Ch3, q8
+	short run opportunity costs and profit
+	short run variable costs and profit
+	short run average variable costs and profit
+	short run average variable costs and short run average fixed costs
+52[The short run marginal cost curve cuts the short run total cost curve and short run average variable cost curve] ;d7 ;i6 ;a1 % (2) Ch3, q9
+	at their lowest points
+	when they are declining
+	when they are increasing
+	when marginal revenue is zero
+53[Holding all factors constant except one and increasing a variable factor is expected to lead to steadily decreasing marginal product of that factor. This is an example of] ;d4 ;i6 ;a2 % (2) Ch3, q11
+	decreasing returns to scale
+	the law of diminishing returns
+	constant returns to scale
+	an inefficient production technique
+54[In the short run a firm will produce zero output if] ;d3 ;i8 ;a3 % (2) Ch3, q12
+	price is greater than short run average total cost
+	price is between short run average total cost and short run average variable cost
+	price is less than short run average variable cost
+	profit is zero
+55[In a competitive industry each buyer and seller] ;d2 ;i5 ;a1 % (2) Ch3, q13
+	is a price taker
+	produce different products
+	believes that can influence price
+	prevents the entry of competitors
+56[For a competitive firm, its short run supply curve is ... and its long run supply curve is ...] ;d9 ;i2 ;a2 % (2) Ch3, q14
+	SMC / LMC
+	SMC above SAVC / LMC above LAC
+	SMC below SAVC / LMC above LAC
+	SMC below SAVC / LMC below LAC
+57[For perfect competition to work there must be] ;d5 ;i8 ;a4 % (2) Ch3, q15
+	many buyers and sellers
+	free entry and exit
+	perfect information
+	all the answers are correct
+58[A competitive firms demand curve is] ;d3 ;i5 ;a1 % (2) Ch3, q17
+	horizontal
+	vertical
+	downward sloping
+	fairly elastic
+59[A competitive firm produces a level of output at which] ;d6 ;i6 ;a2 % (2) Ch3, q18
+	price is greater than marginal cost
+	price equals marginal cost
+	price is less than marginal cost
+	none of the answers are correct
+	
 {Marketing}
 
 1[... is the extent to which a firm fulfills a customer's needs, desires, and expectations.] ;d1 ;i4 ;a3 % (1) Ch1, q1
@@ -141,7 +316,7 @@
 4[There are two basic kinds of economic systems. They are] ;d6 ;i4 ;a3 % (1) Ch1, q6
 	planned and spontaneous
 	market-directed and pure subsistence
-	planned and market-directedz
+	planned and market-directed
 	none of the answers are correct
 5[Which of the following is NOT an objective of the World Trade Organization agreements ?] ;d4 ;i5 ;a4 % (1) Ch1, q8
 	To help the free-flow of trade
@@ -173,6 +348,570 @@
 	E-commerce
 	Web commerce
 	High-tech commerce
+11[Which of the following is the most recent stage of marketing evolution ?] ;d5 ;i5 ;a4 % (1) Ch2, q1
+	Marketing department era
+	Production era
+	Sales era
+	Marketing company era
+12[Which of the following is NOT included as a basic idea in the definition of marketing concepts ?] ;d3 ;i4 ;a3 % (1) Ch2, q2
+	Total company effort
+	Profit
+	Productivity
+	Customer satisfaction
+13[... is defined as the difference between the benefits a customer sees from a market offering and the costs of obtaining those benefits.] ;d5 ;i6 ;a1 % (1) Ch2, q3
+	Customer value
+	Satisfaction scale
+	Profit margin
+	Competitive benefit
+14[Which of the following is NOT included in the marketing management process used by the marketing manager to achieve its objectives ?] ;d4 ;i7 ;a2 % (1) Ch2, q5
+	Planning marketing activities
+	Raising funds to finance the marketing projects
+	Controlling marketing plans
+	Directing implementation of the marketing plans
+15[Which of the following parts are included in the marketing mix ?] ;d8 ;i8 ;a1 % (1) Ch2, q6
+	Product, place, promotion, and price
+	Competition and customer satisfaction
+	Buying, selling, transporting and storing
+	Profit, distribution, and advertising
+16[... is defined as communication with large numbers of customers at the same time.] ;d2 ;i4 ;a3 % (1) Ch2, q8
+	Personal selling
+	Sales promotion
+	Mass selling
+	All the answers are correct
+17[In a ... orientation, the role of marketing research is to determine customer needs and how well the company is satisfying them.] ;d6 ;i5 ;a1 % (1) Ch2, q10
+	marketing
+	production
+	both answers are correct
+	none of the answers are correct
+18[When a manager focuses on making whatever products are easy to produce, and then trying to sell them, that manager has a ... orientation.] ;d3 ;i7 ;a2 % (1) Ch2, q12
+	marketing
+	production
+	sales
+	profit
+19[Which of the following is NOT consistent with a manager having a marketing orientation ?] ;d8 ;i8 ;a3 % (1) Ch2, q13
+	Inventory levels are set with customer requirements and costs in mind
+	Customer relationship focuses on customer satisfaction before and after sale, leading to a profitable long-run relationship
+	Focus of advertising is on product features and how products are made
+	Packaging is designed for customer convenience and as a selling tool
+20[In addition to businesses, the marketing concept is also applicable to] ;d5 ;i6 ;a4 % (1) Ch2, q16
+	government agencies
+	religious groups
+	fine arts organizations
+	all the answers are correct
+21[The controllable variables a company puts together to satisfy a target group is called the] ;d7 ;i4 ;a2 % (1) Ch2, q17			
+	marketing strategy
+	marketing mix		
+	strategic planning	
+	marketing concept
+22[Opportunities that help innovators develop hard-to-copy marketing strategies that will be profitable for a long time are called] ;d8 ;i4 ;a2 % (1) Ch3, q1			
+	competitive advantages
+	breakthrough opportunities
+	market segmentation
+	market penetration
+23[A useful aid that identifies and lists a firm's strengths and weaknesses and its opportunities and threats is called a] ;d3 ;i6 ;a1 % (1) Ch3, q3			
+	S.W.O.T. analysis
+	market penetration analysis
+	diversification analysis
+	breakthrough opportunity analysis
+24[When a firm tries to increase sales by selling present products in new markets, they are engaging in] ;d4 ;i5 ;a3 % (1) Ch3, q4			
+	product development
+	market penetration
+	market development
+	product penetration
+25[Which of the following is NOT one of the 4 parts of the "product-market" definition ?] ;d6 ;i5 ;a4 % (1) Ch3, q6			
+	Product type
+	Customer type
+	Customer need
+	Product timeline
+26[Which of the following is NOT one of the three basic ways to develop market-oriented strategies in a broad product-market ?] ;d8 ;i7 ;a2 % (1) Ch3, q8			
+	Single target market approach
+	Dual target market approach
+	Multiple target market approach
+	Combined target market approach
+27[What two types of segmenting dimensions are used to select the important segmenting dimensions ?] ;d9 ;i2 ;a3 % (1) Ch3, q9			
+	Qualifying and quantifying dimensions
+	Quantifying and determining dimensions
+	Determining and qualifying dimensions
+	Quantifying and differentiating dimensions
+28[Positioning refers to how ... think about proposed and/or present brands in a market.] ;d7 ;i7 ;a3 % (1) Ch3, q10			
+	firms
+	marketing professionals
+	customers
+	all the answers are correct
+29[A group of potential customers with similar needs who are willing to exchange something of value with sellers offering various goods and/or services is called a] ;d7 ;i5 ;a4 % (1) Ch3, q11			
+	target market
+	broad-product market
+	generic market
+	market
+30[The relevant market for finding opportunities should be] ;d4 ;i6 ;a2 % (1) Ch3, q12			
+	the current market
+	bigger than the current market, but not so big the firm can't compete
+	global, to encompass all opportunities
+	smaller than the current market
+31[A generic market description does NOT include any ... terms.] ;d7 ;i5 ;a3 % (1) Ch3, q13			
+	customer-type
+	geographic area
+	product-type
+	customer needs
+32[Which of the following criteria can be found in a "good" market segment ?] ;d9 ;i8 ;a4 % (1) Ch3, q15			
+	Heterogeneous between
+	Homogeneous within
+	Substantial
+	All the answers are correct
+33[If cost considerations encourage more aggregating to obtain economies of scale, and demand considerations suggest less aggregating to satisfy needs more exactly, the balancing point is] ;d8 ;i4 ;a2 % (1) Ch3, q17			
+	customer satisfaction
+	profit
+	supply
+	gross sales
+34[Which of the following are variables of the external market environment ?] ;d3 ;i6 ;a4 % (1) Ch4, q1
+	Economic and Technological environment
+	Political and legal environment
+	Cultural and social environment
+	All the answers are correct
+35[Which of the following is NOT a basic kind of market (competitive) situation ?] ;d6 ;i4 ;a4 % (1) Ch4, q3
+	Monopolistic competition
+	Monopoly
+	Oligopoly
+	Simplistic competition
+36[An organized approach for evaluating the strengths and weaknesses of current or potential competitor's marketing strategies is called] ;d4 ;i5 ;a2 % (1) Ch4, q4
+	competitive rivals
+	competitor analysis
+	target market analysis
+	competitive barrier
+37[In 1962, President Kennedy promoted the "Consumer Bill of Rights" which affirmed consumers' rights to] ;d4 ;i6 ;a4 % (1) Ch4, q6
+	safety
+	information
+	choice
+	all the answers are correct
+38[The Sherman Act (1890) prohibits] ;d8 ;i4 ;a3 % (1) Ch4, q8
+	price discrimination by manufacturers
+	deceptive pricing
+	monopoly or conspiracy to fix or control prices
+	quantity discounts
+39[The ... enforces laws and develops guidelines regarding unfair methods of competition.] ;d6 ;i4 ;a4 % (1) Ch4, q9
+	Food and Drug Administration (FDA)
+	Consumer Product Safety Commission (CPSC)
+	Office of Consumer Affairs (OCA)
+	Federal Trade Commission (FTC)
+40[Three basic business objectives that serve as guides for a firm's objectives include all of the following EXCEPT] ;d7 ;i6 ;a3 % (1) Ch4, q11
+	Engage in specific activities that will perform socially and economically useful functions
+	Develop an organization to carry on business and implement its strategies
+	Identify all of the firm's competitors according to their strengths and weaknesses
+	Earn enough profit to survive
+41[The application of science to convert an economy's resources to output is called] ;d3 ;i5 ;a3 % (1) Ch4, q13
+	mass production
+	product development
+	technology
+	industrialism	
+42[The saying "Let the ... beware" is appropriate in today's business environment.] ;d7 ;i5 ;a3 % (1) Ch4, q16
+	buyer
+	seller
+	manager
+	all the answers are correct
+43[Product-market screening criteria include] ;d5 ;i5 ;a3 % (1) Ch4, q17
+	only quantitative components
+	only qualitative components
+	both quantitative and qualitative components
+	none of the answers are correct
+	
+{Financial Accounting}
+
+1[In which order does the accounting process continue in its cycle ?] ;d5 ;i7 ;a1 % (4) Ch1, q1		
+	Accounting process -> Accounting information -> Decision makers -> Economic Activities
+	Accounting information -> Accounting process -> Decision makers -> Economic Activities
+	Accounting process -> Accounting information -> Economic Activities -> Decision makers
+	Economic Activities -> Accounting process -> Accounting information -> Decision makers
+2[An accounting system is cost-effective when it] ;d2 ;i4 ;a4 % (4) Ch1, q2		
+	produces useful information
+	produces reports required by law
+	uses computers to replace manual activities
+	produces information that is more valuable than the cost of obtaining the information
+3[Which of the following affect a company's control environment ?] ;d4 ;i8 ;a4 % (4) Ch1, q3		
+	Procedures for hiring and training of personnel
+	Management's assignment of authority and responsibility
+	Oversight by the board of directors
+	All the answers are correct
+4[A criticism of the Sarbanes-Oxley Act (SOX) of 2002 is that it] ;d9 ;i4 ;a3 % (4) Ch1, q4		
+	is specifically aimed at large utilities
+	is specially aimed at the energy industry
+	it is not cost effective
+	it places no responsibility on top management
+5[Which of the following is not considered to be an external user ?] ;d1 ;i3 ;a3 % (4) Ch1, q5		
+	Owner
+	Labor union
+	Board of directors
+	Trade associations
+6[You made a $10,000 loan to your cousin's company. At the end of one year, the company returned to you $10,700. The $700 is called which of the following ?] ;d3 ;i5 ;a4 % (4) Ch1, q6		
+	The return of investment
+	The return on investment
+	A 7.0% return on investment
+	The return on investment or a 7.0% return on investment
+7[International Financial Reporting Standards (IFRSs) are issued by which of the following ?] ;d6 ;i5 ;a2 % (4) Ch1, q7		
+	Securities and Exchange Commission
+	International Accounting Standards Board
+	American Institute of Certified Public Accountants
+	Public Company Accounting Oversight Board
+8[For management accountants, communicating information fairly and objectively is included in the code of ethics requirement of] ;d5 ;i6 ;a4 % (4) Ch1, q9	
+	competence
+	confidentiality
+	integrity
+	credibility
+9[When your authors use the expression "the watchdog of professional accounting," they are referring to which of the following ?] ;d5 ;i6 ;a2 % (4) Ch1, q10		
+	Internal Revenue Service (IRS)
+	Securities Exchange Commission (SEC)
+	Financial Accounting Standards Board (FASB)
+	American Institute of Public Accountants (AICPA)
+10[If assets total $400,000 and owners' equity totals $250,000, then total liabilities must be] ;d2 ;i7 ;a3 % (4) Ch2, q1	
+	$450,000
+	$550,000
+	$150,000
+	$250,000
+11[In which order are liabilities usually listed in the balance sheet] ;d4 ;i6 ;a4 % (4) Ch2, q2	
+	The order in which they were incurred
+	The order of smallest to largest
+	Alphabetical order
+	The order in which they are expected to be repaid
+12[Office equipment was purchased for cash. What effect did this transaction have in the financial position of the company ?] ;d4 ;i8 ;a3 % (4) Ch2, q3	
+	Assets - decrease; Liabilities - no change; Owners' Equity - decrease
+	Assets - decrease; Liabilities - increase; Owners' Equity - no change
+	Assets - no change; Liabilities - no change; Owners' Equity - no change
+	Assets - increase; Liabilities - increase; Owners' Equity - no change
+13[Office equipment was purchased by issuing a check for $10,000 and a note payable for the balance of $60,000. What effect did this transaction have in the financial position of the company ?] ;d7 ;i7 ;a4 % (4) Ch2, q4
+	Assets - no change; Liabilities - no change; Owners' Equity - no change
+	Assets - decrease; Liabilities - increase; Owners' Equity - no change
+	Assets - decrease; Liabilities - no change; Owners' Equity - decrease
+	Assets - increase; Liabilities - increase; Owners' Equity - no change
+14[A balance sheet, or statement of financial position, is] ;d5 ;i5 ;a1 % (4) Ch2, q5
+	an expansion of the basic accounting equation
+	used to report the results of business operations over a period of time
+	composed of four distinct major sections
+	prepared ahead of the income statement
+15[The income statement] ;d2 ;i5 ;a4 % (4) Ch2, q6
+	is a summary of revenues and expenses
+	is used to report the results of operations over a specific period of time
+	explains, in part, how the company's financial position changed over a specific time period
+	all the answers are correct
+16[Articulation refers to the relationship among the financial statements. What item in the income statement ties that statement to the balance sheet ?] ;d7 ;i4 ;a3 % (4) Ch2, q8
+	Revenues
+	Expenses
+	Net income
+	All the answers are correct
+17[In the short run, what distinguishes liquidity from profitability ?] ;d7 ;i6 ;a2 % (4) Ch2, q9
+	There are no distinguishable differences
+	Profitability increases owners' equity, liquidity does not
+	Creditors are more interested in profitability than liquidity
+	Owners have an interest in profitability but not in liquidity
+18[A 'strong' statement of cash flows would show that the major sources of cash came from which of the following ?] ;d5 ;i6 ;a2 % (4) Ch2, q10
+	Investing activities
+	Operating activities
+	Financing activities
+	Owners
+19[The accounting cycle consists of which of the following number of specific steps?] ;d9 ;i2 ;a4 % (4) Ch3, q1
+	Three
+	Five
+	Seven
+	Eight
+20[The collection of all of the accounts is kept together in the] ;d6 ;i5 ;a2 % (4) Ch3, q2
+	journal
+	ledger
+	trial balance
+	both the journal and the ledger
+21[Which of the following is not true about the normal balance of the accounts or account categories shown below ?] ;d5 ;i5 ;a4 % (4) Ch3, q3
+	Assets normally have a debit balance
+	Liabilities normally have a credit balance
+	Owners' equity accounts normally have a credit balance
+	Accounts receivable normally has a credit balance
+22[Recording a $100,000 investment by owners on January 1 for capital stock of the company will result in which of the following ?] ;d4 ;i7 ;a3 % (4) Ch3, q5
+	Increase an asset and decrease owner's equity
+	Increase an asset and increase a liability
+	Increase an asset and increase owners' equity
+	Increase an asset and decrease a liability
+23[Revenue can be described as which of the following ?] ;d2 ;i5 ;a2 % (4) Ch3, q6
+	Net income for the accounting period
+	Gross increase in owners' equity resulting from operation of the business
+	Sales of services less the expenses related to the sales
+	All the answers are correct
+24[An advertising program was paid in advance on March 1 for delivery through newspaper advertisements beginning on April 1 and ending on April 15. The advertising program cost $5,000. When should the expense of the advertising program be recognized ?] ;d4 ;i8 ;a2 % (4) Ch3, q7
+	March 1
+	April 1
+	May 1
+	April 15
+25[The debit balance of the trial balance is $456,000 and the credit balance of the trial balance is $465,000. This indicates which of the following ?] ;d6 ;i7 ;a4 % (4) Ch3, q9
+	An account was not posted
+	An account was posted twice
+	An account was posted for an incorrect amount
+	Any of the answers might have occurred
+26[If, in fulfilling your duties as a bookkeeper or accountant, you are requested by a superior to record a nonexistent transaction that will reflect favorably on the financial position of the company, you should do which of the following ?] ;d1 ;i8 ;a2 % (4) Ch3, q10
+	Ask for a raise in exchange for the risk involved in the fraud being disclosed
+	Not record the transaction, and report the request to a higher supervisor
+	Record the transaction, adding a note about the circumstances
+	Record the transaction as part of the normal journalizing routine
+27[The purpose of adjusting entries is to] ;d3 ;i6 ;a4 % (4) Ch4, q1
+	recognize revenue earned but not yet recorded
+	recognize expenses incurred but not yet recorded
+	recognize the earned portion of services paid for in advance
+	all the answers are correct
+28[Every adjusting entry involves the recognition of either revenue or expense. Which of the following is also true ?] ;d5 ;i5 ;a2 % (4) Ch4, q2
+	There also must be a corresponding change in capital stock
+	There also must be a corresponding change in either assets or liabilities
+	There also must be a corresponding change in the cash account
+	There also must be a corresponding change in the cash account and capital stock
+29[When recording the adjusting entry to recognize the consumed portion of unexpired insurance, the adjusting entry will include which of the following ?] ;d4 ;i7 ;a1 % (4) Ch4, q3
+	A debit to Insurance Expense
+	A debit to Unexpired Insurance
+	A credit to Cash
+	A credit to Insurance Expense
+30[On November 16, the company borrowed $24,000 for 90 days at 6% interest. Interest expense was not adjusted at the end of November. The adjusting entry made on December 31 would include which of the following ?] ;d5 ;i8 ;a3 % (4) Ch4, q6
+	A debit to Interest Expense of $360
+	A debit to Interest Expense of $120
+	A credit to Interest Payable of $180
+	A credit to Interest Payable of $480
+31[When adjusting for revenue that has been earned but not recorded, which of the following will occur ?] ;d5 ;i7 ;a1 % (4) Ch4, q7
+	An asset account is increased
+	An expense account is increased
+	A liability account is decreased
+	A liability account is increased
+32[The realization principle requires] ;d4 ;i7 ;a4 % (4) Ch4, q8
+	that revenues earned but not yet received be recognized through an adjusting entry
+	that unearned revenues originally recorded as earned be converted to a liability through an adjusting entry
+	that the consumption of assets originally recorded as assets be recognized as expenses through an adjusting entry
+	that revenues earned but not yet received be recognized through an adjusting entry and unearned revenues originally recorded as earned be converted to a liability through an adjusting entry
+33[Which of the following is false ?] ;d9 ;i5 ;a2 % (4) Ch4, q9
+	The materiality concept permits charging purchases of low cost items directly to an expense account
+	Debiting utilities expense when paid, rather than as the services are used, adheres to the matching principle
+	Immaterial amounts of unrecorded expenses may be ignored during the adjusting process
+	Adjusting entries may be made based on estimates
+	
+{Corporate Finance}
+
+1[Generally, a corporation is owned by its] ;d1 ;i5 ;a3 % (5) Ch1, q1
+	Managers
+	Board of Directors
+	Shareholders
+	All the answers are correct
+2[A firm's investment decision is also called the] ;d3 ;i5 ;a2 % (5) Ch1, q3
+	Financing decision
+	Capital budgeting decision
+	Liquidity decision
+	None of the answers are correct
+3[The choice between debt and equity in financing is called the] ;d5 ;i5 ;a1 % (5) Ch1, q4
+	Capital structure decision
+	Investment decision
+	Liquidity decision
+	None of the answers are correct
+4[When shareholders appoint financial managers to run firms and make investment decisions, this is called] ;d5 ;i6 ;a4 % (5) Ch1, q5
+	Agency cost
+	Financing decision
+	Limited liability
+	Separation of ownership and control
+5[Which of the following is NOT an advantage of separation of ownership and management of corporations ?] ;d6 ;i7 ;a4 % (5) Ch1, q6
+	Corporations can exist forever
+	Transfer of ownership can be facilitated without affecting the operations of the firm
+	Professional managers can be hired
+	Agency costs are incurred
+6[The financial goal of a corporation is to] ;d1 ;i6 ;a3 % (5) Ch1, q7
+	Maximize sales
+	Maximize profits
+	Maximize the market value of the firm
+	Maximize managers' benefits
+7[Agency costs are costs incurred when] ;d6 ;i7 ;a3 % (5) Ch1, q8
+	Managers do not attempt to maximize firm value
+	Shareholders incur costs to monitor the managers and influence their actions
+	All the answers are correct
+	None of the answers are correct
+8[Assets such as equipment and raw materials are referred to as] ;d2 ;i4 ;a4 % (5) Ch1, q9
+	Dividends
+	Securities
+	Financial assets
+	Real assets
+9[The decision to pay dividends or repurchase shares is called the] ;d5 ;i5 ;a1 % (5) Ch1, q10
+	Payout decision
+	Financing decision
+	Equity decision
+	None of the answers are correct
+10[Shares owned and not traded on an exchange are sometimes referred to as] ;d4 ;i5 ;a2 % (5) Ch1, q12
+	Asymmetric
+	Closely held
+	Private
+	Public
+11[The minimum acceptable rate of return on an investment is called the] ;d4 ;i6 ;a2 % (5) Ch1, q13
+	Risk
+	Opportunity cost of capital
+	Capital structure decision
+	Interest rate
+12[Which of these forms of business organization offers limited liability for the business ?] ;d2 ;i6 ;a3 % (5) Ch1, q14
+	Sole proprietorship
+	Partnership
+	Professional corporation
+	None of the answers are correct
+13[Which of the following is typically considered an agency cost ?] ;d4 ;i5 ;a1 % (5) Ch1, q15
+	Audit
+	Cost of goods sold
+	Consultant fees
+	Taxes
+14[The present value of $115,000 expected to be received one year from today at an interest rate (discount rate) of 10% per year is] ;d7 ;i6 ;a4 % (5) Ch2, q1
+	$121,000
+	$100,500
+	$110,000
+	$104,545
+15[A two-year discount factor at a discount rate of 10% per year is] ;d7 ;i6 ;a1 % (5) Ch2, q2
+	0.826
+	1.000
+	0.909
+	0.814
+16[If the present value of $444 to be paid at the end of one year is $400, what is the one-year discount factor ?] ;d8 ;i6 ;a1 % (5) Ch2, q3
+	0.9009
+	1.11
+	0.11
+	None of the answers are correct
+17[If you invest $100,000 today at 12% interest rate for one year, what is the amount you will have at the end of the year ?] ;d1 ;i5 ;a2 % (5) Ch2, q4
+	$90,909
+	$112,000
+	$100,000
+	$102,100
+18[The opportunity cost of capital for a risky project is] ;d7 ;i6 ;a3 % (5) Ch2, q5
+	The expected rate of return on a government security having the same maturity as the project
+	The expected rate of return on a well-diversified portfolio of common stocks
+	The expected rate of return on a portfolio of securities of similar risks as the project
+	None of the answers are correct
+19[If the present value of cash flow X is $200, and the present value of cash flow Y is $150, then the present value of the combined cash flow is] ;d1 ;i5 ;a4 % (5) Ch2, q6
+	$200
+	$150
+	$50
+	$350
+20[A charitable organization plans to provide $100,000 per year in perpetuity to needy children. How much would a donor need to provide today to fund this goal? First payment will start one year from today and the interest rate is 10%] ;d6 ;i8 ;a1 % (5) Ch2, q7
+	$1,000,000
+	$10,000,000
+	$100,000
+	$111,000
+21[What is the present value annuity due factor of $1 at a discount rate of 15% for 15 years ?] ;d9 ;i5 ;a4 % (5) Ch2, q8
+	5.8474
+	8.5143
+	7.1324
+	6.7245
+22[Find the present value of a perpetuity that pays $3.40 one year from now and is growing at a constant rate of 3%. The discount rate is 14%] ;d8 ;i5 ;a3 % (5) Ch2, q9
+	$3.40
+	$24.29
+	$30.91
+	$113.33
+23[Jack is expected to retire in 28 years and he wishes to accumulate $750,000 in his retirement fund by that time. If the interest rate is 10% per year, how much should he put into the retirement fund at the end of each year in order to achieve this goal ?] ;d9 ;i5 ;a2 % (5) Ch2, q10
+	$4,559.44
+	$5,588.26
+	$9,118.88
+	$10,018.67
+24[John House has taken a $150,000 mortgage on his house at an interest rate of 6% per year. If the mortgage calls for thirty equal annual payments, what is the amount of each payment ?] ;d9 ;i5 ;a2 % (5) Ch2, q11
+	$14,158.94
+	$10,897.34
+	$16,882.43
+	$17,657.35
+25[What is the present value of a perpetuity that pays $10 per year if the interest rate is 14% ?] ;d6 ;i5 ;a4 % (5) Ch2, q12
+	$10.00
+	$14.00
+	$65.76
+	$71.43
+26[A bank offers the following investments. Which do you prefer ?] ;d8 ;i8 ;a1 % (5) Ch2, q13
+	A stated rate of 10% continuously compounded
+	A stated rate of 10% compounded annually
+	A stated rate of 10% compounded semi-annually
+	A rate of 10% simple interest
+27[You invest $1,000 at a continuously compounded rate of 10%. What is the investment worth after 3 years ?] ;d9 ;i5 ;a2 % (5) Ch2, q14
+	$1,100.00
+	$1,349.86
+	$1,331.00
+	$1,105.17
+28[Your credit card charges interest of 1.5% per month. The company will quote you an APR of what ?] ;d7 ;i5 ;a3 % (5) Ch2, q15
+	1.5%
+	12%
+	18%
+	None of the answers are correct
+	
+{Operations Management}
+
+1[The function that is part of every business organization that produces products and/or delivers services is the ... function.] ;d4 ;i6 ;a3 % (6) Ch1, q1
+	marketing
+	production
+	operations
+	supply chain
+2[Which of the following is a key difference between the production of goods and the delivery of services ?] ;d3 ;i7 ;a4 % (6) Ch1, q2
+	The importance of quality
+	The role of suppliers
+	The importance of customers
+	The feasibility of using inventory
+3[Operations and sales are ... functions; all other functions are ... functions.] ;d8 ;i5 ;a1 % (6) Ch1, q3
+	line / support
+	value-adding / cost-adding
+	systemic / nonsystemic
+	supply chain / value chain
+4[One thing that must be managed in all processes is] ;d4 ;i6 ;a2 % (6) Ch1, q4
+	suppliers
+	variability
+	inventory
+	agility
+5[Viewing decisions in the context of the "big picture" is a key element of this approach.] ;d6 ;i5 ;a4 % (6) Ch1, q5
+	Visual/graphic
+	Tactical
+	Ideal
+	Systems
+6[Measurements taken at various points in the transformation process for control purposes are called] ;d7 ;i8 ;a1 % (6) Ch1, q6
+	feedback
+	tracking signals
+	productivity measurement
+	cost control
+7[A key difference between the production of goods and the performance of services is] ;d2 ;i7 ;a1 % (6) Ch1, q7
+	services generally can't be stored
+	manufacturing can be more labor intensive
+	service is less profitable than manufacturing
+	service work is more interesting than manufacturing work
+8[Operations management includes all of these activities except] ;d2 ;i6 ;a3 % (6) Ch1, q8
+	managing the supply chain
+	maintaining quality
+	assessing consumer wants and needs
+	managing inventories
+9[Which type of variation is the result of a deliberate choice of a business ?] ;d7 ;i4 ;a4 % (6) Ch1, q9
+	Seasonal
+	Trend
+	Assignable
+	Variety
+10[The fact that improvements in a few key factors will have a major impact on operations is associated with this name] ;d5 ;i3 ;a4 % (6) Ch1, q10
+	Ford
+	Smith
+	Taylor
+	Pareto
+11[The "father of scientific management" was] ;d8 ;i2 ;a3 % (6) Ch1, q11
+	Gilbreth
+	Hawthorne
+	Taylor
+	Ford
+12[The key to mass production was] ;d6 ;i8 ;a2 % (6) Ch1, q12
+	automation
+	interchangeable parts
+	low-skilled workers
+	high demand for products
+13[Which one of these is not one of the ethical principles ?] ;d3 ;i5 ;a4 % (6) Ch1, q13
+	Rights
+	Fairness
+	Virtue
+	Utilization
+14[Which of the following is not true about the systems approach ?] ;d8 ;i7 ;a3 % (6) Ch1, q14
+	Is almost always beneficial in decision making
+	Emphasizes interrelationships among subsystems
+	Focuses on achieving efficiency within subsystems
+	Is essential whenever something is being redesigned or improved
+15[The Pareto phenomenon is best represented by which of these phrases ?] ;d7 ;i4 ;a3 % (6) Ch1, q15
+	Waste not, want not
+	A stitch in time saves nine
+	The important few and the trivial many
+	Do it right the first time
+16[The need for supply chain management is increasing for all of the following reasons except] ;d3 ;i6 ;a1 % (6) Ch1, q16
+	labor laws
+	transportation costs
+	competitive pressures
+	inventory management
+17[A key reason that companies resort to outsourcing is to] ;d2 ;i7 ;a2 % (6) Ch1, q17	
+	reduce taxes
+	reduce costs
+	take advantage of supply chain management
+	improve space utilization
 	
 {Basic Spanish}
 	

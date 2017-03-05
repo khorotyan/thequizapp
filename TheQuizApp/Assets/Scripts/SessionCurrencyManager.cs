@@ -16,11 +16,11 @@ public class SessionCurrencyManager : MonoBehaviour
     
     private int currQPrice = 3; // After the perk upgrade, it will change depending on Q difficulty
     private int consecutiveCorrAnss = 0;
-    private float comboMultiplier = 0.2f;
-    private float moneyMultiplier = 1;
     private int questionNumber = 0;
     private int wrongAnswerCount = 0;
-    private float protectedAmount = 0.0f; 
+    public static float moneyMultiplier = 1;
+    public static float comboMultiplier = 0.2f;
+    public static float protectedAmount = 0.0f; 
 
     [HideInInspector]
     public int sessTotalMoney = 0;

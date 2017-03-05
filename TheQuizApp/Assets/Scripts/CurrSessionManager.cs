@@ -34,6 +34,7 @@ public class CurrSessionManager : MonoBehaviour
     private ResultsPageManager resultsPageManager;
     private HelpersDuringSess helpersDuringSess;
     private InfoManager infoManager;
+    private PerkEffectManager perkEffectManager;
     private List<QuestionData> qsFromDivisions;
     private string topicName;
     private int sessionCorrAnsNum;
@@ -50,6 +51,7 @@ public class CurrSessionManager : MonoBehaviour
         resultsPageManager = gameObject.GetComponent<ResultsPageManager>();
         helpersDuringSess = gameObject.GetComponent<HelpersDuringSess>();
         infoManager = gameObject.GetComponent<InfoManager>();
+        perkEffectManager = gameObject.GetComponent<PerkEffectManager>();
 
         nextButton.onClick.AddListener(() => OnNextClick());
 
@@ -114,6 +116,11 @@ public class CurrSessionManager : MonoBehaviour
         // If the user is allowed to click next
         if (canClickNext == true)
         {
+            if (buttons[0].interactable == false) buttons[0].interactable = true;
+            if (buttons[1].interactable == false) buttons[1].interactable = true;
+            if (buttons[2].interactable == false) buttons[2].interactable = true;
+            if (buttons[3].interactable == false) buttons[3].interactable = true;
+
             ManageQShuffle();
 
             answerSelected = false;
@@ -125,6 +132,7 @@ public class CurrSessionManager : MonoBehaviour
             if (currQNumber == sessionQCount + 1)
             {
                 resultsPageManager.UpdateResultsPage(topicName, sessionCurrencyManager.sessTotalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
+                perkEffectManager.UpdatePerksAfterGameEnds(); // Update the perk used statuses
                 SessionTimerManager.canStartTimerSubtracting = false;
             }
         }
@@ -217,6 +225,7 @@ public class CurrSessionManager : MonoBehaviour
 
             // Get the correct answer number after the shuffle
             sessionCorrAnsNum = answerNums.IndexOf(sessionCorrAnsNum) + 1;
+            perkEffectManager.GetCorrectAnswer(sessionCorrAnsNum); // Give the correct answer to the 50/50 Perk
             Debug.Log("Correct Answer : " + sessionCorrAnsNum);
 
             for (int i = 0; i < 4; i++)

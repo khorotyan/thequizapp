@@ -13,6 +13,8 @@ public class StoreManager : MonoBehaviour
     public GameObject mainPanel;
     public GameObject storePagePanel;
 
+    public Button perk5050Button;
+
     [Space(4)]
 
     public GameObject Store5050Obj;
@@ -21,7 +23,7 @@ public class StoreManager : MonoBehaviour
     public GameObject StoreMoreMoneyObj;
     public GameObject StoreBonusTimeObj;
 
-    int store5050Lvl = 0;
+    public int store5050Lvl = 0;
     int storeVaultLvl = 0;
     int storeComboMultLvl = 0;
     int storeMoreMoneyLvl = 0;
@@ -43,6 +45,7 @@ public class StoreManager : MonoBehaviour
         backButton.onClick.AddListener(OnStorePageClose);
 
         AllPerkInfo();
+        LoadPerkData();
     }
 
     // Creates the information of the levels of perks (prices and values)
@@ -68,9 +71,27 @@ public class StoreManager : MonoBehaviour
         storeMoreMoneyInfo[3] = new StoreItemInfo(1500, 2f, 0);
 
         storeBonusTimeInfo[0] = new StoreItemInfo(0, 0, 0);
-        storeBonusTimeInfo[1] = new StoreItemInfo(875, 0.3f, 0.1f);
-        storeBonusTimeInfo[2] = new StoreItemInfo(1450, 0.35f, 0.15f);
-        storeBonusTimeInfo[3] = new StoreItemInfo(2100, 0.4f, 0.2f);
+        storeBonusTimeInfo[1] = new StoreItemInfo(875, 30f, 10f);
+        storeBonusTimeInfo[2] = new StoreItemInfo(1450, 35f, 15f);
+        storeBonusTimeInfo[3] = new StoreItemInfo(2100, 40f, 20f);
+    }
+
+    // Load the real perk data, which is used during the game (not the visual)
+    private void LoadPerkData()
+    {
+        store5050Lvl = loadManager.LoadPerkLevel(0);
+        if (store5050Lvl == 0) perk5050Button.interactable = false; else perk5050Button.interactable = true;
+
+        storeVaultLvl = loadManager.LoadPerkLevel(1);
+        SessionCurrencyManager.protectedAmount = storeVaultInfo[storeVaultLvl].value / 100;
+        
+        storeComboMultLvl = loadManager.LoadPerkLevel(2);
+        SessionCurrencyManager.comboMultiplier = storeComboMultInfo[storeComboMultLvl].value;
+
+        storeMoreMoneyLvl = loadManager.LoadPerkLevel(3);
+        SessionCurrencyManager.moneyMultiplier = storeMoreMoneyInfo[storeMoreMoneyLvl].value;
+
+        storeBonusTimeLvl = loadManager.LoadPerkLevel(4);
     }
     
     // Runs whenever the store opens
@@ -170,6 +191,8 @@ public class StoreManager : MonoBehaviour
             totalMoney -= store5050Price;   
 
             store5050Lvl++;
+            saveManager.SavePerkLevel(store5050Lvl, 0);
+            LoadPerkData();
         }
         else
         {  
@@ -192,6 +215,8 @@ public class StoreManager : MonoBehaviour
             totalMoney -= storeVaultInfo[storeVaultLvl + 1].price;
 
             storeVaultLvl++;
+            saveManager.SavePerkLevel(storeVaultLvl, 1);
+            LoadPerkData();
         }
         else
         { 
@@ -214,6 +239,8 @@ public class StoreManager : MonoBehaviour
             totalMoney -= storeComboMultInfo[storeComboMultLvl + 1].price;
 
             storeComboMultLvl++;
+            saveManager.SavePerkLevel(storeComboMultLvl, 2);
+            LoadPerkData();
         }
         else
         {       
@@ -236,6 +263,8 @@ public class StoreManager : MonoBehaviour
             totalMoney -= storeMoreMoneyInfo[storeMoreMoneyLvl + 1].price;
 
             storeMoreMoneyLvl++;
+            saveManager.SavePerkLevel(storeMoreMoneyLvl, 3);
+            LoadPerkData();
         }
         else
         {
@@ -258,6 +287,8 @@ public class StoreManager : MonoBehaviour
             totalMoney -= storeBonusTimeInfo[storeBonusTimeLvl + 1].price;
 
             storeBonusTimeLvl++;
+            saveManager.SavePerkLevel(storeBonusTimeLvl, 4);
+            LoadPerkData();
         }
         else
         {

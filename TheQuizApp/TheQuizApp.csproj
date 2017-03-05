@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\InfoManager.cs" />
     <Compile Include="Assets\Scripts\LoadManager.cs" />
     <Compile Include="Assets\Scripts\MainScreenManager.cs" />
+    <Compile Include="Assets\Scripts\PerkEffectManager.cs" />
     <Compile Include="Assets\Scripts\QuestionData.cs" />
     <Compile Include="Assets\Scripts\ResultsPageManager.cs" />
     <Compile Include="Assets\Scripts\SaveManager.cs" />

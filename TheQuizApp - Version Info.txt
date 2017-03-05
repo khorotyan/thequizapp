@@ -1,5 +1,7 @@
 TheQuizApp
 
+Release Date - June 5, 2017
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 version 0.10.000 / --- January 14, 2017 --- \
 
@@ -46,7 +48,7 @@ Upcoming:
 3. When the game is exited during the session, save the question numbers
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-version 0.20.000 / --- February xx, 2017 --- \
+version 0.20.000 / --- March 7, 2017 --- \
 
 Added:
 1. The XP System
@@ -72,14 +74,15 @@ Added:
 	If the person clicks yes on the checker page, having enough money will upgrade the perk
 		else a text pops up saying that the user does not have enough money
 	
-	a. 50/50 Perk
-	b. Vault Perk
-	c. Combo Multiplier Perk
-	d. More Money Perk
-	e. Bonus Time Perk
+	a. 50/50 Perk - finished
+	b. Vault Perk - finished
+	c. Combo Multiplier Perk - finished
+	d. More Money Perk - finished
+	e. Bonus Time Perk - work in progress
 
 3. New questions were added 
 	a. 60 vocabulary questions
+	b. 12 US history questions
 
 Changes & Improvements:
 1. Fixed - A bug occurs after the end screen, the last question opens and time goes to negative 
@@ -90,17 +93,49 @@ Changes & Improvements:
 	a. Timer is lowered
 	b. Timer cannot be lower than 20s
 	c. Bonus time depending on the question difficulty is lowered twice
-	
+
+ - Patch 3 / February 19, 2017 -
+
+1. Store purchase mechanics that can adopt to every kind of perk
+2. 12 US history questions
+
+ - Patch 4 / March 5, 2017 -
+
+1. 33 Marketing questions 
+2. 35 Economics questions
+3. A new topic: Financial Accounting (Business), 33 questions
+4. A new topic: Corporate Finance (Business), 28 questions
+5. A new topic: Operations Management (Business), 17 questions 
+6. A program for adding new questions to make question submiting easier
+7. 	a. 50/50 Perk 
+	b. Vault Perk 
+	c. Combo Multiplier Perk 
+	d. More Money Perk
+
 Upcoming:
 
 1. Main screen scrolling issue
 2. When a new level is gained, show the current level change with an animation
+3. Make a different time calculator for the calculation questions
+4. Improve the question adder program to be able to edit the current questions in the question containers
 
 
 
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+version 0.30.000 / --- March 10, 2017 --- \
 
+1. Make the achievements system
+2. Make the results page
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+version 0.40.000 / --- April 23, 2017 --- \
+
+1. Have 4 * 5 topics each having at least 10 questions
+2. Remake the program Design
+3. Make question change animations
+4. Make page change animations
+5. Add 90 History questions
 
 
 
