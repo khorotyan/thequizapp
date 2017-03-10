@@ -30,7 +30,9 @@ public class InfoGetter : MonoBehaviour
         topicName = splitInfo[0];
         int.TryParse(splitInfo[1], out numOfQuestions);
         int.TryParse(splitInfo[2], out startLine);
-        int.TryParse(splitInfo[3], out endLine);
+        //int.TryParse(splitInfo[3], out endLine);
+        startLine += 2;
+        endLine = startLine + numOfQuestions * 5 - 1;
 
         QuestionAnswerExtractor();
 

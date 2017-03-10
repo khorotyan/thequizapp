@@ -7,7 +7,7 @@ public class SessionXPManager : MonoBehaviour {
     private SaveManager saveManager;
     private LoadManager loadManager;
 
-    public static int[] levelXPs = new int[20];
+    public static int[] levelXPs = new int[500];
     
     public static int currLevel = 0;
     public static int totalXP = 0;
@@ -30,6 +30,17 @@ public class SessionXPManager : MonoBehaviour {
         levelXPs[7] = 1500;
         levelXPs[8] = 1925;
         levelXPs[9] = 2400;
+        levelXPs[10] = 2950;
+        levelXPs[11] = 3600;
+        levelXPs[12] = 4300;
+        levelXPs[13] = 5100;
+        levelXPs[14] = 6000;
+        levelXPs[15] = 7000;
+        levelXPs[16] = 8100;
+        levelXPs[17] = 9300;
+        levelXPs[18] = 10600;
+        levelXPs[19] = 12000;
+        levelXPs[20] = 13500;
 
         saveManager = gameObject.GetComponent<SaveManager>();
         loadManager = gameObject.GetComponent<LoadManager>();

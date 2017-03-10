@@ -1,0 +1,514 @@
+% d4 - difficulty is 4 out of 9 (kind of easy, 1 - 9) (;d1 - Most of the people must know)
+% i8 - the interesting rate of the question is 8 out of 9 (very interesting, 1 - 9) (i9 - advertising)
+% a3 - the third one is the correct answer (the answer will be encrypted later)
+% http://connect.customer.mheducation.com/subjects/
+% http://highered.mheducation.com/sites/0078026423/student_view0/chapter1/multiple_choice_quiz.html - (1) Criminology
+% http://highered.mheducation.com/sites/0072564938/student_view0/chapter1/multiple_choice_quiz.html# - (2) Criminal Investigation
+% https://highered.mheducation.com/sites/0072413875/student_view0/chapter1/chapter_objectives.html - (3) Social Psychology
+% http://highered.mheducation.com/sites/0078035295/student_view0/online_learning_center0/chapter1/multiple_choice_quiz.html - (4) Social Psychology
+% http://highered.mheducation.com/sites/0072878274/student_view0/chapter1/section1/multiple_choice_quiz.html - (5) Philosophy
+% http://highered.mheducation.com/sites/076742011x/student_view0/chapter1/multiple_choice.html - (6) Philosophy
+% http://highered.mheducation.com/sites/0078026768/student_view0/chapter1/multiple_choice_quiz.html - (7) Sociology
+% http://highered.mheducation.com/sites/0078026660/student_view0/chapter1/multiple_choice_quiz.html# - (8) Sociology
+
+{Criminology}
+
+1[Which of the following phrases does not define criminology ?] ;d4 ;i6 ;a2 % (1), Ch1 - q1
+    it is a scientific study of making laws and the breaking of laws
+    it is a subjective view of why crime occurs
+    it is society's reaction to the breaking of law
+    it adopts methods of study from all the social and behavioral sciences
+2[Which of the following is a misconception about the study of crime ?] ;d3 ;i7 ;a3 % (1), Ch1 - q2
+    criminologists utilize a broad scientific perspective
+    criminology studies street crime, corporate, and global crimes
+    crime is a local matter
+    criminology includes the study of crime, penal codes, and deviance
+3[Criminologists are primarily interested in the study of terrorism because] ;d3 ;i5 ;a1 % (1), Ch1 - q3
+    it is at the hub of many other forms of criminality
+    large numbers of people die
+    it is a foreign-based crime
+    most people do not understand its motivation
+4[What crime does the Taliban use to fund its terrorist activities ?] ;d7 ;i5 ;a4 % (1), Ch1 - q4
+    money laundering
+    computer crime
+    destruction of cultural property
+    illicit drug trafficking
+5[Money laundering is described as] ;d2 ;i6 ;a2 % (1), Ch1 - q5
+    only required for drug money
+    an activity aimed at making illegally obtained finds appear legitimate
+    required for both illegally and legally obtained funds
+    none of the answers is correct
+6[Which type of enterprise has terrorist operatives used to infiltrate legal business ?] ;d3 ;i7 ;a1 % (1), Ch1 - q6
+    import-export firms
+    construction companies
+    new media outlets
+    restaurants
+7[Which of the following commonalities do both Lenin and Hitler's terrorists, and the Taliban share ?] ;d4 ;i8 ;a3 % (1), Ch1 - q7
+    religious motivation
+    shared vision
+    destruction of cultural property
+    millennial goals
+8[Who coined the term "criminology" to encompass the scientific concern about crime ?] ;d9 ;i3 ;a1 % (1), Ch1 - q8
+    Raffaele Garofalo
+    Cesare Lombroso
+    Edwin Sutherland
+    Emile Durkheim
+9[Who was among the first researchers to analyze empirical data in a search for the biological causes of crime ?] ;d9 ;i3 ;a3 % (1), Ch1 - q9
+    Paul Topinard
+    Edwin Sutherland
+    Cesare Lombroso
+    Emile Durkheim
+10[In the 1920s most scholars attributed the cause of crime to] ;d2 ;i6 ;a4 % (1), Ch1 - q10
+    demons
+    birth defects
+    psychological imbalance
+    influx of immigration
+11[Deviance is defined as behavior that] ;d8 ;i5 ;a2 % (1), Ch1 - q11
+    violates civil laws
+    violates social norms, including laws
+    violates all laws
+    is considered bizarre
+12[Why should society not make all behavior that is considered deviant a crime ?] ;d7 ;i5 ;a1 % (1), Ch1 - q12
+    society would become very rigid
+    society is unsure of who would enforce the laws
+    governments would victimize citizens
+    society is too diverse
+13[Which of the following is considered a primary interest to most criminologists ?] ;d7 ;i7 ;a3 % (1), Ch1 - q13
+    deviant behavior
+    informal norm violations
+    criminal behavior
+    civil norm violations
+14[Which of the following acts did early societies impose punishment for violating ?] ;d6 ;i8 ;a4 % (1), Ch1 - q14
+    murder
+    theft
+    rape
+    treason
+15[Which of the following views suggests that law expresses the values of the ruling class in a society ?] ;d7 ;i5 ;a2 % (1), Ch1 - q15
+    consensus model
+    conflict model
+    interactionist model
+    humanist model
+16[Which model argues that when an act offends the collective conscience of a society it should be defined as criminal ?] ;d8 ;i6 ;a1 % (1), Ch1 - q16
+    consensus
+    conflict
+    interactionist
+    feminist
+17[What did Edwin Sutherland suggest criminologists study to explain crime ?] ;d9 ;i3 ;a1 % (1), Ch1 - q17
+    the process of breaking laws
+    failure of educational systems
+    law abiding behavior
+    child-parent relationships
+18[What factors do most contemporary criminologists attribute to producing strain among social groups and lawbreaking behaviors ?] ;d4 ;i7 ;a3 % (1), Ch1 - q18
+    biological causes
+    psychological causes
+    economic and social conditions
+    vague legal interpretations
+19[Which of the following is NOT considered a typical societal reaction to lawbreaking ?] ;d5 ;i5 ;a4 % (1), Ch1 - q19
+    irrationality
+    political motivations
+    emotionality
+    productive
+20[In what year did the term "criminal justice system" become popular ?] ;d9 ;i2 ;a3 % (1), Ch1 - q20
+    1893
+    1927
+    1967
+    1982
+
+{Criminal Investigation}
+
+1[Which of the following was NOT a reason for public demands for governmental measures to control crime in eighteenth century England ?] ;d4 ;i5 ;a1 % (2), Ch1 - q1
+	Improvements in agriculture
+	Population growth in the cities
+	Growth of slums in the cities
+	Industrial Revolution
+2[The ... were Londoners that hurried to the scenes of reported crimes and began investigations.] ;d9 ;i3 ;a2 % (2), Ch1 - q2
+    Covent Garden Journal
+    Bow Street Runners
+    Bobbies
+    Scotland Yard
+3[Which American city passed an ordinance establishing America’s first paid, daylight police force ?] ;d9 ;i5 ;a1 % (2), Ch1 - q3
+    Philadelphia
+    New York City
+    Chicago
+    New Orleans
+4[Which of the following are among the recorded achievements of the Pinkerton detective agency ?] ;d8 ;i8 ;a3 % (2), Ch1 - q4
+    Creating the blue uniforms American police officers eventually adopted
+    Development of a rogues’ gallery
+    Discovering and foiling an assassination attempt on President-Elect Lincoln
+    Founding of the U.S. Secret Service
+5[Which of the following were instituted by Chief Detective Thomas Byrnes in an effort to assist New York City police detectives recognize criminals ?] ;d9 ;i6 ;a1 % (2), Ch1 - q5
+    Mulberry Street Morning Parade
+    Anthropometry
+    Pinkerton
+    Due process revolution
+6[Which of the following are responsibilities of the U.S. Secret Service ?] ;d7 ;i7 ;a1 % (2), Ch1 - q6
+    Combat counterfeiting
+    Follow-up investigation of Internal Revenue Service matters
+    Guard the governors of each state
+    Investigation of bootleggers
+7[Which of the following were the major scientific systems for personal identification of criminals ?] ;d6 ;i6 ;a2 % (2), Ch1 - q7
+    Anthropometry, dactylography, and RNA typing
+    Anthropometry, dactylography and DNA typing
+    Anthropometry, the Bertillon system, and DNA typing
+    All the answers are correct
+8[What is the term utilized to describe the scientific study of fingerprints as a means of criminal identification ?] ;d6 ;i5 ;a4 % (2), Ch1 - q8
+    Henry system
+    West case
+    Rogues gallery
+    Dactylography
+9[... was the first country to utilize dactylography as a means of criminal identification.] ;d9 ;i4 ;a4 % (2), Ch1 - q9
+    China
+    Persia
+    Ancient Rome
+    England
+10[Which of the following statements regarding fingerprint is most accurate ?] ;d8 ;i5 ;a3 % (2), Ch1 - q10
+    Fingerprinting was utilized on official papers in fourteenth century England
+    The first country to use fingerprinting as a method of criminal identification was China
+    John Perkinje named nine standard types of fingerprint patters in 1823
+    Ancient Rome
+11[Who published perhaps the first reported findings on the potential use of fingerprints for criminal identification ?] ;d9 ;i3 ;a2 % (2), Ch1 - q11
+    Sir Francis Galton
+    Henry Faulds
+    Juan Vucetich
+    William Herschel
+12[The final breakthrough for the fingerprint method of personal identification was made by] ;d9 ;i3 ;a1 % (2), Ch1 - q12
+    Edward Henry
+    Sir Francis Galton
+    Joseph Faurot
+    William Herschel
+13[Which region of the world might now utilize the Vucetich system ?] ;d9 ;i3 ;a3 % (2), Ch1 - q13
+    England
+    United States
+    South America
+    India
+14[Which of the following best describes the significance of the Lydia Mann case ?] ;d8 ;i5 ;a1 % (2), Ch1 - q14
+    It was the first time DNA typing was used in a criminal case
+    It was the first time the Henry system was used in a criminal case
+    It was the first time the Vucetich system was used in a criminal case
+    It was solved by using the Bertillon system
+15[Which case first used DNA typing in the United States ?] ;d9 ;i5 ;a2 % (2), Ch1 - q15
+    Mann
+    Orlando
+    Vucetich
+    Enderby
+16[The increase in the frequency of shooting in the United States has made ... extremely important.] ;d4 ;i7 ;a4 % (2), Ch1 - q16
+    Fingerprint identification
+    DNA typing
+    Ammunition typing
+    Firearms identification
+17[Who is credited with making the first successful attempt to identify a murderer from a bullet recovered from the body of the victim ?] ;d9 ;i6 ;a1 % (2), Ch1 - q17
+    Henry Goddard
+    Paul Jeserich
+    Calvin Goddard
+    Charles Waite
+18[... established the first full forensic laboratory in the United States.] ;d9 ;i5 ;a2 % (2), Ch1 - q18
+    Paul Kirk
+    August Vollmer
+    John Fisher
+    None of the answers is correct
+19[What is the significance of the Harrison Act ?] ;d8 ;i6 ;a1 % (2), Ch1 - q19
+    It made distribution of non-medical drugs a federal crime.
+    It created the DEA.
+    It created the Bureau of Narcotics and Dangerous Drugs.
+    It created the FBI.
+20[Which of the following best describes the parallels between J. Edgar Hoover and Allan Pinkerton ?] ;d9 ;i4 ;a4 % (2), Ch1 - q20
+    Both were Directors of the FBI
+    Both ran the Pinkerton detective agency
+    Both were pioneers in DNA typing
+    Both understood the importance and uses of information, records and publicity
+21[The first useable ... was produced in 1921.] ;d9 ;i6 ;a1 % (2), Ch1 - q21
+    Polygraph
+    Blood typing procedure
+    Microscopic evidence
+    Forensic laboratory
+22[The standard treatise for the field of criminal investigation developed by Harry Soderman and John O’Connell was] ;d9 ;i5 ;a2 % (2), Ch1 - q22
+    Crime Investigation
+    Modern Criminal Investigation
+    Questioned Documents
+    Classification and Use of Fingerprints
+23[The undisputed father of criminal identification is] ;d8 ;i7 ;a3 % (2), Ch1 - q23
+    Allan Pinkerton
+    J. Edgar Hoover
+    Alphonse Bertillon
+    Edward Rucker
+24[Which of the following statements is most accurate ?] ;d8 ;i8 ;a4 % (2), Ch1 - q24
+    Pinkerton was a government agency
+    DNA typing guarantees convictions
+    The FBI is the only crime laboratory capable of analyzing DNA evidence
+    The FBI was the first public sector laboratory to accept DNA evidence for analysis
+25[What was the first step in the evolution of firearms identification ?] ;d4 ;i7 ;a1 % (2), Ch1 - q25
+    Bullet analysis
+    Distance analysis
+    Cartridge analysis
+    DNA typing
+
+{Social Psychology}
+
+1[Social psychology is] ;d4 ;i6 ;a1 % (3), Ch1 - q1
+	the scientific study of how people think about, influence, and relate to one another
+	the scientific study of how people act
+	the scientific study of how people love and hate
+	the scientific study of how people understand and conflict with one another
+2[Social psychology ... than personality psychology.] ;d6 ;i7 ;a3 % (3), Ch1 - q2
+    has more famous theorists
+    focuses on the differences between individuals more
+    has a shorter history
+    focuses on the private internal functioning between individuals more
+3[Social psychology] ;d8 ;i5 ;a2 % (3), Ch1 - q3
+    is the most important perspective in viewing and understanding ourselves
+    is one important perspective from which we can view and understand ourselves
+    is the real explanation that lets us understand and view ourselves
+    is an inclusive perspective from which we can view and understand ourselves
+4[Social representations are] ;d7 ;i7 ;a4 % (3), Ch1 - q5
+    the enduring behaviors, ideas, attitudes, and traditions shared by a group of people
+    objective situations
+    object representations of real world actions
+    our most important and most unexamined convictions
+5[Naturalist fallacy is] ;d3 ;i4 ;a1 % (3), Ch1 - q6
+    the error of defining what is good in terms of what is observable
+    a flawed scientific description
+    that all psychology can be defined through nature
+    the error of defining what is normal is observable
+6[Hindsight bias] ;d5 ;i5 ;a3 % (3), Ch1 - q7
+    is conducive to an underestimation of our own intellectual powers
+    shows that common sense is nearly always scientifically wrong
+    is the tendency to exaggerate after learning an outcome
+    is the tendency to see the objective situation incorrectly
+7[A testable proposition that describes a relationship that may exist between events is] ;d2 ;i5 ;a1 % (3), Ch1 - q8
+    hypothesis
+    theory
+    research topic
+    direction to research
+8[The study of the naturally occurring relationships among variables is] ;d6 ;i5 ;a2 % (3), Ch1 - q9
+    experimental research
+    correlational research
+    field research
+    interpretative research
+9[The procedure in which every person in the population being studied has an equal chance of inclusion is] ;d4 ;i5 ;a4 % (3), Ch1 - q10
+    survey research
+    equal sample
+    controlled sample
+    random sample
+10[The experimental factor that a researcher manipulates is a(n)] ;d5 ;i5 ;a4 % (3), Ch1 - q11
+    dependent variable
+    hypothesis
+    control
+    independent variable
+11[The process of assigning participants to the conditions of an experiment such that all persons have the same chance of being in a(n)] ;d6 ;i5 ;a2 % (3), Ch1 - q12
+    ethics of experimentation
+    random assignment
+    mundane realism
+    informed consent
+12[Mundane realism is] ;d8 ;i6 ;a3 % (3), Ch1 - q13
+    performing the experiment in the real world
+    when the experiment is boring and repetitive
+    the degree to which an experiment is similar to everyday conditions
+    the experimenter's biases in the experiment
+13[An experiment would have experimental realism if it] ;d7 ;i6 ;a1 % (3), Ch1 - q14
+    absorbs and involves its participants
+    is carried out in the field
+    was similar to everyday situations
+    tested an everyday hypothesis
+14[Experimenters standardize their instructions to subjects in order to] ;d8 ;i8 ;a1 % (3), Ch1 - q15
+    minimize demand characteristics
+    insure accuracy in the results
+    appear neutral to the group
+    compare different groups
+15[Which of the answers is False ? The American and British Psychological Associations] ;d3 ;i7 ;a3 % (3), Ch1 - q16
+    protect people from harm and significant discomfort
+    tell potential participants enough about the experiment to enable their informed consent
+    fully explain the experiment before preceding
+    treat information about the individual participants confidentially
+16[Informed consent is] ;d5 ;i4 ;a2 % (3), Ch1 - q17
+    American Psychological Association guideline
+    an ethical principle
+    law in the United States and Britain
+    a legal term used in experimental research
+17[An experimenter manipulates what variable ?] ;d8 ;i3 ;a2 % (3), Ch1 - q18
+    control
+    independent
+    dependent
+    experimental
+
+{Philosophy}
+
+1[Who is a philosopher, in the original sense of the world ?] ;d3 ;i5 ;a3 % (6), Ch1 - q1
+	Someone who studies the stars and planets
+	A person primarily interested in the truth about moral matters
+	A lover and pursuer of wisdom, regardless of the subject matter
+	A clever and tricky arguer
+2[Which is a common characteristic of philosophical questions ?] ;d2 ;i7 ;a2 % (6), Ch1 - q2
+    They are strictly empirical questions
+    They involve fundamental concepts that are unavoidable by the thoughtful person
+    They are purely semantic questions
+    They aren't relevant to ordinary, everyday situations
+3[Which is the branch of philosophy that studies issues concerning art and beauty ?] ;d4 ;i5 ;a1 % (6), Ch1 - q3
+    Aesthetics
+    Epistemology
+    Logic
+    Metaphysics
+4[Which of the following branches of philosophy does not involve questions related to values ?] ;d4 ;i6 ;a2 % (6), Ch1 - q4
+    Moral
+    Metaphysics
+    Social
+    Political
+5[Which of the following is a common myth about philosophy ?] ;d4 ;i7 ;a4 % (6), Ch1 - q5
+    Philosophical questions are hard to answer, and the answers often give rise to further philosophical questions
+    Reading philosophy in a way that makes it understandable can be hard work
+    Philosophy deals with important and fundamental questions left unanswered by more specialized disciplines
+    Philosophical questions are simply semantic disputes in which no opinion is any better or worse than another is
+6[In philosophy, what is an argument ?] ;d3 ;i5 ;a2 % (6), Ch1 - q6
+    A factual disagreement between people
+    Giving reasons for a belief
+    A shouting match
+    Any verbal attempt to persuade
+7[What fallacy is it when an argument attacks the person rather than the person's beliefs ?] ;d3 ;i5 ;a4 % (6), Ch1 - q7
+    Red Herring
+    Begging the Question
+    Straw Man
+    Argumentum ad Hominem
+8[What fallacy is it when an argument assumes only two options when in fact there are more ?] ;d2 ;i4 ;a2 % (6), Ch1 - q8
+    Straw Man
+    Black or White Fallacy
+    Begging the Question
+    Appeal to Emotion
+9["I don't agree with Jones when she says we should wait for a trial, and I'll tell you why. I don't approve of letting someone get away with murder! That's why I say let's hang him now!" What fallacy does this most clearly illustrate ?] ;d7 ;i8 ;a4 % (6), Ch1 - q9
+    Straw Man
+    Black or White Fallacy
+    Argumentum ad Hominem
+    Red Herring
+10[What must be the case for an argument to succeed with a rational person ?] ;d2 ;i6 ;a4 % (6), Ch1 - q10
+    The premises must be acceptable
+    The conclusion must be acceptable
+    The premises must logically support the conclusion
+    The premises must be acceptable and they must logically support the conclusion
+
+{Sociology}
+
+1[Sociology is] ;d2 ;i4 ;a2 % (8), Ch1 - q1
+    an awareness of the relationship between an individual and the wider society
+	the scientific study of social behavior and human groups
+	concerned with what one individual does or does not do
+	very narrow in scope
+2[Which sociologist introduced the concept of the sociological imagination ?] ;d8 ;i3 ;a4 % (8), Ch1 - q2
+    Richard Schaefer
+    Auguste Comte
+    Harriet Martineau
+    C. Wright Mills
+3[Durkheim's research suggested that] ;d7 ;i7 ;a2 % (8), Ch1 - q3
+    Catholics had much higher suicide rates than Protestants
+    there seemed to be higher rates of suicide in times of peace than in times of war and revolution
+    civilians were more likely to take their lives than soldiers
+    suicide is a solitary act, unrelated to group life
+4[Anomie refers to] ;d8 ;i7 ;a3 % (8), Ch1 - q6
+    a construct, or a made-up model, that serves as a measuring rod against which actual cases can be evaluated
+    the study of small groups
+    the loss of direction felt in a society when social control of individual behavior has become ineffective
+    a set of statements that seeks to explain problems, actions, or behavior
+5[Weber taught his students that they should employ what in their intellectual work ?] ;d9 ;i2 ;a2 % (8), Ch1 - q7
+    anomie
+    Verstehen
+    the sociological imagination
+    microsociology
+6[Which sociological perspective holds that if an aspect of social life does not contribute to a society's stability or survival if it does not serve some identifiably useful function or promote value consensus among members of society ?] ;d7 ;i5 ;a4 % (8), Ch1 - q8
+    conflict perspective
+    interactionist perspective
+    microsociology
+    functionalist perspective
+7[One function that a university serves is to hold down unemployment. This is an example of what kind of function ?] ;d7 ;i6 ;a3 % (8), Ch1 - q9
+    dysfunction
+    manifest function
+    latent function
+    conflict function
+8[Which sociological perspective assumes that social behavior is best understood in terms of tension between competing groups ?] ;d3 ;i7 ;a1 % (8), Ch1 - q10
+    conflict perspective
+    interactionist perspective
+    microsociology
+    functionalist perspective
+9[Which perspective has begun to study a new form of commuter behavior called "slugging" ?] ;d9 ;i3 ;a1 % (8), Ch1 - q11
+    interactionist perspective
+    conflict perspective
+    functionalist perspective
+    macrosociology
+10[Which theoretical perspective would examine sports on the micro level by focusing on how day-to-day social behavior is shaped by the distinctive norms, values, and demands of the world of sports ?] ;d8 ;i6 ;a3 % (8), Ch1 - q12
+    functionalist perspective
+    conflict perspective
+    interactionist perspective
+    both functionalist and conflict perspectives
+11[Which sociologist below tried to establish a juvenile court system ?] ;d9 ;i4 ;a2 % (8), Ch1 - q13
+    Charles Horton Cooley
+    Jane Addams
+    Robert Merton
+    Harriet Martineau
+12[Which sociologist below made a major contribution to society through his in-depth studies of urban life, both black and white ?] ;d8 ;i5 ;a1 % (8), Ch1 - q14
+    W.E.B. DuBois
+    Robert Merton
+    August Comte
+    Charles Horton Cooley
+13[Within sociology, a/an ... is a set of statements that seeks to explain problems, actions, or behavior.] ;d4 ;i6 ;a1 % (8), Ch1 - q15
+    theory
+    hypothesis
+    operational definition
+    correlation
+14[Herbert Spencer] ;d9 ;i6 ;a1 % (8), Ch1 - q16
+    applied the concept of evolution of the species to societies
+    felt compelled to correct and improve society
+    argued that it is "unnatural" that some people are rich while others are poor
+    all the answers are correct
+15[The term ... refers to a construct or model for evaluating specific cases.] ;d7 ;i3 ;a3 % (8), Ch1 - q17
+    operational definition
+    theory
+    ideal type
+    Verstehen
+16[Thinking of society as a living organism in which each part of the organism contributes to its survival is a reflection of which theoretical perspective ?] ;d7 ;i7 ;a2 % (8), Ch1 - q19
+    interactionist
+    functionalist
+    conflict
+    feminist
+17[... functions of institutions are open, stated, and conscious.] ;d9 ;i2 ;a1 % (8), Ch1 - q20
+    Manifest
+    Latent
+    Dys
+    Structural
+18[Latent functions are] ;d8 ;i6 ;a3 % (8), Ch1 - q21
+    open, stated, and conscious
+    disruptive and threaten stability
+    unconscious and/or unintended
+    destructive
+19[The ... perspective generalizes about everyday forms of social interaction in order to explain society as a whole.] ;d8 ;i3 ;a3 % (8), Ch1 - q22
+    conflict
+    functionalist
+    interactionist
+    feminist
+20[In the nineteenth century, before the term feminist perspective could even be coined, the ideas behind this major theoretical approach appeared in the writings of] ;d9 ;i5 ;a2 % (8), Ch1 - q23
+    Karl Marx
+    Ida Wells-Barnett
+    Charles Horton Cooley
+    Carol Brooks Gardner
+21[Erving Goffman's dramaturgical approach, which postulates that people present certain aspects of their personalities while obscuring other qualities, is derivative of what major theoretical perspective ?] ;d8 ;i6 ;a1 % (8), Ch1 - q25
+    interactionist
+    functionalist
+    conflict
+    feminist
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

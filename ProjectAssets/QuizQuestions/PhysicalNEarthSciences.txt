@@ -1,0 +1,482 @@
+% d4 - difficulty is 4 out of 9 (kind of easy, 1 - 9) (;d1 - Most of the people must know)
+% i8 - the interesting rate of the question is 8 out of 9 (very interesting, 1 - 9) (i9 - advertising)
+% a3 - the third one is the correct answer (the answer will be encrypted later)
+% http://connect.customer.mheducation.com/subjects/
+% http://glencoe.com/sites/alabama/student/science/index.html
+% http://glencoe.mheducation.com/sites/007877800x/student_view0/unit1/chapter1/section_1_self-check_quiz-eng_.html - (1) Life Science
+% http://glencoe.mheducation.com/sites/0078778026/student_view0/unit1/chapter1/section_1_self-check_quiz-eng_.html - (2) Earth Science
+% http://highered.mheducation.com/sites/0072315474/student_view0/chapter1/multiple_choice_quiz.html - (3) Environmental Science
+% http://glencoe.mheducation.com/sites/0010122009/student_view0/chapter1/practice_quiz.html - (4) Environmental Science
+% https://highered.mheducation.com/sites/0073031208/student_view0/chapter1/multiple_choice.html - (5) Biology
+% https://highered.mheducation.com/sites/0072351136/student_view0/chapter1/chapter_quiz.html - (6) Anatomy
+% http://highered.mheducation.com/sites/0073402613/student_view0/chapter1/index.html - (7) Organic Chemistry
+% http://highered.mheducation.com/sites/0072495855/student_view0/chapter1/simple_multiple_choice.html - (8) Anatomy
+% http://highered.mheducation.com/sites/0078458137/student_view0/self-check_quizzes.html - (9) Physics
+% http://glencoe.mheducation.com/sites/0078600510/student_view0/chapter_review_quizzes.html - (10) Physics
+% http://highered.mheducation.com/sites/0072482621/student_view0/chapter1/multiple_choice_quiz.html - (11) Astronomy
+% http://glencoe.mheducation.com/sites/0010202009/student_view0/chapter1/online_quiz.html - (12) Astronomy
+% http://glencoe.mheducation.com/sites/0078778328/student_view0/chapter1/index.html - (13) The Nature of Matter
+% http://glencoe.mheducation.com/sites/0021364567/student_view0/chapter1/index.html - (14) Environmental Science
+
+{Environmental Science}
+
+1[To say that environmental science is mission oriented means it is] ;d3 ;i5 ;a3 % (4) Ch1, q1
+	a highly organized endeavor
+	essentially an information gathering endeavor
+	oriented toward solving problems
+	designed to understand relationships
+2[The main problem facing environmental science is to identify] ;d4 ;i6 ;a4 % (4) Ch1, q2
+    how environmental problems occur
+    socially acceptable solutions to environmental problems
+    practical solutions to environmental problems
+    all the answers are correct
+3[... is considered the catalyst of modern awareness of the threat of toxic pollution and the notion of environmentalism.] ;d9 ;i3 ;a2 % (4) Ch1, q3
+    Teddy Roosevelt
+    Rachel Carson
+    Gifford Pinchot
+    John Muir
+4[About ... of the world's people currently lack access to clean water, adequate diet, basic sanitation, and other essential needs.] ;d4 ;i6 ;a4 % (4) Ch1, q4
+    10 million
+    100 million
+    500 million
+    1 billion
+5[Sustainable development means] ;d2 ;i5 ;a1 % (4) Ch1, q5
+    improving people's lives in the present in a way that can continue far into the future
+    providing ever-increasing amounts of adequate housing
+    continued growth indefinitely
+    utilizing an ever-increasing quantity of natural resources
+6[Indigenous peoples are important in environmental considerations because] ;d6 ;i7 ;a4 % (4) Ch1, q6
+    their homelands contain natural habitats least disturbed by humans
+    their homelands contain a huge proportion of earth's biodiversity
+    their languages represent encoded knowledge of nature that is irreplaceable
+    all the answers are correct
+7[The earliest documented recognition that misuse of the natural environment can have nasty consequences was] ;d5 ;i7 ;a4 % (4) Ch1, q7
+    George Perkins Marsh's 1864 publication of (ital)Man and Nature(/ital)
+    Rachel Carson's Silent Spring, alerting the public to the dangers of pollution in 1962
+    Roosevelt's warnings about overuse a century ago
+    Plato's writings 2500 years ago
+8[The human development index, used as a general indicator of human wellbeing, is based on measures such as] ;d3 ;i6 ;a4 % (4) Ch1, q8
+    the number of TV sets, VCRs, and CD players per household
+    the number of automobiles per household, miles driven, pounds of resources used, and so forth
+    per capita waste production
+    life expectancy, literacy rate, and availability of clean water
+9[The position that nature deserves to be protected in its own right is called] ;d7 ;i4 ;a1 % (4) Ch1, q9
+    biocentric preservation
+    utilitarian conservation
+    environmentalism
+    global environmentalism
+10[... constitutes 4.5 percent of the world's people yet produces 50 percent of all toxic waste.] ;d3 ;i7 ;a4 % (4) Ch1, q10
+    Japan
+    Germany
+    Russia
+    The United States
+11[There is widespread global interest in China's attempts to deal with environmental issues because] ;d5 ;i8 ;a4 % (4) Ch1, q16
+    increasing economic activity has increased China's demand for goods and raw materials
+    pollution generated in China impacts other nations, including the United States
+    China is the world's largest producer of many pollutants, including carbon dioxide
+    all the answers are correct
+12[The first Nobel Prize for environmental action was awarded] ;d9 ;i4 ;a3 % (4) Ch1, q18
+    in 1912 to John Muir
+    in 1973 to David Brower
+    in 2004 to Wangari Maathai
+    in 1935 to Aldo Leopold
+13[There is concern over the continued ability to provide adequate food for our growing population because] ;d2 ;i8 ;a1 % (4) Ch1, q19
+    2/3 of all agricultural lands show signs of degradation
+    there is little corporate interest in food production
+    agriculture has not benefited from modern technological advancements
+    none of the answers is correct
+14[Critics of sustainable development suggest that we are limited by] ;d4 ;i7 ;a4 % (4) Ch1, q20
+    non-renewable resources
+    the capacity of the biosphere to absorb waste
+    newly developed renewable technologies
+    non-renewable resources and the capacity of the biosphere to absorb waste
+
+{Earth Science}
+
+1[Which is NOT used to predict weather today ?] ;d2 ;i5 ;a2 % (2) Ch1, q1
+	satellites
+	mythology
+	radar
+	weather balloons
+2[To ensure that you have a valid experiment, it must be] ;d4 ;i5 ;a2 % (2) Ch1, q2
+    proven correct
+    repeatable
+    complicated
+    scientific fact
+3[One of the first cultures to develop instruments to study the weather was the] ;d6 ;i6 ;a4 % (2) Ch1, q3
+    British
+    Americans
+    Mexicans
+    Italians
+4[Why do scientists perform experiments ?] ;d7 ;i4 ;a1 % (2) Ch1, q4
+    to test the validity of a hypothesis
+    because they are paid to do so
+    to prove that their hypotheses are correct
+    so they can draw conclusions
+5[What can cause an experiment to be inaccurate ?] ;d2 ;i4 ;a3 % (2) Ch1, q5
+    changing variables
+    drawing conclusions
+    not enough data
+    forming a hypothesis
+6[How old is technology ?] ;d4 ;i7 ;a4 % (2) Ch1, q6
+    millions of years old
+    only 25 years or so
+    about a century old
+    thousands of years old
+7[How often are scientific theories proved wrong ?] ;d1 ;i2 ;a2 % (2) Ch1, q7
+    They are neither proved nor disproved
+    sometimes
+    never
+    always
+8[What is the correct approach to doing science ?] ;d4 ;i6 ;a3 % (2) Ch1, q8
+    rely on mythology and stories to explain the natural world
+    form your hypothesis after you have gathered data
+    experiment to test a hypothesis
+    draw conclusions early
+9[What is a hypothesis ?] ;d4 ;i5 ;a3 % (2) Ch1, q9
+    a wild guess
+    an experiment
+    an educated guess
+    a conclusion
+10[Which of the following is an example of science being performed ?] ;d3 ;i6 ;a4 % (2) Ch1, q10
+    watching television
+    an astronaut flying the space shuttle
+    heating your room with a space heater
+    discovering why salt melts ice
+11[Upon what event did the ancient Egyptians develop the first calendar ?] ;d5 ;i7 ;a2 % (2) Ch1, q11
+    when the Sun rose
+    when to plant crops
+    when the Moon changed
+    when the snow fell
+12[The difference between a theory and a law is that] ;d5 ;i5 ;a1 % (2) Ch1, q12
+    a law is scientific fact
+    a theory describes the natural world
+    a law explains the natural world
+    a theory is scientific fact
+13[What is the first step in solving a problem in a scientific way ?] ;d2 ;i4 ;a1 % (2) Ch1, q13
+    identifying the problem
+    drawing conclusions
+    developing a hypothesis
+    performing an experiment
+14[What is the final step in experiments ?] ;d1 ;i4 ;a4 % (2) Ch1, q14
+    developing a hypothesis
+    identifying the problem
+    eliminating bias
+    drawing conclusions
+15[You are conducting an experiment to discover which brand of mosquito repellent works best. In this experiment, the brand of mosquito repellent is the] ;d7 ;i6 ;a3 % (2) Ch1, q15
+    constant
+    control
+    independent variable
+    dependent variable
+16[An example of a problem that science cannot solve is ] ;d2 ;i5 ;a2 % (2) Ch1, q16
+    disease
+    crime
+    telecommunications
+    travel
+17[Which topic is not studied in Earth science ?] ;d1 ;i4 ;a3 % (2) Ch1, q17
+    the solar system
+    weather
+    the human brain
+    volcanoes
+18[What happens when there's bias in an experiment ?] ;d3 ;i6 ;a3 % (2) Ch1, q18
+    The hypothesis is proved wrong
+    The results are more accurate
+    Personal opinion gets in the way
+    The experiment is not repeatable
+19[The ... was the first instrument developed to study weather.] ;d8 ;i6 ;a1 % (2) Ch1, q19
+    rain gauge
+    thermometer
+    hydrometer
+    barometer
+20[Why is scientific information published in journals ?] ;d3 ;i6 ;a3 % (2) Ch1, q20
+    to make money for scientists
+    to show how accurate a scientist's data are
+    so others can build upon that knowledge
+    to show that experiments on certain subjects should no longer occur
+
+{Life Science}
+
+1[When a scientist classifies a newly discovered plant, its ... is studied.] ;d8 ;i3 ;a4 % (1) Ch1, q1
+	biogenesis
+	transpiration
+	variable
+	phylogeny
+2[When a bright light shines in your eyes, you close your eyelids quickly. What is the bright light ?] ;d2 ;i5 ;a3 % (1) Ch1, q2
+    a control
+    a classification
+    a stimulus
+    a predictor
+3[Which scientist's work led to the theory of biogenesis ?] ;d8 ;i4 ;a2 % (1) Ch1, q3
+    Edward Jenner
+    Louis Pasteur
+    Gregor Mendel
+    Carolus Linnaeus
+4[You want to find out how much water an aquarium tank can hold. Which SI measurement unit would you use ?] ;d1 ;i2 ;a3 % (1) Ch1, q4
+    grams
+    tonnes
+    liters
+    meters
+5[When you touch a hot pan on the stove with your hand, you quickly move your hand away. How do you describe your hand's movement ?] ;d2 ;i3 ;a2 % (1) Ch1, q5
+    It is a dichotomous key
+    It is a reaction
+    It is an SI measurement
+    It is part of scientific methods
+6[You want to weigh a large dog. Which SI measurement unit would you use ?] ;d1 ;i2 ;a2 % (1) Ch1, q6
+    millimeters
+    kilograms
+    liters
+    kilometers
+7[What is the process in which new organisms replace those that die ?] ;d4 ;i5 ;a3 % (1) Ch1, q7
+    homeostasis
+    photosynthesis
+    reproduction
+    phylogeny
+8[The part of an experiment that can change is] ;d2 ;i2 ;a4 % (1) Ch1, q8
+    a theory
+    a law
+    a zygote
+    a variable
+9[Which of these is true of scientific methods ?] ;d2 ;i3 ;a3 % (1) Ch1, q9
+    It is not important to form a hypothesis
+    Conclusions are drawn at the beginning of the process
+    The problem needs to be stated at the beginning of the process
+    Data can be analyzed in only one way
+10[Which person developed a system of organism classification in use today ?] ;d9 ;i4 ;a3 % (1) Ch1, q10
+    Oparin
+    Einstein
+    Linnaeus
+    Marconi
+11[Which person devised an animal classification system 2,000 years ago ?] ;d7 ;i5 ;a1 % (1) Ch1, q11
+    Aristotle
+    LaMarck
+    Urey
+    Pasteur
+12[Which of these is true ?] ;d4 ;i4 ;a3 % (1) Ch1, q12
+    A valid theory answers all questions
+    Good theories are defined before observations are made
+    A theory can explain multiple hypotheses
+    Once they are stated, theories never change
+13[Which of these is a tool used to identify organisms ?] ;d2 ;i3 ;a4 % (1) Ch1, q13
+    a stimulus
+    a hypothesis
+    a control
+    a dichotomous key
+14[The theory that supposes that living things came from nonliving things is] ;d7 ;i5 ;a3 % (1) Ch1, q14
+    phylogeny
+    biogenesis
+    spontaneous generation
+    mitosis
+15[Which of these scientists studies animals ?] ;d2 ;i5 ;a3 % (1) Ch1, q15
+    a botanist
+    a physicist
+    a zoologist
+    a geologist
+16[In order to draw conclusions about a scientific problem, which is true ?] ;d4 ;i6 ;a4 % (1) Ch1, q16
+    A scientist never revises the hypothesis
+    A scientist will choose whether or not to form a hypothesis
+    A scientist will always reject the hypothesis
+    A scientist can accept the hypothesis
+17[How do many-celled organisms grow ?] ;d7 ;i7 ;a4 % (1) Ch1, q17
+    The cells use energy from the Sun
+    Only one of its cells gets bigger
+    Bacteria invade the cells
+    They make more cells
+18[Which category is the largest in the organism classification system ?] ;d6 ;i6 ;a4 % (1) Ch1, q18
+    a genus
+    a hierarchy
+    a species
+    a kingdom
+19[What is the length of time an organism is expected to live ?] ;d1 ;i2 ;a3 % (1) Ch1, q19
+    a scientific method
+    stimulus
+    a life span
+    homeostasis
+20[... is a trait of all organisms.] ;d7 ;i3 ;a1 % (1) Ch1, q20
+    Homeostasis
+    A hypothesis
+    A variable
+    Binomial nomenclature
+
+{Astronomy}
+
+1[The fist, held at arm's length, fills an angle of about] ;d3 ;i6 ;a3 % (11) Ch1, q1
+	one third of a degree
+	1 degree
+	10 degrees
+	50 degrees	
+2[On the celestial sphere, the circle which is located 90 degrees from the zenith is the] ;d4 ;i5 ;a3 % (11) Ch1, q2
+    ecliptic
+    meridian
+    horizon
+    equator
+3[The point directly over an observer's head is that observer's] ;d3 ;i5 ;a3 % (11) Ch1, q3
+    node
+    pole
+    zenith
+    equator
+4[The angular distance of an object from the horizon is its] ;d5 ;i4 ;a2 % (11) Ch1, q4
+    declination
+    altitude
+    latitude
+    right ascension
+5[The azimuth and altitude of an object located due south and on the horizon are] ;d7 ;i6 ;a2 % (11) Ch1, q5
+    azimuth 0 degrees, altitude 180 degrees
+    azimuth 180 degrees, altitude 0 degrees
+    azimuth 90 degrees, altitude 0 degrees
+    azimuth 90 degrees, altitude 90 degrees
+6[Which of the following would be the coordinates of a star which is setting in the northwest ?] ;d7 ;i6 ;a3 % (11) Ch1, q6
+    azimuth 180 degrees, altitude 90 degrees
+    azimuth 145 degrees, altitude 0 degrees
+    azimuth 300 degrees, altitude 0 degrees
+    azimuth 75 degrees, altitude 90 degrees
+7[What are the altitude and azimuth (in degrees) of a star which is setting in the west ?] ;d6 ;i6 ;a3 % (11) Ch1, q7
+    altitude 45, azimuth 360
+    altitude 90, azimuth 90
+    altitude 0, azimuth 270
+    altitude 30, azimuth 180
+8[How many seconds of arc are there in a degree ?] ;d4 ;i5 ;a4 % (11) Ch1, q8
+    120
+    60
+    600
+    3600
+9[During a night, the stars move generally] ;d7 ;i7 ;a1 % (11) Ch1, q9
+    westward
+    eastward
+    southward
+    northward
+10[Which of the following coordinates describes the angular distance of an object north or south of the celestial equator ?] ;d6 ;i4 ;a4 % (11) Ch2, q1
+    azimuth
+    altitude
+    right ascension
+    declination
+11[Suppose there is a star which rises at 10 p.m. tonight. At what time did it rise one month ago ?] ;d6 ;i8 ;a2 % (11) Ch2, q2
+    11 pm
+    midnight
+    9 pm
+    8 pm
+12[An observer in Quito, Ecuador (latitude 0 deg) sees the Sun at the zenith at noon on which day(s) ?] ;d7 ;i6 ;a2 % (11) Ch2, q3
+    summer and winter solstice
+    spring and fall equinox
+    never - impossible
+    only on June 21
+13[The sun moves eastward among the stars at the rate of about one degree per] ;d2 ;i3 ;a4 % (11) Ch2, q4
+    hour
+    month
+    year
+    day
+14[The time that your wristwatch keeps is] ;d5 ;i3 ;a2 % (11) Ch2, q5
+    apparent solar time
+    mean solar time
+    sidereal time
+    Greenwich mean time
+15[The occurrence of seasons on the Earth is due to] ;d4 ;i7 ;a4 % (11) Ch2, q6
+    the Earth being closer to the Sun in summer
+    the Earth changing its rotation rate during the year
+    the solar wind particles in the Earth's upper atmosphere
+    the Earth's axis being inclined to the ecliptic
+16[At approximately what time does the new moon rise ?] ;d7 ;i4 ;a2 % (11) Ch2, q7
+    sunset
+    sunrise
+    noon
+    midnight
+17[Relative to the stars, the moon] ;d5 ;i5 ;a4 % (11) Ch2, q8
+    remains stationary
+    moves eastward, then westward during a month
+    moves westward
+    moves eastward
+18[In which of the following circumstances is it possible to observe the full moon ?] ;d7 ;i7 ;a2 % (11) Ch2, q9
+    setting at noon
+    rising at sunset
+    high in the sky at dawn
+    setting at midnight
+19[Which of the following is true of the motion of the planet Mars among the stars ?] ;d8 ;i5 ;a3 % (11) Ch2, q10
+    all retrograde loops occur in the same constellation
+    all retrograde loops have the same shape
+    retrograde loops always are separated by the same interval of time
+    retrograde loops occur when Mars is in conjuction (near the sun in the sky)
+
+{Physics}
+
+1[Calculate the speed of a swimmer who swims 150 m in 88 s] ;d3 ;i5 ;a2 % (10) Ch2, math q10
+	1.1 m/s
+	1.7 m/s
+	1.9 m/s
+	2.0 m/s
+2[Calculate the speed of a swimmer who swims 200 m in 140 s.] ;d3 ;i5 ;a1 % (10) Ch2, math q2
+    1.4 m/s
+    1.0 m/s
+    1.8 m/s
+    1.9 m/s
+3[In a 150-m race, a runner finishes in 18.2 s. Calculate the speed of this runner.] ;d3 ;i5 ;a4 % (10) Ch2, math q3
+    10.2 m/s
+    9.2 m/s
+    8.9 m/s
+    8.2 m/s
+4[In a 500-m race, a runner finishes in 80.4 s. Calculate the speed of this runner.] ;d3 ;i5 ;a3 % (10) Ch2, math q4
+    4.5 m/s
+    7.8 m/s
+    6.2 m/s
+    9.0 m/s
+5[In a 150-m race, a runner finishes in 18.2 s. And in a second 200-m race he finishes in 29.9 s. In which race was his speed faster ?] ;d3 ;i5 ;a1 % (10) Ch2, math q5
+    first race
+    second race
+    neither race
+    both races were the same speed
+6[In a 150-m race, a runner finishes in 18.2 s. And in a second 100-m race he finishes in 12.3 s. In which race was his speed faster ?] ;d3 ;i5 ;a1 % (10) Ch2, math q6
+    first race
+    second race
+    neither race
+    both races were the same speed
+7[A freight train travels from Louisburg to Hamburg, a distance of 420 km. If the route takes 6.2 h, what is the train's speed ?] ;d3 ;i5 ;a3 % (10) Ch2, math q7
+    55 km/h
+    63.2 km/h
+    67.7 km/h
+    72.2 km/h
+8[A freight train travels from Miamistown to Fredericksburg, a distance of 680 km. If the route takes 12.2 h, what is the train's speed ?] ;d3 ;i5 ;a2 % (10) Ch2, math q8
+    50 km/h
+    55.7 km/h
+    68.8 km/h
+    82.2 km/h
+9[A passenger train travels from Larkspur to Collossett, a distance of 210 km. If the route takes 2.4 h, what is the train's speed ?] ;d3 ;i5 ;a3 % (10) Ch2, math q9
+    42.3 km/h
+    60.5 km/h
+    87.5 km/h
+    90.0 km/h
+10[A passenger train travels from Orange Grove to Lyman, a distance of 430 km. If the route takes 5.6 h, what is the train's speed ?] ;d3 ;i5 ;a2 % (10) Ch2, math q10
+    72.8 km/h
+    76.8 km/h
+    80.4 km/h
+    92.8 km/h
+
+{Anatomy}
+
+{The Nature of Matter}
+
+{Biology}
+
+{Organic Chemistry}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

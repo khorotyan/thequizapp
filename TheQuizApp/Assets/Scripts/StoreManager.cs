@@ -13,7 +13,10 @@ public class StoreManager : MonoBehaviour
     public GameObject mainPanel;
     public GameObject storePagePanel;
 
+    [Space(4)]
+
     public Button perk5050Button;
+    public Button perkBonusTimeButton;
 
     [Space(4)]
 
@@ -30,10 +33,10 @@ public class StoreManager : MonoBehaviour
     int storeBonusTimeLvl = 0;
 
     int store5050Price;
-    StoreItemInfo[] storeVaultInfo = new StoreItemInfo[6]; // ID = 1
-    StoreItemInfo[] storeComboMultInfo = new StoreItemInfo[4]; // ID = 2
-    StoreItemInfo[] storeMoreMoneyInfo = new StoreItemInfo[4]; // ID = 3
-    StoreItemInfo[] storeBonusTimeInfo = new StoreItemInfo[4]; // ID = 4
+    private StoreItemInfo[] storeVaultInfo = new StoreItemInfo[6]; // ID = 1
+    private StoreItemInfo[] storeComboMultInfo = new StoreItemInfo[4]; // ID = 2
+    private StoreItemInfo[] storeMoreMoneyInfo = new StoreItemInfo[4]; // ID = 3
+    private StoreItemInfo[] storeBonusTimeInfo = new StoreItemInfo[4]; // ID = 4
 
     public static int totalMoney = 0;
 
@@ -80,7 +83,18 @@ public class StoreManager : MonoBehaviour
     private void LoadPerkData()
     {
         store5050Lvl = loadManager.LoadPerkLevel(0);
-        if (store5050Lvl == 0) perk5050Button.interactable = false; else perk5050Button.interactable = true;
+        if (store5050Lvl == 0)
+        {
+            perk5050Button.interactable = false;
+            Color32 imgCol = perk5050Button.image.color;
+            perk5050Button.image.color = new Color32(imgCol.r, imgCol.g, imgCol.b, 20);
+        }
+        else
+        {
+            perk5050Button.interactable = true;
+            Color32 imgCol = perk5050Button.image.color;
+            perk5050Button.image.color = new Color32(imgCol.r, imgCol.g, imgCol.b, 100);
+        }
 
         storeVaultLvl = loadManager.LoadPerkLevel(1);
         SessionCurrencyManager.protectedAmount = storeVaultInfo[storeVaultLvl].value / 100;
@@ -92,6 +106,18 @@ public class StoreManager : MonoBehaviour
         SessionCurrencyManager.moneyMultiplier = storeMoreMoneyInfo[storeMoreMoneyLvl].value;
 
         storeBonusTimeLvl = loadManager.LoadPerkLevel(4);
+        if (storeBonusTimeLvl == 0)
+        {
+            perkBonusTimeButton.interactable = false;
+            Color32 imgCol = perkBonusTimeButton.image.color;
+            perkBonusTimeButton.image.color = new Color32(imgCol.r, imgCol.g, imgCol.b, 20);
+        }
+        else
+        {
+            perkBonusTimeButton.interactable = true;
+            Color32 imgCol = perkBonusTimeButton.image.color;
+            perkBonusTimeButton.image.color = new Color32(imgCol.r, imgCol.g, imgCol.b, 100);
+        }
     }
     
     // Runs whenever the store opens
@@ -142,7 +168,7 @@ public class StoreManager : MonoBehaviour
 
         for (int i = 0; i < perkLvl; i++)
         {
-            perkObj.transform.GetChild(5).GetChild(0).GetChild(i).GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            perkObj.transform.GetChild(5).GetChild(0).GetChild(i).GetComponent<Image>().color = new Color32(255, 255, 255, 200);
         }
     }
 
@@ -152,7 +178,7 @@ public class StoreManager : MonoBehaviour
         {
             perkObj.transform.GetChild(3).gameObject.SetActive(false);
             perkObj.transform.GetChild(4).GetComponent<Text>().text = "Maxed Out";
-            perkObj.transform.GetChild(5).GetChild(0).GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            perkObj.transform.GetChild(5).GetChild(0).GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, 200);
             perkObj.gameObject.GetComponent<Button>().interactable = false;
         }
     }
@@ -350,6 +376,18 @@ public class StoreManager : MonoBehaviour
     private void UpdateTotalMoneyText()
     {
         totalMoneyText.text = "Money: " + totalMoney.ToString();
+    }
+
+    // Gets the answer percent (value1) of the Bonus Time perk
+    public float GetBTAnswerPerc()
+    {
+        return storeBonusTimeInfo[storeBonusTimeLvl].value / 100;
+    }
+
+    // Gets the answer percent (value1) of the Bonus Time perk
+    public float GetBTBonusPerc()
+    {
+        return storeBonusTimeInfo[storeBonusTimeLvl].value2 / 100;
     }
 
     // Runs whenever the store page closes

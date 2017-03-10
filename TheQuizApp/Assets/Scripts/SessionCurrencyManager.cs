@@ -83,7 +83,6 @@ public class SessionCurrencyManager : MonoBehaviour
     public void BeforeANewGame()
     {
         consecutiveCorrAnss = 0;
-        comboMultiplier = 0.2f; // Later assign the value from the saved file
         questionNumber = 0;
         wrongAnswerCount = 0;
         sessTotalMoney = 0;

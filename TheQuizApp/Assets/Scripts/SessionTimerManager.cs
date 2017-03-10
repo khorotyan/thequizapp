@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class SessionTimerManager : MonoBehaviour
 {
-    public Color32 beautyRed = new Color32(242, 68, 57, 255);
-    public Color32 beautyGreen = new Color32(0, 151, 136, 255);
+    public Color32 beautyRed = new Color32(242, 68, 57, 200);
+    public Color32 beautyGreen = new Color32(0, 151, 136, 200);
 
     [SerializeField]
     private Text timerText;
@@ -16,13 +16,14 @@ public class SessionTimerManager : MonoBehaviour
     private GameObject slideFillObj;
     private CurrSessionManager currSessionManager;
 
-    private Color fillObjColor;
+    private Color32 fillObjColor;
 
     public bool answerIsFake = false;
     public static bool canStartTimerSubtracting = false;
     private bool timerWarning = false;
     private bool timerStateChanged = false; 
-    private float totalTime;
+    public float totalTime;
+    public float fixedTotalTime;
     private float wordsPerSecond = 0.8f;
     private float fakeAnswerPercentage = 0.999f;
 
@@ -96,6 +97,7 @@ public class SessionTimerManager : MonoBehaviour
         float timeAdder = (0.1f * currQData.DifficultyRate);
 
         totalTime = Math.Max(20, 5 * (int) (numOfWords * (wordsPerSecond + timeAdder) / 5));
+        fixedTotalTime = totalTime;
         timerText.text = totalTime.ToString();
         timerSlider.maxValue = totalTime;
 
@@ -106,7 +108,7 @@ public class SessionTimerManager : MonoBehaviour
     public void RemainingTimeCalculator()
     {
         totalTime -= 1 * Time.deltaTime;
-        fillObjColor = Color.Lerp(beautyRed, beautyGreen, totalTime / timerSlider.maxValue);
+        fillObjColor = Color32.Lerp(beautyRed, beautyGreen, totalTime / timerSlider.maxValue);
 
         timerSlider.value = totalTime;
         timerText.text = Math.Ceiling(totalTime).ToString();
@@ -127,8 +129,7 @@ public class SessionTimerManager : MonoBehaviour
         {
             timerText.color = Color.white;
             timerText.fontSize = 30;
-        }
-        
+        }       
     }
 
 }

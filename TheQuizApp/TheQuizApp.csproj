@@ -98,6 +98,7 @@
     <Compile Include="Assets\Assets\Easy Save 2\Types\ES2_Sprite.cs" />
     <Compile Include="Assets\Assets\OneMinuteGui\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\CurrSessionManager.cs" />
+    <Compile Include="Assets\Scripts\CustomScrollRect.cs" />
     <Compile Include="Assets\Scripts\HelpersDuringSess.cs" />
     <Compile Include="Assets\Scripts\InfoGetter.cs" />
     <Compile Include="Assets\Scripts\InfoManager.cs" />

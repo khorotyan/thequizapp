@@ -54,7 +54,7 @@
 	construct price lists
 	compare shop prices
 	measure changes in the cost of living
-	none of the answers are correct
+	none of the answers is correct
 12[A real value can be derived from a nominal value by adjusting for] ;d4 ;i6 ;a4 % (2) Ch1, q17
 	changes over time
 	data collection errors
@@ -129,7 +129,7 @@
 	inelastic / increase
 	elastic / increase
 	elastic / decrease
-	none of the answers are correct	
+	none of the answers is correct	
 27[Positive cross-elasticities suggest that goods are ... and negative cross-elasticities that goods are ...] ;d7 ;i5 ;a3 % (2) Ch2, q4
 	substitutes / inferior
 	normal / complements
@@ -144,7 +144,7 @@
 	negative income elasticities / income elasticities greater than 1
 	income elasticities greater than 1 / negative income elasticities
 	positive income elasticities / negative income elasticities
-	none of the answers are correct
+	none of the answers is correct
 30[If your income doubles and the prices of the goods you buy double, then your demand for these goods will likely] ;d3 ;i6 ;a2 % (2) Ch2, q7
 	increase
 	not change
@@ -294,7 +294,7 @@
 	price is greater than marginal cost
 	price equals marginal cost
 	price is less than marginal cost
-	none of the answers are correct
+	none of the answers is correct
 	
 {Marketing}
 
@@ -317,7 +317,7 @@
 	planned and spontaneous
 	market-directed and pure subsistence
 	planned and market-directed
-	none of the answers are correct
+	none of the answers is correct
 5[Which of the following is NOT an objective of the World Trade Organization agreements ?] ;d4 ;i5 ;a4 % (1) Ch1, q8
 	To help the free-flow of trade
 	To facilitate additional negotiation
@@ -382,7 +382,7 @@
 	marketing
 	production
 	both answers are correct
-	none of the answers are correct
+	none of the answers is correct
 18[When a manager focuses on making whatever products are easy to produce, and then trying to sell them, that manager has a ... orientation.] ;d3 ;i7 ;a2 % (1) Ch2, q12
 	marketing
 	production
@@ -512,7 +512,7 @@
 	only quantitative components
 	only qualitative components
 	both quantitative and qualitative components
-	none of the answers are correct
+	none of the answers is correct
 	
 {Financial Accounting}
 
@@ -693,12 +693,12 @@
 	Financing decision
 	Capital budgeting decision
 	Liquidity decision
-	None of the answers are correct
+	None of the answers is correct
 3[The choice between debt and equity in financing is called the] ;d5 ;i5 ;a1 % (5) Ch1, q4
 	Capital structure decision
 	Investment decision
 	Liquidity decision
-	None of the answers are correct
+	None of the answers is correct
 4[When shareholders appoint financial managers to run firms and make investment decisions, this is called] ;d5 ;i6 ;a4 % (5) Ch1, q5
 	Agency cost
 	Financing decision
@@ -718,7 +718,7 @@
 	Managers do not attempt to maximize firm value
 	Shareholders incur costs to monitor the managers and influence their actions
 	All the answers are correct
-	None of the answers are correct
+	None of the answers is correct
 8[Assets such as equipment and raw materials are referred to as] ;d2 ;i4 ;a4 % (5) Ch1, q9
 	Dividends
 	Securities
@@ -728,7 +728,7 @@
 	Payout decision
 	Financing decision
 	Equity decision
-	None of the answers are correct
+	None of the answers is correct
 10[Shares owned and not traded on an exchange are sometimes referred to as] ;d4 ;i5 ;a2 % (5) Ch1, q12
 	Asymmetric
 	Closely held
@@ -743,7 +743,7 @@
 	Sole proprietorship
 	Partnership
 	Professional corporation
-	None of the answers are correct
+	None of the answers is correct
 13[Which of the following is typically considered an agency cost ?] ;d4 ;i5 ;a1 % (5) Ch1, q15
 	Audit
 	Cost of goods sold
@@ -763,7 +763,7 @@
 	0.9009
 	1.11
 	0.11
-	None of the answers are correct
+	None of the answers is correct
 17[If you invest $100,000 today at 12% interest rate for one year, what is the amount you will have at the end of the year ?] ;d1 ;i5 ;a2 % (5) Ch2, q4
 	$90,909
 	$112,000
@@ -773,7 +773,7 @@
 	The expected rate of return on a government security having the same maturity as the project
 	The expected rate of return on a well-diversified portfolio of common stocks
 	The expected rate of return on a portfolio of securities of similar risks as the project
-	None of the answers are correct
+	None of the answers is correct
 19[If the present value of cash flow X is $200, and the present value of cash flow Y is $150, then the present value of the combined cash flow is] ;d1 ;i5 ;a4 % (5) Ch2, q6
 	$200
 	$150
@@ -823,7 +823,7 @@
 	1.5%
 	12%
 	18%
-	None of the answers are correct
+	None of the answers is correct
 	
 {Operations Management}
 
@@ -1270,7 +1270,7 @@
 	10 thousand horseman and 30 thousand infantry
 	11 thousand horseman and 60 thousand infantry
 	3 thousand horseman and 25 thousand infantry
-
+    
 {US History}
 	
 1[The purpose of the 1964 Freedom Summer in Mississippi was to] ;d8 ;i5 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q1
@@ -1297,7 +1297,7 @@
 	To destroy the Democratic National Committee's files of of potential campaign contributors
 	To find information about Daniel Ellsburg that would discredit him
 	To wiretap the telephone of the Democratic National Committee
-	None of the answers are correct
+	None of the answers is correct
 6[The Nixon's administration's "enemies list" included] ;d7 ;i6 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q2
 	prominent Americans who were to be harassed by the government for opposing Nixon's policies
 	leaders of North Vietnam, China, and Kampuchea
@@ -1367,7 +1367,7 @@
 	Pull out immediately and declare that the U.S. had achieved its goals
 	Rapidly send American ground troops in for a massive invasion of North Vietnam
 	Gradually escalate the direct American role in the war
-	None of the answers are correct
+	None of the answers is correct
 20[Which of the following statements most accurately describes conditions in the American army in Vietnam by 1969 ?] ;d6 ;i8 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q3
 	Morale had plummeted
 	Drug use had soared
@@ -1387,7 +1387,7 @@
 	furnishing aid to the nationalist group, the Vietminh
 	furnishing aid to the French, who were trying to reconquer their former colony
 	committing atomic weapons to assist the French
-	none of the answers are correct
+	none of the answers is correct
 24[Television in the 1950s] ;d6 ;i7 ;a3 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q4
 	helped to demolish old gender and racial stereotypes
 	exposed American viewers to the harsh realities of poverty in America
@@ -1398,9 +1398,1184 @@
 	direct action
 	ideas of Thoreau and Gandhi
 	all the answers are correct
+26[Which of the following people was convicted and executed for conspiring to commit espionage ?] ;d9 ;i3 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz26.htm, q1
+	Dean Acheson
+	Whittaker Chambers
+	George Marshall
+	Julius Rosenberg
+27[What lesson in recent history impressed President Truman and his advisers and formed a basic diplomatic tenet of his administration ?] ;d8 ;i5 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz26.htm, q2
+	International peace could only be achieved when the Soviet Union felt secure on its borders
+	Appeasement toward aggressive dictators leads not to peace but to greater violence and bloodshed
+	The Japanese had an innate national tendency toward competition and aggression
 	
-{Computer Science}
+{International Politics}
+
+1[The main actors on the international stage are] ;d4 ;i6 ;a2 % (6), Ch1 - q1
+	only powerful individuals
+	mainly states and other organizations
+	mainly corporations
+	only states 
+2[Approximately what percentage of Americans follow foreign news ?] ;d5 ;i7 ;a1 % (6), Ch1 - q2
+    20 percent
+    40 percent
+    60 percent
+    80 percent
+3[The impact of international economics on domestic societies] ;d5 ;i7 ;a1 % (6), Ch1 - q3
+    continues to increase
+    continues to decrease
+    is beginning to decrease after decades of growth
+    is beginning to increase after decades of contraction
+4[Which statement about military spending and the economy is not true ?] ;d6 ;i6 ;a4 % (6), Ch1 - q4
+    The proportion of economic resources spent on the military has decreased since the 1980s
+    Many states and communities see military bases as having economic benefits
+    Military spending creates jobs for communities
+    Policy makers view military spending only as an issue of national security
+5[The rising global population is] ;d2 ;i5 ;a1 % (6), Ch1 - q5
+    putting pressure on global resources
+    fairly moderate and manageable
+    has had little impact on human living conditions
+    nearing its peak and will soon begin to fall dramatically
+6[Consumer boycotts have brought about change all of the following areas excepts which area ?] ;d3 ;i5 ;a1 % (6), Ch1 - q6
+    Global warming
+    Clothing manufacturing
+    Footwear manufacturing
+    Tuna fishing
+7[In international relations, liberal theory] ;d7 ;i4 ;a3 % (6), Ch1 - q7
+    neatly matches with the Democratic party
+    neatly matches with the Republican party
+    could be described as an optimistic theory
+    could be described as an "unrealistic" theory
+8[Which trait might one associate with the realism ?] ;d4 ;i6 ;a1 % (6), Ch1 - q8
+    It is human nature to be conflictual
+    Optimism
+    Humans are naturally trustworthy
+    International relations is ruthless but can change
+9[When it comes to the "national interest," liberals tend to] ;d7 ;i6 ;a3 % (6), Ch1 - q9
+    ignore the concept completely
+    focus only on policies that advance the national interest
+    believe that the future of one country is linked to the future of the world as a whole
+    view the concept as unimportant for powerful states
+10[Liberals believe that all of the following are leading toward a more cooperative future except] ;d8 ;i7 ;a4 % (6), Ch1 - q10
+    spread of nuclear weapons
+    increased economic interdependence among countries
+    mounting damage to the global ecosystem
+    the rise of international terrorism
+	
+{Western Civilizations}
+	
+1[There is growing support for the theory that the earliest ancestors of humans probably appeared in Africa around] ;d6 ;i4 ;a1 % (2), Ch1 - q1
+    2,000,000 years ago
+    1,250,000 years ago
+    400,000 years ago
+    10,000 years ago
+2[Early (Old Stone Age) humans did all of the following EXCEPT] ;d3 ;i7 ;a3 % (2), Ch1 - q2
+    get their food by hunting and gathering
+    divide some types of work between women and men
+    develop pottery and weaving
+    make paintings of wild animals
+3[The agricultural revolution – the planting of crops and herding animals – had all of the following effects EXCEPT] ;d5 ;i5 ;a1 % (2), Ch1 - q3
+    it promoted the concept of male "father" deities
+    it supported a larger population
+    it created the impetus to gain control over territory
+    it was the imperative step to be taken on the path to cities and civilization
+4[The first agricultural villages appeared in the hills of the Near East because] ;d4 ;i7 ;a2 % (2), Ch1 - q4
+    the humans with sufficiently advanced brains were only found there
+    the region offered the necessary combination of animals for domestication and vegetables and cereals
+    the area's dry climate necessitated large-scale irrigation projects
+    the hills provided protection from less developed hunting and gathering peoples
+5[The appearance of civilization brought all of the following EXCEPT] ;d6 ;i8 ;a4 % (2), Ch1 - q5
+    the beginnings of government
+    complex social organization based on occupational specialization
+    the creation of laws and legal codes
+    the end to the period of extensive reliance on slavery
+6[The geography of Mesopotamia influenced Sumerian civilization in all the following ways EXCEPT] ;d7 ;i6 ;a3 % (2), Ch1 - q6
+    the rich alluvial plain supported an abundant agriculture
+    the lack of timber and stone forced it to develop trading to obtain these necessary materials
+    the region's isolation led Sumerians to see themselves as unique
+    it contributed to the idea of a patron god that either looked out for or punished by unleashing the forces of nature
+7[After around 2000 B.C., the Babylonian Kingdom established its control over lower Mesopotamia, subduing or destroying the Sumerian city-states. The greatest of the Babylonian kings was] ;d9 ;i4 ;a3 % (2), Ch1 - q7
+    Amorites
+    Sargon the Great.
+    Hammurabi
+    Gilgamesh
+8[The early Mesopotamians developed all of the following EXCEPT] ;d6 ;i7 ;a2 % (2), Ch1 - q8
+    writing
+    monotheism
+    astronomy
+    mathematics
+9[The geography of Egypt influenced Egyptian civilization in all the following ways EXCEPT] ;d7 ;i7 ;a2 % (2), Ch1 - q9
+    the dependability of the Nile's annual floods and the equability of the climate contributed to Egyptians' optimistic attitudes toward life and death
+    the looming presence of mountains inspired the Egyptians to build great pyramids
+    Egypt's isolation from other peoples allowed a long, generally unbroken development
+    it created the necessary conditions that allowed Egyptian kings to easily control their subjects
+10[All of the following characterized Egypt during the Old Kingdom EXCEPT] ;d5 ;i7 ;a3 % (2), Ch1 - q10
+    domination of both the government and the economy by a god-king.
+    notable political and social stability.
+    the concept of "right order" reflecting the will of Aton, the supreme sun god.
+    a rich literature including religious myths, instructions on how to get ahead, fables, and love poems.
+11[The Egyptian New Kingdom, strengthened its control over the nobles in order to create a powerful military state that extended its power beyond the Nile Valley into Palestine and Syria. The New Kingdom arose in response to the rule of which people?] ;d9 ;i5 ;a1 % (2), Ch1 - q11
+    the Hyksos
+    the Hittites
+    the Hebrews
+    the Hellenes
+12[The Egyptian pharaoh Ramses II concluded the first known non-aggression pact with] ;d9 ;i3 ;a3 % (2), Ch1 - q12
+    the Assyrians
+    the Sumerians
+    the Hittites
+    the Babylonians
+13[All of the following characterized Egyptian society EXCEPT] ;d7 ;i8 ;a4 % (2), Ch1 - q13
+    children were valued as security for the future
+    women had the right to own property, initiate legal action, and enter the priesthood
+    communication by ship was much faster than overland transportation
+    the economic difference between free citizens and slaves was vast
+14[The Phoenicians accomplished all of the following EXCEPT] ;d8 ;i4 ;a1 % (2), Ch1 - q14
+    establishing a centralized, sea-based colonial empire
+    creating the first phonetic alphabet
+    creating a sophisticated urban civilization
+    established a lucrative trade in the reddish dye called "purple"
+15[The chief legacy (or legacies) of the Hebrews to Western Civilization was/were] ;d8 ;i5 ;a2 % (2), Ch1 - q15
+    traditions of strong tribal monarchy and national unity
+    belief in a single God and ethical laws
+    ideas of women's equality and the rights of children
+    prophetic traditions of social criticism and moral reform
+16[The Assyrians accomplished all of the following EXCEPT] ;d6 ;i6 ;a3 % (2), Ch1 - q16
+    creating magnificent works of art
+    dominion over most of the Near East for a period
+    eliminating rebelliousness among subject peoples
+    creating a society that embraced militarism
+17[The Chaldeans and the Medes] ;d8 ;i6 ;a3 % (2), Ch1 - q17
+    left voluminous records of their daily life
+    shared the glory of conquering the Persians
+    divided the Mesopotamian territories of the Assyrians
+    rejected mathematics and astronomy as an affront to the gods
+18["Indo-European" refers to] ;d5 ;i6 ;a1 % (2), Ch1 - q18
+    a language group
+    a location in the Indian sub-continent
+    a powerful but mysterious empire in the Near East
+    a civilization
+19[Zoroaster] ;d4 ;i4 ;a2 % (2), Ch1 - q19
+    taught that the spirits of light, water, and earth had created the world
+    was not considered divine
+    taught a form of religion with a single divine force
+    brought about the reduction of religion as a major defining force in Persian life
+20[The most skillful administrator of the Persian Empire was] ;d8 ;i4 ;a4 % (2), Ch1 - q20
+    Cyrus
+    Cambyses
+    Alexander
+    Darius
+	
+{World History}
+	
+1[By scholarly convention, prehistory refers to the period] ;d5 ;i7 ;a3 % (1), Ch1 - q1
+	before the emergence of cities
+	before Homo sapiens appeared
+	before the invention of writing
+	before modern humans were born
+2[Human beings and large apes are significantly different in] ;d2 ;i4 ;a1 % (2), Ch1 - q2
+    level of intelligence
+    genetic makeup
+    body chemistry
+    the structure of the brain
+3[The famous Lucy was] ;d8 ;i2 ;a2 % (2), Ch1 - q3
+    a female ape
+    an Australopithecus
+    a Homo erectus
+    an archeologist
+4[The family of hominids includes all of the following EXCEPT] ;d3 ;i4 ;a4 % (2), Ch1 - q4
+    modern humans
+    Homo sapiens and Homo erectus
+    Homo neandertalensis and Homo sapiens
+    apes and monkeys
+5[A major difference between Homo erectus and Australopithecus was the ability to] ;d7 ;i5 ;a3 % (2), Ch1 - q5
+    walk upright on two legs
+    domesticate animals
+    communicate complex ideas
+    make stone tools
+6[Homo sapiens were better hunters than Australopithecus and Homo erectus because they] ;d2 ;i5 ;a3 % (2), Ch1 - q6
+    organized larger hunting bands than their ancestors did
+    were smaller in body size but swifter in action
+    had larger brains and higher intelligence
+    had more animals to hunt
+7[The most significant defining characteristic of the paleolithic era was that] ;d6 ;i7 ;a2 % (2), Ch1 - q7
+    human beings used stone and bone tools in their cultivation of crops
+    the peoples relied on hunting and gathering for subsistence
+    men and women engaged in the same economic activities
+    people domesticated animals
+8[What is the significance of the Natufian, Jomon, and Chinook cultures ?] ;d8 ;i6 ;a4 % (2), Ch1 - q8
+    They show that some paleolithic cultures settled permanently
+    They show that some paleolithic peoples lived in much larger groups
+    They show that some paleolithic cultures had hierarchies of authority
+    All the answers are correct
+9[Neandertal peoples developed a capacity for emotion and feelings, which can be seen from their] ;d8 ;i6 ;a1 % (2), Ch1 - q9
+    elaborate burials
+    cave paintings
+    ancestor worship
+    all the answers are correct
+10[Early humans showed their creativity by] ;d3 ;i6 ;a4 % (2), Ch1 - q10
+    creating complex languages
+    inventing the bow and arrow
+    learning to fish in deep water
+    all the answers are correct
+11[The prominent sexual features of Venus figurines at early human sites indicate that Homo sapiens] ;d4 ;i6 ;a3 % (2), Ch1 - q11
+    worshipped the goddess of love forty thousand years ago
+    had a deep interest in love-making activities
+    were strongly concerned with fertility and the generation of new life
+    all the answers are correct
+12[What was a likely purpose of an early human cave painting ?] ;d8 ;i8 ;a4 % (2), Ch1 - q12
+    To warn competing groups of people of their presence
+    To practice telepathy
+    To draw portraits of each other
+    To exercise sympathetic magic
+13[The term “neolithic era” originally meant one thing, but today has come to refer to] ;d6 ;i6 ;a1 % (2), Ch1 - q13
+    the early stages of agricultural society
+    the agricultural transition
+    the era in which the peoples began to use polished stone tools
+    the era in which people began to live permanently in villages
+14[By about 5000 B.C.E., agriculture had displaced hunting and gathering societies in several regions of the world, primarily because] ;d3 ;i7 ;a2 % (2), Ch1 - q14
+    cultivation required much less work than hunting and gathering
+    cultivation provided a relatively stable and regular supply of food
+    agriculture led to a more varied diet
+    none of the answers is correct
+15[All of the following social changes were brought about by agriculture EXCEPT] ;d2 ;i8 ;a3 % (2), Ch1 - q15
+    population growth
+    the emergence of villages and towns
+    the invention of writing
+    the specialization of labor
+16[The site of Jericho was one of the earliest known] ;d8 ;i3 ;a2 % (2), Ch1 - q16
+    agricultural sites
+    towns
+    villages
+    temples
+17[Three neolithic industries that illustrate the greatest potential of specialized labor include] ;d8 ;i8 ;a3 % (2), Ch1 - q17
+    stone tool making, leather, and jewelry
+    wood carving, beads, and baskets
+    pottery, metallurgy, and textiles
+    furs, fish, and grain
+18[Çatal Hüyük is an archaeological site in Anatolia from neolithic times, in which one can readily see evidence of] ;d8 ;i3 ;a1 % (2), Ch1 - q18
+    specialization of labor
+    iron production
+    long-distance trade
+    writing
+19[The belief that neolithic religious thought clearly reflected the natural world of early agricultural society is based on observation of] ;d7 ;i8 ;a2 % (2), Ch1 - q19
+    religious texts
+    representations of gods and goddesses
+    cave paintings
+    fossils
+20[Cities first emerged from agricultural villages and towns in] ;d7 ;i7 ;a4 % (1), Ch1 - q20
+    South America
+    Egypt
+    China
+    the valleys of the Tigris and Euphrates rivers
+	
+{Criminology}
+
+1[Which of the following phrases does not define criminology ?] ;d4 ;i6 ;a2 % (1), Ch1 - q1
+    it is a scientific study of making laws and the breaking of laws
+    it is a subjective view of why crime occurs
+    it is society's reaction to the breaking of law
+    it adopts methods of study from all the social and behavioral sciences
+2[Which of the following is a misconception about the study of crime ?] ;d3 ;i7 ;a3 % (1), Ch1 - q2
+    criminologists utilize a broad scientific perspective
+    criminology studies street crime, corporate, and global crimes
+    crime is a local matter
+    criminology includes the study of crime, penal codes, and deviance
+3[Criminologists are primarily interested in the study of terrorism because] ;d3 ;i5 ;a1 % (1), Ch1 - q3
+    it is at the hub of many other forms of criminality
+    large numbers of people die
+    it is a foreign-based crime
+    most people do not understand its motivation
+4[What crime does the Taliban use to fund its terrorist activities ?] ;d7 ;i5 ;a4 % (1), Ch1 - q4
+    money laundering
+    computer crime
+    destruction of cultural property
+    illicit drug trafficking
+5[Money laundering is described as] ;d2 ;i6 ;a2 % (1), Ch1 - q5
+    only required for drug money
+    an activity aimed at making illegally obtained finds appear legitimate
+    required for both illegally and legally obtained funds
+    none of the answers is correct
+6[Which type of enterprise has terrorist operatives used to infiltrate legal business ?] ;d3 ;i7 ;a1 % (1), Ch1 - q6
+    import-export firms
+    construction companies
+    new media outlets
+    restaurants
+7[Which of the following commonalities do both Lenin and Hitler's terrorists, and the Taliban share ?] ;d4 ;i8 ;a3 % (1), Ch1 - q7
+    religious motivation
+    shared vision
+    destruction of cultural property
+    millennial goals
+8[Who coined the term "criminology" to encompass the scientific concern about crime ?] ;d9 ;i3 ;a1 % (1), Ch1 - q8
+    Raffaele Garofalo
+    Cesare Lombroso
+    Edwin Sutherland
+    Emile Durkheim
+9[Who was among the first researchers to analyze empirical data in a search for the biological causes of crime ?] ;d9 ;i3 ;a3 % (1), Ch1 - q9
+    Paul Topinard
+    Edwin Sutherland
+    Cesare Lombroso
+    Emile Durkheim
+10[In the 1920s most scholars attributed the cause of crime to] ;d2 ;i6 ;a4 % (1), Ch1 - q10
+    demons
+    birth defects
+    psychological imbalance
+    influx of immigration
+11[Deviance is defined as behavior that] ;d8 ;i5 ;a2 % (1), Ch1 - q11
+    violates civil laws
+    violates social norms, including laws
+    violates all laws
+    is considered bizarre
+12[Why should society not make all behavior that is considered deviant a crime ?] ;d7 ;i5 ;a1 % (1), Ch1 - q12
+    society would become very rigid
+    society is unsure of who would enforce the laws
+    governments would victimize citizens
+    society is too diverse
+13[Which of the following is considered a primary interest to most criminologists ?] ;d7 ;i7 ;a3 % (1), Ch1 - q13
+    deviant behavior
+    informal norm violations
+    criminal behavior
+    civil norm violations
+14[Which of the following acts did early societies impose punishment for violating ?] ;d6 ;i8 ;a4 % (1), Ch1 - q14
+    murder
+    theft
+    rape
+    treason
+15[Which of the following views suggests that law expresses the values of the ruling class in a society ?] ;d7 ;i5 ;a2 % (1), Ch1 - q15
+    consensus model
+    conflict model
+    interactionist model
+    humanist model
+16[Which model argues that when an act offends the collective conscience of a society it should be defined as criminal ?] ;d8 ;i6 ;a1 % (1), Ch1 - q16
+    consensus
+    conflict
+    interactionist
+    feminist
+17[What did Edwin Sutherland suggest criminologists study to explain crime ?] ;d9 ;i3 ;a1 % (1), Ch1 - q17
+    the process of breaking laws
+    failure of educational systems
+    law abiding behavior
+    child-parent relationships
+18[What factors do most contemporary criminologists attribute to producing strain among social groups and lawbreaking behaviors ?] ;d4 ;i7 ;a3 % (1), Ch1 - q18
+    biological causes
+    psychological causes
+    economic and social conditions
+    vague legal interpretations
+19[Which of the following is NOT considered a typical societal reaction to lawbreaking ?] ;d5 ;i5 ;a4 % (1), Ch1 - q19
+    irrationality
+    political motivations
+    emotionality
+    productive
+20[In what year did the term "criminal justice system" become popular ?] ;d9 ;i2 ;a3 % (1), Ch1 - q20
+    1893
+    1927
+    1967
+    1982
+
+{Criminal Investigation}
+
+1[Which of the following was NOT a reason for public demands for governmental measures to control crime in eighteenth century England ?] ;d4 ;i5 ;a1 % (2), Ch1 - q1
+	Improvements in agriculture
+	Population growth in the cities
+	Growth of slums in the cities
+	Industrial Revolution
+2[The ... were Londoners that hurried to the scenes of reported crimes and began investigations.] ;d9 ;i3 ;a2 % (2), Ch1 - q2
+    Covent Garden Journal
+    Bow Street Runners
+    Bobbies
+    Scotland Yard
+3[Which American city passed an ordinance establishing America’s first paid, daylight police force ?] ;d9 ;i5 ;a1 % (2), Ch1 - q3
+    Philadelphia
+    New York City
+    Chicago
+    New Orleans
+4[Which of the following are among the recorded achievements of the Pinkerton detective agency ?] ;d8 ;i8 ;a3 % (2), Ch1 - q4
+    Creating the blue uniforms American police officers eventually adopted
+    Development of a rogues’ gallery
+    Discovering and foiling an assassination attempt on President-Elect Lincoln
+    Founding of the U.S. Secret Service
+5[Which of the following were instituted by Chief Detective Thomas Byrnes in an effort to assist New York City police detectives recognize criminals ?] ;d9 ;i6 ;a1 % (2), Ch1 - q5
+    Mulberry Street Morning Parade
+    Anthropometry
+    Pinkerton
+    Due process revolution
+6[Which of the following are responsibilities of the U.S. Secret Service ?] ;d7 ;i7 ;a1 % (2), Ch1 - q6
+    Combat counterfeiting
+    Follow-up investigation of Internal Revenue Service matters
+    Guard the governors of each state
+    Investigation of bootleggers
+7[Which of the following were the major scientific systems for personal identification of criminals ?] ;d6 ;i6 ;a2 % (2), Ch1 - q7
+    Anthropometry, dactylography, and RNA typing
+    Anthropometry, dactylography and DNA typing
+    Anthropometry, the Bertillon system, and DNA typing
+    All the answers are correct
+8[What is the term utilized to describe the scientific study of fingerprints as a means of criminal identification ?] ;d6 ;i5 ;a4 % (2), Ch1 - q8
+    Henry system
+    West case
+    Rogues gallery
+    Dactylography
+9[... was the first country to utilize dactylography as a means of criminal identification.] ;d9 ;i4 ;a4 % (2), Ch1 - q9
+    China
+    Persia
+    Ancient Rome
+    England
+10[Which of the following statements regarding fingerprint is most accurate ?] ;d8 ;i5 ;a3 % (2), Ch1 - q10
+    Fingerprinting was utilized on official papers in fourteenth century England
+    The first country to use fingerprinting as a method of criminal identification was China
+    John Perkinje named nine standard types of fingerprint patters in 1823
+    Ancient Rome
+11[Who published perhaps the first reported findings on the potential use of fingerprints for criminal identification ?] ;d9 ;i3 ;a2 % (2), Ch1 - q11
+    Sir Francis Galton
+    Henry Faulds
+    Juan Vucetich
+    William Herschel
+12[The final breakthrough for the fingerprint method of personal identification was made by] ;d9 ;i3 ;a1 % (2), Ch1 - q12
+    Edward Henry
+    Sir Francis Galton
+    Joseph Faurot
+    William Herschel
+13[Which region of the world might now utilize the Vucetich system ?] ;d9 ;i3 ;a3 % (2), Ch1 - q13
+    England
+    United States
+    South America
+    India
+14[Which of the following best describes the significance of the Lydia Mann case ?] ;d8 ;i5 ;a1 % (2), Ch1 - q14
+    It was the first time DNA typing was used in a criminal case
+    It was the first time the Henry system was used in a criminal case
+    It was the first time the Vucetich system was used in a criminal case
+    It was solved by using the Bertillon system
+15[Which case first used DNA typing in the United States ?] ;d9 ;i5 ;a2 % (2), Ch1 - q15
+    Mann
+    Orlando
+    Vucetich
+    Enderby
+16[The increase in the frequency of shooting in the United States has made ... extremely important.] ;d4 ;i7 ;a4 % (2), Ch1 - q16
+    Fingerprint identification
+    DNA typing
+    Ammunition typing
+    Firearms identification
+17[Who is credited with making the first successful attempt to identify a murderer from a bullet recovered from the body of the victim ?] ;d9 ;i6 ;a1 % (2), Ch1 - q17
+    Henry Goddard
+    Paul Jeserich
+    Calvin Goddard
+    Charles Waite
+18[... established the first full forensic laboratory in the United States.] ;d9 ;i5 ;a2 % (2), Ch1 - q18
+    Paul Kirk
+    August Vollmer
+    John Fisher
+    None of the answers is correct
+19[What is the significance of the Harrison Act ?] ;d8 ;i6 ;a1 % (2), Ch1 - q19
+    It made distribution of non-medical drugs a federal crime.
+    It created the DEA.
+    It created the Bureau of Narcotics and Dangerous Drugs.
+    It created the FBI.
+20[Which of the following best describes the parallels between J. Edgar Hoover and Allan Pinkerton ?] ;d9 ;i4 ;a4 % (2), Ch1 - q20
+    Both were Directors of the FBI
+    Both ran the Pinkerton detective agency
+    Both were pioneers in DNA typing
+    Both understood the importance and uses of information, records and publicity
+21[The first useable ... was produced in 1921.] ;d9 ;i6 ;a1 % (2), Ch1 - q21
+    Polygraph
+    Blood typing procedure
+    Microscopic evidence
+    Forensic laboratory
+22[The standard treatise for the field of criminal investigation developed by Harry Soderman and John O’Connell was] ;d9 ;i5 ;a2 % (2), Ch1 - q22
+    Crime Investigation
+    Modern Criminal Investigation
+    Questioned Documents
+    Classification and Use of Fingerprints
+23[The undisputed father of criminal identification is] ;d8 ;i7 ;a3 % (2), Ch1 - q23
+    Allan Pinkerton
+    J. Edgar Hoover
+    Alphonse Bertillon
+    Edward Rucker
+24[Which of the following statements is most accurate ?] ;d8 ;i8 ;a4 % (2), Ch1 - q24
+    Pinkerton was a government agency
+    DNA typing guarantees convictions
+    The FBI is the only crime laboratory capable of analyzing DNA evidence
+    The FBI was the first public sector laboratory to accept DNA evidence for analysis
+25[What was the first step in the evolution of firearms identification ?] ;d4 ;i7 ;a1 % (2), Ch1 - q25
+    Bullet analysis
+    Distance analysis
+    Cartridge analysis
+    DNA typing
+
+{Social Psychology}
+
+1[Social psychology is] ;d4 ;i6 ;a1 % (3), Ch1 - q1
+	the scientific study of how people think about, influence, and relate to one another
+	the scientific study of how people act
+	the scientific study of how people love and hate
+	the scientific study of how people understand and conflict with one another
+2[Social psychology ... than personality psychology.] ;d6 ;i7 ;a3 % (3), Ch1 - q2
+    has more famous theorists
+    focuses on the differences between individuals more
+    has a shorter history
+    focuses on the private internal functioning between individuals more
+3[Social psychology] ;d8 ;i5 ;a2 % (3), Ch1 - q3
+    is the most important perspective in viewing and understanding ourselves
+    is one important perspective from which we can view and understand ourselves
+    is the real explanation that lets us understand and view ourselves
+    is an inclusive perspective from which we can view and understand ourselves
+4[Social representations are] ;d7 ;i7 ;a4 % (3), Ch1 - q5
+    the enduring behaviors, ideas, attitudes, and traditions shared by a group of people
+    objective situations
+    object representations of real world actions
+    our most important and most unexamined convictions
+5[Naturalist fallacy is] ;d3 ;i4 ;a1 % (3), Ch1 - q6
+    the error of defining what is good in terms of what is observable
+    a flawed scientific description
+    that all psychology can be defined through nature
+    the error of defining what is normal is observable
+6[Hindsight bias] ;d5 ;i5 ;a3 % (3), Ch1 - q7
+    is conducive to an underestimation of our own intellectual powers
+    shows that common sense is nearly always scientifically wrong
+    is the tendency to exaggerate after learning an outcome
+    is the tendency to see the objective situation incorrectly
+7[A testable proposition that describes a relationship that may exist between events is] ;d2 ;i5 ;a1 % (3), Ch1 - q8
+    hypothesis
+    theory
+    research topic
+    direction to research
+8[The study of the naturally occurring relationships among variables is] ;d6 ;i5 ;a2 % (3), Ch1 - q9
+    experimental research
+    correlational research
+    field research
+    interpretative research
+9[The procedure in which every person in the population being studied has an equal chance of inclusion is] ;d4 ;i5 ;a4 % (3), Ch1 - q10
+    survey research
+    equal sample
+    controlled sample
+    random sample
+10[The experimental factor that a researcher manipulates is a(n)] ;d5 ;i5 ;a4 % (3), Ch1 - q11
+    dependent variable
+    hypothesis
+    control
+    independent variable
+11[The process of assigning participants to the conditions of an experiment such that all persons have the same chance of being in a(n)] ;d6 ;i5 ;a2 % (3), Ch1 - q12
+    ethics of experimentation
+    random assignment
+    mundane realism
+    informed consent
+12[Mundane realism is] ;d8 ;i6 ;a3 % (3), Ch1 - q13
+    performing the experiment in the real world
+    when the experiment is boring and repetitive
+    the degree to which an experiment is similar to everyday conditions
+    the experimenter's biases in the experiment
+13[An experiment would have experimental realism if it] ;d7 ;i6 ;a1 % (3), Ch1 - q14
+    absorbs and involves its participants
+    is carried out in the field
+    was similar to everyday situations
+    tested an everyday hypothesis
+14[Experimenters standardize their instructions to subjects in order to] ;d8 ;i8 ;a1 % (3), Ch1 - q15
+    minimize demand characteristics
+    insure accuracy in the results
+    appear neutral to the group
+    compare different groups
+15[Which of the answers is False ? The American and British Psychological Associations] ;d3 ;i7 ;a3 % (3), Ch1 - q16
+    protect people from harm and significant discomfort
+    tell potential participants enough about the experiment to enable their informed consent
+    fully explain the experiment before preceding
+    treat information about the individual participants confidentially
+16[Informed consent is] ;d5 ;i4 ;a2 % (3), Ch1 - q17
+    American Psychological Association guideline
+    an ethical principle
+    law in the United States and Britain
+    a legal term used in experimental research
+17[An experimenter manipulates what variable ?] ;d8 ;i3 ;a2 % (3), Ch1 - q18
+    control
+    independent
+    dependent
+    experimental
+
+{Philosophy}
+
+1[Who is a philosopher, in the original sense of the world ?] ;d3 ;i5 ;a3 % (6), Ch1 - q1
+	Someone who studies the stars and planets
+	A person primarily interested in the truth about moral matters
+	A lover and pursuer of wisdom, regardless of the subject matter
+	A clever and tricky arguer
+2[Which is a common characteristic of philosophical questions ?] ;d2 ;i7 ;a2 % (6), Ch1 - q2
+    They are strictly empirical questions
+    They involve fundamental concepts that are unavoidable by the thoughtful person
+    They are purely semantic questions
+    They aren't relevant to ordinary, everyday situations
+3[Which is the branch of philosophy that studies issues concerning art and beauty ?] ;d4 ;i5 ;a1 % (6), Ch1 - q3
+    Aesthetics
+    Epistemology
+    Logic
+    Metaphysics
+4[Which of the following branches of philosophy does not involve questions related to values ?] ;d4 ;i6 ;a2 % (6), Ch1 - q4
+    Moral
+    Metaphysics
+    Social
+    Political
+5[Which of the following is a common myth about philosophy ?] ;d4 ;i7 ;a4 % (6), Ch1 - q5
+    Philosophical questions are hard to answer, and the answers often give rise to further philosophical questions
+    Reading philosophy in a way that makes it understandable can be hard work
+    Philosophy deals with important and fundamental questions left unanswered by more specialized disciplines
+    Philosophical questions are simply semantic disputes in which no opinion is any better or worse than another is
+6[In philosophy, what is an argument ?] ;d3 ;i5 ;a2 % (6), Ch1 - q6
+    A factual disagreement between people
+    Giving reasons for a belief
+    A shouting match
+    Any verbal attempt to persuade
+7[What fallacy is it when an argument attacks the person rather than the person's beliefs ?] ;d3 ;i5 ;a4 % (6), Ch1 - q7
+    Red Herring
+    Begging the Question
+    Straw Man
+    Argumentum ad Hominem
+8[What fallacy is it when an argument assumes only two options when in fact there are more ?] ;d2 ;i4 ;a2 % (6), Ch1 - q8
+    Straw Man
+    Black or White Fallacy
+    Begging the Question
+    Appeal to Emotion
+9["I don't agree with Jones when she says we should wait for a trial, and I'll tell you why. I don't approve of letting someone get away with murder! That's why I say let's hang him now!" What fallacy does this most clearly illustrate ?] ;d7 ;i8 ;a4 % (6), Ch1 - q9
+    Straw Man
+    Black or White Fallacy
+    Argumentum ad Hominem
+    Red Herring
+10[What must be the case for an argument to succeed with a rational person ?] ;d2 ;i6 ;a4 % (6), Ch1 - q10
+    The premises must be acceptable
+    The conclusion must be acceptable
+    The premises must logically support the conclusion
+    The premises must be acceptable and they must logically support the conclusion
+
+{Sociology}
+
+1[Sociology is] ;d2 ;i4 ;a2 % (8), Ch1 - q1
+    an awareness of the relationship between an individual and the wider society
+	the scientific study of social behavior and human groups
+	concerned with what one individual does or does not do
+	very narrow in scope
+2[Which sociologist introduced the concept of the sociological imagination ?] ;d8 ;i3 ;a4 % (8), Ch1 - q2
+    Richard Schaefer
+    Auguste Comte
+    Harriet Martineau
+    C. Wright Mills
+3[Durkheim's research suggested that] ;d7 ;i7 ;a2 % (8), Ch1 - q3
+    Catholics had much higher suicide rates than Protestants
+    there seemed to be higher rates of suicide in times of peace than in times of war and revolution
+    civilians were more likely to take their lives than soldiers
+    suicide is a solitary act, unrelated to group life
+4[Anomie refers to] ;d8 ;i7 ;a3 % (8), Ch1 - q6
+    a construct, or a made-up model, that serves as a measuring rod against which actual cases can be evaluated
+    the study of small groups
+    the loss of direction felt in a society when social control of individual behavior has become ineffective
+    a set of statements that seeks to explain problems, actions, or behavior
+5[Weber taught his students that they should employ what in their intellectual work ?] ;d9 ;i2 ;a2 % (8), Ch1 - q7
+    anomie
+    Verstehen
+    the sociological imagination
+    microsociology
+6[Which sociological perspective holds that if an aspect of social life does not contribute to a society's stability or survival if it does not serve some identifiably useful function or promote value consensus among members of society ?] ;d7 ;i5 ;a4 % (8), Ch1 - q8
+    conflict perspective
+    interactionist perspective
+    microsociology
+    functionalist perspective
+7[One function that a university serves is to hold down unemployment. This is an example of what kind of function ?] ;d7 ;i6 ;a3 % (8), Ch1 - q9
+    dysfunction
+    manifest function
+    latent function
+    conflict function
+8[Which sociological perspective assumes that social behavior is best understood in terms of tension between competing groups ?] ;d3 ;i7 ;a1 % (8), Ch1 - q10
+    conflict perspective
+    interactionist perspective
+    microsociology
+    functionalist perspective
+9[Which perspective has begun to study a new form of commuter behavior called "slugging" ?] ;d9 ;i3 ;a1 % (8), Ch1 - q11
+    interactionist perspective
+    conflict perspective
+    functionalist perspective
+    macrosociology
+10[Which theoretical perspective would examine sports on the micro level by focusing on how day-to-day social behavior is shaped by the distinctive norms, values, and demands of the world of sports ?] ;d8 ;i6 ;a3 % (8), Ch1 - q12
+    functionalist perspective
+    conflict perspective
+    interactionist perspective
+    both functionalist and conflict perspectives
+11[Which sociologist below tried to establish a juvenile court system ?] ;d9 ;i4 ;a2 % (8), Ch1 - q13
+    Charles Horton Cooley
+    Jane Addams
+    Robert Merton
+    Harriet Martineau
+12[Which sociologist below made a major contribution to society through his in-depth studies of urban life, both black and white ?] ;d8 ;i5 ;a1 % (8), Ch1 - q14
+    W.E.B. DuBois
+    Robert Merton
+    August Comte
+    Charles Horton Cooley
+13[Within sociology, a/an ... is a set of statements that seeks to explain problems, actions, or behavior.] ;d4 ;i6 ;a1 % (8), Ch1 - q15
+    theory
+    hypothesis
+    operational definition
+    correlation
+14[Herbert Spencer] ;d9 ;i6 ;a1 % (8), Ch1 - q16
+    applied the concept of evolution of the species to societies
+    felt compelled to correct and improve society
+    argued that it is "unnatural" that some people are rich while others are poor
+    all the answers are correct
+15[The term ... refers to a construct or model for evaluating specific cases.] ;d7 ;i3 ;a3 % (8), Ch1 - q17
+    operational definition
+    theory
+    ideal type
+    Verstehen
+16[Thinking of society as a living organism in which each part of the organism contributes to its survival is a reflection of which theoretical perspective ?] ;d7 ;i7 ;a2 % (8), Ch1 - q19
+    interactionist
+    functionalist
+    conflict
+    feminist
+17[... functions of institutions are open, stated, and conscious.] ;d9 ;i2 ;a1 % (8), Ch1 - q20
+    Manifest
+    Latent
+    Dys
+    Structural
+18[Latent functions are] ;d8 ;i6 ;a3 % (8), Ch1 - q21
+    open, stated, and conscious
+    disruptive and threaten stability
+    unconscious and/or unintended
+    destructive
+19[The ... perspective generalizes about everyday forms of social interaction in order to explain society as a whole.] ;d8 ;i3 ;a3 % (8), Ch1 - q22
+    conflict
+    functionalist
+    interactionist
+    feminist
+20[In the nineteenth century, before the term feminist perspective could even be coined, the ideas behind this major theoretical approach appeared in the writings of] ;d9 ;i5 ;a2 % (8), Ch1 - q23
+    Karl Marx
+    Ida Wells-Barnett
+    Charles Horton Cooley
+    Carol Brooks Gardner
+21[Erving Goffman's dramaturgical approach, which postulates that people present certain aspects of their personalities while obscuring other qualities, is derivative of what major theoretical perspective ?] ;d8 ;i6 ;a1 % (8), Ch1 - q25
+    interactionist
+    functionalist
+    conflict
+    feminist
+	
+{Environmental Science}
+
+1[To say that environmental science is mission oriented means it is] ;d3 ;i5 ;a3 % (4) Ch1, q1
+	a highly organized endeavor
+	essentially an information gathering endeavor
+	oriented toward solving problems
+	designed to understand relationships
+2[The main problem facing environmental science is to identify] ;d4 ;i6 ;a4 % (4) Ch1, q2
+    how environmental problems occur
+    socially acceptable solutions to environmental problems
+    practical solutions to environmental problems
+    all the answers are correct
+3[... is considered the catalyst of modern awareness of the threat of toxic pollution and the notion of environmentalism.] ;d9 ;i3 ;a2 % (4) Ch1, q3
+    Teddy Roosevelt
+    Rachel Carson
+    Gifford Pinchot
+    John Muir
+4[About ... of the world's people currently lack access to clean water, adequate diet, basic sanitation, and other essential needs.] ;d4 ;i6 ;a4 % (4) Ch1, q4
+    10 million
+    100 million
+    500 million
+    1 billion
+5[Sustainable development means] ;d2 ;i5 ;a1 % (4) Ch1, q5
+    improving people's lives in the present in a way that can continue far into the future
+    providing ever-increasing amounts of adequate housing
+    continued growth indefinitely
+    utilizing an ever-increasing quantity of natural resources
+6[Indigenous peoples are important in environmental considerations because] ;d6 ;i7 ;a4 % (4) Ch1, q6
+    their homelands contain natural habitats least disturbed by humans
+    their homelands contain a huge proportion of earth's biodiversity
+    their languages represent encoded knowledge of nature that is irreplaceable
+    all the answers are correct
+7[The earliest documented recognition that misuse of the natural environment can have nasty consequences was] ;d5 ;i7 ;a4 % (4) Ch1, q7
+    George Perkins Marsh's 1864 publication of (ital)Man and Nature(/ital)
+    Rachel Carson's Silent Spring, alerting the public to the dangers of pollution in 1962
+    Roosevelt's warnings about overuse a century ago
+    Plato's writings 2500 years ago
+8[The human development index, used as a general indicator of human wellbeing, is based on measures such as] ;d3 ;i6 ;a4 % (4) Ch1, q8
+    the number of TV sets, VCRs, and CD players per household
+    the number of automobiles per household, miles driven, pounds of resources used, and so forth
+    per capita waste production
+    life expectancy, literacy rate, and availability of clean water
+9[The position that nature deserves to be protected in its own right is called] ;d7 ;i4 ;a1 % (4) Ch1, q9
+    biocentric preservation
+    utilitarian conservation
+    environmentalism
+    global environmentalism
+10[... constitutes 4.5 percent of the world's people yet produces 50 percent of all toxic waste.] ;d3 ;i7 ;a4 % (4) Ch1, q10
+    Japan
+    Germany
+    Russia
+    The United States
+11[There is widespread global interest in China's attempts to deal with environmental issues because] ;d5 ;i8 ;a4 % (4) Ch1, q16
+    increasing economic activity has increased China's demand for goods and raw materials
+    pollution generated in China impacts other nations, including the United States
+    China is the world's largest producer of many pollutants, including carbon dioxide
+    all the answers are correct
+12[The first Nobel Prize for environmental action was awarded] ;d9 ;i4 ;a3 % (4) Ch1, q18
+    in 1912 to John Muir
+    in 1973 to David Brower
+    in 2004 to Wangari Maathai
+    in 1935 to Aldo Leopold
+13[There is concern over the continued ability to provide adequate food for our growing population because] ;d2 ;i8 ;a1 % (4) Ch1, q19
+    2/3 of all agricultural lands show signs of degradation
+    there is little corporate interest in food production
+    agriculture has not benefited from modern technological advancements
+    none of the answers is correct
+14[Critics of sustainable development suggest that we are limited by] ;d4 ;i7 ;a4 % (4) Ch1, q20
+    non-renewable resources
+    the capacity of the biosphere to absorb waste
+    newly developed renewable technologies
+    non-renewable resources and the capacity of the biosphere to absorb waste
+
+{Earth Science}
+
+1[Which is NOT used to predict weather today ?] ;d2 ;i5 ;a2 % (2) Ch1, q1
+	satellites
+	mythology
+	radar
+	weather balloons
+2[To ensure that you have a valid experiment, it must be] ;d4 ;i5 ;a2 % (2) Ch1, q2
+    proven correct
+    repeatable
+    complicated
+    scientific fact
+3[One of the first cultures to develop instruments to study the weather was the] ;d6 ;i6 ;a4 % (2) Ch1, q3
+    British
+    Americans
+    Mexicans
+    Italians
+4[Why do scientists perform experiments ?] ;d7 ;i4 ;a1 % (2) Ch1, q4
+    to test the validity of a hypothesis
+    because they are paid to do so
+    to prove that their hypotheses are correct
+    so they can draw conclusions
+5[What can cause an experiment to be inaccurate ?] ;d2 ;i4 ;a3 % (2) Ch1, q5
+    changing variables
+    drawing conclusions
+    not enough data
+    forming a hypothesis
+6[How old is technology ?] ;d4 ;i7 ;a4 % (2) Ch1, q6
+    millions of years old
+    only 25 years or so
+    about a century old
+    thousands of years old
+7[How often are scientific theories proved wrong ?] ;d1 ;i2 ;a2 % (2) Ch1, q7
+    They are neither proved nor disproved
+    sometimes
+    never
+    always
+8[What is the correct approach to doing science ?] ;d4 ;i6 ;a3 % (2) Ch1, q8
+    rely on mythology and stories to explain the natural world
+    form your hypothesis after you have gathered data
+    experiment to test a hypothesis
+    draw conclusions early
+9[What is a hypothesis ?] ;d4 ;i5 ;a3 % (2) Ch1, q9
+    a wild guess
+    an experiment
+    an educated guess
+    a conclusion
+10[Which of the following is an example of science being performed ?] ;d3 ;i6 ;a4 % (2) Ch1, q10
+    watching television
+    an astronaut flying the space shuttle
+    heating your room with a space heater
+    discovering why salt melts ice
+11[Upon what event did the ancient Egyptians develop the first calendar ?] ;d5 ;i7 ;a2 % (2) Ch1, q11
+    when the Sun rose
+    when to plant crops
+    when the Moon changed
+    when the snow fell
+12[The difference between a theory and a law is that] ;d5 ;i5 ;a1 % (2) Ch1, q12
+    a law is scientific fact
+    a theory describes the natural world
+    a law explains the natural world
+    a theory is scientific fact
+13[What is the first step in solving a problem in a scientific way ?] ;d2 ;i4 ;a1 % (2) Ch1, q13
+    identifying the problem
+    drawing conclusions
+    developing a hypothesis
+    performing an experiment
+14[What is the final step in experiments ?] ;d1 ;i4 ;a4 % (2) Ch1, q14
+    developing a hypothesis
+    identifying the problem
+    eliminating bias
+    drawing conclusions
+15[You are conducting an experiment to discover which brand of mosquito repellent works best. In this experiment, the brand of mosquito repellent is the] ;d7 ;i6 ;a3 % (2) Ch1, q15
+    constant
+    control
+    independent variable
+    dependent variable
+16[An example of a problem that science cannot solve is ] ;d2 ;i5 ;a2 % (2) Ch1, q16
+    disease
+    crime
+    telecommunications
+    travel
+17[Which topic is not studied in Earth science ?] ;d1 ;i4 ;a3 % (2) Ch1, q17
+    the solar system
+    weather
+    the human brain
+    volcanoes
+18[What happens when there's bias in an experiment ?] ;d3 ;i6 ;a3 % (2) Ch1, q18
+    The hypothesis is proved wrong
+    The results are more accurate
+    Personal opinion gets in the way
+    The experiment is not repeatable
+19[The ... was the first instrument developed to study weather.] ;d8 ;i6 ;a1 % (2) Ch1, q19
+    rain gauge
+    thermometer
+    hydrometer
+    barometer
+20[Why is scientific information published in journals ?] ;d3 ;i6 ;a3 % (2) Ch1, q20
+    to make money for scientists
+    to show how accurate a scientist's data are
+    so others can build upon that knowledge
+    to show that experiments on certain subjects should no longer occur
+
+{Life Science}
+
+1[When a scientist classifies a newly discovered plant, its ... is studied.] ;d8 ;i3 ;a4 % (1) Ch1, q1
+	biogenesis
+	transpiration
+	variable
+	phylogeny
+2[When a bright light shines in your eyes, you close your eyelids quickly. What is the bright light ?] ;d2 ;i5 ;a3 % (1) Ch1, q2
+    a control
+    a classification
+    a stimulus
+    a predictor
+3[Which scientist's work led to the theory of biogenesis ?] ;d8 ;i4 ;a2 % (1) Ch1, q3
+    Edward Jenner
+    Louis Pasteur
+    Gregor Mendel
+    Carolus Linnaeus
+4[You want to find out how much water an aquarium tank can hold. Which SI measurement unit would you use ?] ;d1 ;i2 ;a3 % (1) Ch1, q4
+    grams
+    tonnes
+    liters
+    meters
+5[When you touch a hot pan on the stove with your hand, you quickly move your hand away. How do you describe your hand's movement ?] ;d2 ;i3 ;a2 % (1) Ch1, q5
+    It is a dichotomous key
+    It is a reaction
+    It is an SI measurement
+    It is part of scientific methods
+6[You want to weigh a large dog. Which SI measurement unit would you use ?] ;d1 ;i2 ;a2 % (1) Ch1, q6
+    millimeters
+    kilograms
+    liters
+    kilometers
+7[What is the process in which new organisms replace those that die ?] ;d4 ;i5 ;a3 % (1) Ch1, q7
+    homeostasis
+    photosynthesis
+    reproduction
+    phylogeny
+8[The part of an experiment that can change is] ;d2 ;i2 ;a4 % (1) Ch1, q8
+    a theory
+    a law
+    a zygote
+    a variable
+9[Which of these is true of scientific methods ?] ;d2 ;i3 ;a3 % (1) Ch1, q9
+    It is not important to form a hypothesis
+    Conclusions are drawn at the beginning of the process
+    The problem needs to be stated at the beginning of the process
+    Data can be analyzed in only one way
+10[Which person developed a system of organism classification in use today ?] ;d9 ;i4 ;a3 % (1) Ch1, q10
+    Oparin
+    Einstein
+    Linnaeus
+    Marconi
+11[Which person devised an animal classification system 2,000 years ago ?] ;d7 ;i5 ;a1 % (1) Ch1, q11
+    Aristotle
+    LaMarck
+    Urey
+    Pasteur
+12[Which of these is true ?] ;d4 ;i4 ;a3 % (1) Ch1, q12
+    A valid theory answers all questions
+    Good theories are defined before observations are made
+    A theory can explain multiple hypotheses
+    Once they are stated, theories never change
+13[Which of these is a tool used to identify organisms ?] ;d2 ;i3 ;a4 % (1) Ch1, q13
+    a stimulus
+    a hypothesis
+    a control
+    a dichotomous key
+14[The theory that supposes that living things came from nonliving things is] ;d7 ;i5 ;a3 % (1) Ch1, q14
+    phylogeny
+    biogenesis
+    spontaneous generation
+    mitosis
+15[Which of these scientists studies animals ?] ;d2 ;i5 ;a3 % (1) Ch1, q15
+    a botanist
+    a physicist
+    a zoologist
+    a geologist
+16[In order to draw conclusions about a scientific problem, which is true ?] ;d4 ;i6 ;a4 % (1) Ch1, q16
+    A scientist never revises the hypothesis
+    A scientist will choose whether or not to form a hypothesis
+    A scientist will always reject the hypothesis
+    A scientist can accept the hypothesis
+17[How do many-celled organisms grow ?] ;d7 ;i7 ;a4 % (1) Ch1, q17
+    The cells use energy from the Sun
+    Only one of its cells gets bigger
+    Bacteria invade the cells
+    They make more cells
+18[Which category is the largest in the organism classification system ?] ;d6 ;i6 ;a4 % (1) Ch1, q18
+    a genus
+    a hierarchy
+    a species
+    a kingdom
+19[What is the length of time an organism is expected to live ?] ;d1 ;i2 ;a3 % (1) Ch1, q19
+    a scientific method
+    stimulus
+    a life span
+    homeostasis
+20[... is a trait of all organisms.] ;d7 ;i3 ;a1 % (1) Ch1, q20
+    Homeostasis
+    A hypothesis
+    A variable
+    Binomial nomenclature
+
+{Astronomy}
+
+1[The fist, held at arm's length, fills an angle of about] ;d3 ;i6 ;a3 % (11) Ch1, q1
+	one third of a degree
+	1 degree
+	10 degrees
+	50 degrees	
+2[On the celestial sphere, the circle which is located 90 degrees from the zenith is the] ;d4 ;i5 ;a3 % (11) Ch1, q2
+    ecliptic
+    meridian
+    horizon
+    equator
+3[The point directly over an observer's head is that observer's] ;d3 ;i5 ;a3 % (11) Ch1, q3
+    node
+    pole
+    zenith
+    equator
+4[The angular distance of an object from the horizon is its] ;d5 ;i4 ;a2 % (11) Ch1, q4
+    declination
+    altitude
+    latitude
+    right ascension
+5[The azimuth and altitude of an object located due south and on the horizon are] ;d7 ;i6 ;a2 % (11) Ch1, q5
+    azimuth 0 degrees, altitude 180 degrees
+    azimuth 180 degrees, altitude 0 degrees
+    azimuth 90 degrees, altitude 0 degrees
+    azimuth 90 degrees, altitude 90 degrees
+6[Which of the following would be the coordinates of a star which is setting in the northwest ?] ;d7 ;i6 ;a3 % (11) Ch1, q6
+    azimuth 180 degrees, altitude 90 degrees
+    azimuth 145 degrees, altitude 0 degrees
+    azimuth 300 degrees, altitude 0 degrees
+    azimuth 75 degrees, altitude 90 degrees
+7[What are the altitude and azimuth (in degrees) of a star which is setting in the west ?] ;d6 ;i6 ;a3 % (11) Ch1, q7
+    altitude 45, azimuth 360
+    altitude 90, azimuth 90
+    altitude 0, azimuth 270
+    altitude 30, azimuth 180
+8[How many seconds of arc are there in a degree ?] ;d4 ;i5 ;a4 % (11) Ch1, q8
+    120
+    60
+    600
+    3600
+9[During a night, the stars move generally] ;d7 ;i7 ;a1 % (11) Ch1, q9
+    westward
+    eastward
+    southward
+    northward
+10[Which of the following coordinates describes the angular distance of an object north or south of the celestial equator ?] ;d6 ;i4 ;a4 % (11) Ch2, q1
+    azimuth
+    altitude
+    right ascension
+    declination
+11[Suppose there is a star which rises at 10 p.m. tonight. At what time did it rise one month ago ?] ;d6 ;i8 ;a2 % (11) Ch2, q2
+    11 pm
+    midnight
+    9 pm
+    8 pm
+12[An observer in Quito, Ecuador (latitude 0 deg) sees the Sun at the zenith at noon on which day(s) ?] ;d7 ;i6 ;a2 % (11) Ch2, q3
+    summer and winter solstice
+    spring and fall equinox
+    never - impossible
+    only on June 21
+13[The sun moves eastward among the stars at the rate of about one degree per] ;d2 ;i3 ;a4 % (11) Ch2, q4
+    hour
+    month
+    year
+    day
+14[The time that your wristwatch keeps is] ;d5 ;i3 ;a2 % (11) Ch2, q5
+    apparent solar time
+    mean solar time
+    sidereal time
+    Greenwich mean time
+15[The occurrence of seasons on the Earth is due to] ;d4 ;i7 ;a4 % (11) Ch2, q6
+    the Earth being closer to the Sun in summer
+    the Earth changing its rotation rate during the year
+    the solar wind particles in the Earth's upper atmosphere
+    the Earth's axis being inclined to the ecliptic
+16[At approximately what time does the new moon rise ?] ;d7 ;i4 ;a2 % (11) Ch2, q7
+    sunset
+    sunrise
+    noon
+    midnight
+17[Relative to the stars, the moon] ;d5 ;i5 ;a4 % (11) Ch2, q8
+    remains stationary
+    moves eastward, then westward during a month
+    moves westward
+    moves eastward
+18[In which of the following circumstances is it possible to observe the full moon ?] ;d7 ;i7 ;a2 % (11) Ch2, q9
+    setting at noon
+    rising at sunset
+    high in the sky at dawn
+    setting at midnight
+19[Which of the following is true of the motion of the planet Mars among the stars ?] ;d8 ;i5 ;a3 % (11) Ch2, q10
+    all retrograde loops occur in the same constellation
+    all retrograde loops have the same shape
+    retrograde loops always are separated by the same interval of time
+    retrograde loops occur when Mars is in conjuction (near the sun in the sky)
 
 {Physics}
 
-{Space}
+1[Calculate the speed of a swimmer who swims 150 m in 88 s] ;d3 ;i5 ;a2 % (10) Ch2, math q10
+	1.1 m/s
+	1.7 m/s
+	1.9 m/s
+	2.0 m/s
+2[Calculate the speed of a swimmer who swims 200 m in 140 s.] ;d3 ;i5 ;a1 % (10) Ch2, math q2
+    1.4 m/s
+    1.0 m/s
+    1.8 m/s
+    1.9 m/s
+3[In a 150-m race, a runner finishes in 18.2 s. Calculate the speed of this runner.] ;d3 ;i5 ;a4 % (10) Ch2, math q3
+    10.2 m/s
+    9.2 m/s
+    8.9 m/s
+    8.2 m/s
+4[In a 500-m race, a runner finishes in 80.4 s. Calculate the speed of this runner.] ;d3 ;i5 ;a3 % (10) Ch2, math q4
+    4.5 m/s
+    7.8 m/s
+    6.2 m/s
+    9.0 m/s
+5[In a 150-m race, a runner finishes in 18.2 s. And in a second 200-m race he finishes in 29.9 s. In which race was his speed faster ?] ;d3 ;i5 ;a1 % (10) Ch2, math q5
+    first race
+    second race
+    neither race
+    both races were the same speed
+6[In a 150-m race, a runner finishes in 18.2 s. And in a second 100-m race he finishes in 12.3 s. In which race was his speed faster ?] ;d3 ;i5 ;a1 % (10) Ch2, math q6
+    first race
+    second race
+    neither race
+    both races were the same speed
+7[A freight train travels from Louisburg to Hamburg, a distance of 420 km. If the route takes 6.2 h, what is the train's speed ?] ;d3 ;i5 ;a3 % (10) Ch2, math q7
+    55 km/h
+    63.2 km/h
+    67.7 km/h
+    72.2 km/h
+8[A freight train travels from Miamistown to Fredericksburg, a distance of 680 km. If the route takes 12.2 h, what is the train's speed ?] ;d3 ;i5 ;a2 % (10) Ch2, math q8
+    50 km/h
+    55.7 km/h
+    68.8 km/h
+    82.2 km/h
+9[A passenger train travels from Larkspur to Collossett, a distance of 210 km. If the route takes 2.4 h, what is the train's speed ?] ;d3 ;i5 ;a3 % (10) Ch2, math q9
+    42.3 km/h
+    60.5 km/h
+    87.5 km/h
+    90.0 km/h
+10[A passenger train travels from Orange Grove to Lyman, a distance of 430 km. If the route takes 5.6 h, what is the train's speed ?] ;d3 ;i5 ;a2 % (10) Ch2, math q10
+    72.8 km/h
+    76.8 km/h
+    80.4 km/h
+    92.8 km/h
+	
+	
+	

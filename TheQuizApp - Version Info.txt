@@ -48,7 +48,7 @@ Upcoming:
 3. When the game is exited during the session, save the question numbers
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-version 0.20.000 / --- March 7, 2017 --- \
+version 0.25.000 / --- March 11, 2017 --- \
 
 Added:
 1. The XP System
@@ -74,15 +74,15 @@ Added:
 	If the person clicks yes on the checker page, having enough money will upgrade the perk
 		else a text pops up saying that the user does not have enough money
 	
-	a. 50/50 Perk - finished
-	b. Vault Perk - finished
-	c. Combo Multiplier Perk - finished
-	d. More Money Perk - finished
-	e. Bonus Time Perk - work in progress
+	a. 50/50 Perk 
+	b. Vault Perk 
+	c. Combo Multiplier Perk
+	d. More Money Perk 
+	e. Bonus Time Perk 
 
-3. New questions were added 
-	a. 60 vocabulary questions
-	b. 12 US history questions
+3. A lot of new topics and questions 
+4. A new design for all panels and new logos for the quiz topics
+5. Button Animations added and Helper panel open/close animations
 
 Changes & Improvements:
 1. Fixed - A bug occurs after the end screen, the last question opens and time goes to negative 
@@ -93,13 +93,15 @@ Changes & Improvements:
 	a. Timer is lowered
 	b. Timer cannot be lower than 20s
 	c. Bonus time depending on the question difficulty is lowered twice
+3. Most of the topics are renamed
+4. Categories screen scrolling issue is resolved
 
- - Patch 3 / February 19, 2017 -
+ - Patch 3 (0.23.000) / February 19, 2017 -
 
 1. Store purchase mechanics that can adopt to every kind of perk
 2. 12 US history questions
 
- - Patch 4 / March 5, 2017 -
+ - Patch 4 (0.24.000) / March 5, 2017 -
 
 1. 33 Marketing questions 
 2. 35 Economics questions
@@ -112,18 +114,47 @@ Changes & Improvements:
 	c. Combo Multiplier Perk 
 	d. More Money Perk
 
+ - Final Release / March 11, 2017 -
+ 
+ 1. Economics - 47 new questions
+	A new topic: International Politics (History and Politics), 10 questions
+	A new topic: Western Civilizations (History and Politics), 20 questions
+	A new topic: World History (History and Politics), 20 questions
+	A new topic: Criminology (Social Sciences), 20 questions
+	A new topic: Criminal Investigation (Social Sciences), 25 questions
+	A new topic: Social Psychology (Social Sciences), 17 questions
+	A new topic: Philosophy (Social Sciences), 10 questions
+	A new topic: Sociology (Social Sciences), 21 questions
+	A new topic: Environmental Science (Physicsal and Earth Science), 14 questions
+	A new topic: Earth Science (Physicsal and Earth Science), 20 questions
+	A new topic: Life Science (Physicsal and Earth Science), 20 questions
+	A new topic: Astronomy (Physicsal and Earth Science), 19 questions
+	A new topic: Physics (Physicsal and Earth Science), 10 questions
+ 2. Questionadder tool update:
+	a. Removes Question, a1, a2, ... as we will type a new one
+	b. Removes the dots at the end of answers if they exist
+	c. If there is not a space before a questionmark in the question, then add a space
+	d. If a question number is indicated in the comments, then increment it after submiting a question
+3. A new design for all panels and new logos for the quiz topics
+4. Button Animations added and Helper panel open/close animations
+5. Bonus Time Perk
+
 Upcoming:
 
-1. Main screen scrolling issue
-2. When a new level is gained, show the current level change with an animation
-3. Make a different time calculator for the calculation questions
-4. Improve the question adder program to be able to edit the current questions in the question containers
-
-
+1. When a new level is gained, show the current level change with an animation
+2. Make a different time calculator for the calculation questions
+3. Close the helper panel before a new question is shown
+4. Automatically resize question textbox if a text gets outside its boundaries
+5. Question adder tool:
+	Improve the question adder program to be able to edit the current questions in the question containers
+	Change all _____, ______________  with ...
+	If the character at the end of the question is ':' then remove it
+	If there were two '_____''s in the question
+		then check whether there is only one ',', if yes then replace it with ' /' in the answers
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-version 0.30.000 / --- March 10, 2017 --- \
+version 0.30.000 / --- March xx, 2017 --- \
 
 1. Make the achievements system
 2. Make the results page
@@ -131,11 +162,10 @@ version 0.30.000 / --- March 10, 2017 --- \
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 version 0.40.000 / --- April 23, 2017 --- \
 
-1. Have 4 * 5 topics each having at least 10 questions
-2. Remake the program Design
-3. Make question change animations
-4. Make page change animations
-5. Add 90 History questions
+1. Remake the program Design
+2. Make question change animations
+3. Make page change animations
+4. Add 90 History questions
 
 
 

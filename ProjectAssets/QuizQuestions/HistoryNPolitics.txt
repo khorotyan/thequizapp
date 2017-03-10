@@ -1,0 +1,481 @@
+% d4 - difficulty is 4 out of 9 (kind of easy, 1 - 9) (;d1 - Most of the people must know)
+% i8 - the interesting rate of the question is 8 out of 9 (very interesting, 1 - 9) (i9 - advertising)
+% a3 - the third one is the correct answer (the answer will be encrypted later)
+% http://connect.customer.mheducation.com/subjects/
+% http://glencoe.mheducation.com/sites/0024122010/student_view0/chapter1/overview.html - (1) World History
+% http://highered.mheducation.com/sites/0073385530/student_view0/chapter1/multiple_choice_quiz.html - (2) Western Civilizations
+% http://glencoe.mheducation.com/sites/0012122005/student_view0/chapter1/index.html - (3) US History
+% http://glencoe.mheducation.com/sites/0002042011/student_view0/chapter1/index.html - (4) Western Civilizations
+% http://glencoe.mheducation.com/sites/0301379077/student_view0/chapter1/index.html - (5) American Democracy
+% http://highered.mheducation.com/sites/0073378992/student_view0/chapter1/multiple_choice_quiz.html - (6) International Politics
+% http://highered.mheducation.com/sites/007248179x/student_view0/chapter1/chapter_1_quiz.html - (7) International Politics
+
+{Armenian History}
+
+1[Armenian plateau is located in the middle of ... and Iranian highland.] ;d8 ;i1 ;a3 % Shtemaran 5-6, Ch1 - q1
+	Small Caucasus mountain range 
+	Midland Districts 
+	Asia Minor (Anatolia)
+	Armenian Taurus mountain range
+2[What is the approximate height of the Armenian plateau ?] ;d9 ;i1 ;a2 % Shtemaran 5-6, Ch1 - q2
+	1300 - 1500 meters
+	1500 - 1800 meters
+	1800 - 2000 meters
+	2000 - 2200 meters
+3[What is the height of the mountain Ararat ?] ;d2 ;i5 ;a4 % Shtemaran 5-6, Ch1 - q4
+	3050 meters
+	4095 meters
+	4434 meters
+	5165 meters
+4[Which river flowed in between Greater Armenia and Lesser Armenia ?] ;d9 ;i3 ;a2 % Shtemaran 5-6, Ch1 - q11
+	Aratsani
+	Western Euphrates
+	Aras (Araqs)
+	Jorokh (Chorokh) 
+5[Where did the Urartu clan live ?] ;d9 ;i1 ;a1 % Shtemaran 5-6, Ch3 - q1
+	In the south of Armenian plateau
+	In the north of Armenian plateau
+	In the west of Armenian plateau
+	In the east of Armenian plateau
+6[How did the locals call their coutry in the years of the Kingdom of Van ?] ;d9 ;i6 ;a2 % Shtemaran 5-6, Ch3 - q3
+	Urartu
+	Biaynili
+	Kingdom of Van
+	Araratyan Kingdom
+7[Who was the founder king of the capital of Urartu, Tushpa (later, known as Van) ?] ;d8 ;i3 ;a2 % Shtemaran 5-6, Ch3 - q5
+	Arame
+	Sarduri I
+	Ishpuini
+	Argishti I
+8[Which of the answers is complete ? : The army of Urartu consisted of] ;d3 ;i7 ;a3 % Shtemaran 5-6, Ch3 - q19
+	infantry and cavalry 
+	infantry, cavalry and navy
+	infantry, cavalry and chariots 
+	infantry, cavalry and elephants
+9[Who founded the dynasty of Ervanduni ?] ;d6 ;i3 ;a1 % Shtemaran 5-6, Ch4 - q12
+	Ervand Sakavakyanc
+	Ervand Erkarakyac
+	Tigran I Ervandyan
+	Shavarsh Ervandyan
+10[How much military power did Ervand Sakavakyanc has ?] ;d7 ;i3 ;a1 % Shtemaran 5-6, Ch4 - q9
+	8 thousand horseman and 40 thousand infantry
+	10 thousand horseman and 30 thousand infantry
+	11 thousand horseman and 60 thousand infantry
+	3 thousand horseman and 25 thousand infantry
+    
+{US History}
+	
+1[The purpose of the 1964 Freedom Summer in Mississippi was to] ;d8 ;i5 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q1
+	help and encourage blacks to become registered voters
+	persuade the state legislature to ratify the Equal Rights Amendment
+	protest the escalation of the Vietnam War
+	desegregate schools
+2[Malcolm X advocated all of the following except] ;d3 ;i8 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q2
+	blacks should be proud of their blackness and their African roots
+	blacks should rely on nonviolence and should earn their freedom by passive resistance
+	blacks should control their own destinies
+	blacks should separate themselves from whites
+3[Which of the following statements about Martin Luther King Jr.'s speech to the 1963 Washington civil-rights rally is correct ?] ;d1 ;i8 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q3
+	It was a failure because the turnout at the rally was poor and it came at the end of a long and hot day of lengthy speeches
+	It was ignored by the media
+	It was dramatically interrupted when a white racist shot King as he spoke on the steps of the Lincoln Memorial
+	It turned a political rally into a historic event and recalled the nation to the ideals of justice and equality
+4[Between 1964 and 1968 some urban blacks around the country expressed their reaction to the civil rights movement by] ;d6 ;i7 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz30.htm, q4
+	launching the most vigorous voter-registration drive in American history
+	looting, rioting and destroying property
+	staging sit-ins at banks in order to get more loans for black-run businesses
+	organizing a series of mass demonstrations and marches that paralyzed city affairs for days at a time
+5[Why did John Mitchell, E. Howard Hunt, and G. Gordon Liddy arrange the break-in at the Watergate complex ?] ;d7 ;i8 ;a3 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q1
+	To destroy the Democratic National Committee's files of of potential campaign contributors
+	To find information about Daniel Ellsburg that would discredit him
+	To wiretap the telephone of the Democratic National Committee
+	None of the answers is correct
+6[The Nixon's administration's "enemies list" included] ;d7 ;i6 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q2
+	prominent Americans who were to be harassed by the government for opposing Nixon's policies
+	leaders of North Vietnam, China, and Kampuchea
+	known communists who were working in either the State or Defense Department
+	Spiro Agnew, John Mitchell, and G. Gordon Liddy
+7[What did the White House tapes reveal ?] ;d8 ;i8 ;a3 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q3
+	President Nixon had attempted to halt the dirty tricks of his supporters
+	President Nixon had an affair with a White House intern
+	President Nixon had ordered a coverup in the Watergate affair
+	The Watergate burglary was simply a third-rate caper
+8[President Nixon] ;d2 ;i8 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q4
+	resigned to allow vice-president Spiro Agnew to take over the reins of power
+	resigned from office before the House could impeach him, which it was likely to do
+	was impeached by the House of Representatives for obstruction of justice and abuse of power
+	apologized to the American people for his decisions and declared he was wrong to abuse power
+9[George McGovern overwhelmingly lost the 1972 presidential election because] ;d7 ;i6 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz31.htm, q5
+	he only won one state (Massachusetts) plus the District of Columbia
+	his first vice-presidential running mate had received electric-shock treatment for depression
+	the Nixon campaign kept information about the Watergate burglary contained
+	all the answers are correct
+10[Which of the following is NOT true about John F. Kennedy ?] ;d5 ;i4 ;a2 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q1
+	He had won a Pulitzer Prize for "Profiles in Courage," a book written primarily by one of his staff members
+	He had compiled an impressive record of achievement during his years in Congress and had sponsored much notable reform legislation
+	He was the first Roman Catholic president
+	He was esteemed as a war hero and projected an image of vigor and rugged good looks
+11[The most serious conflict between the U.S. and the Soviet Union during the Kennedy administration occurred over] ;d2 ;i8 ;a1 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q2
+	Cuba
+	Berlin
+	Turkey
+	Vietnam
+12[Pres. Johnson's vision of a Great Society was one in which] ;d4 ;i5 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q3
+	independent farmers and small shop owners would once again form the backbone of a free and democratic citizenry in the Jeffersonian mold
+	inequalities between social classes could be eliminated by government wealth-distribution schemes
+	individuals and corporations could work as partners to eliminate poverty without the need for elaborate government-sponsored social welfare programs
+	poverty and racial injustice would be eliminated, and economic opportunity would be available to all
+13[Which of the following was NOT one of the Warren Court decisions in the 1960s ?] ;d8 ;i3 ;a4 % http://faculty.polytechnic.org/gfeldmeth/qz28.htm, q4
+	If a defendant could not afford an attorney, one must be provided by the state
+	Bible reading and organized prayer were not permissible in public schools
+	Police had to advise a suspect of his or her constitutional right to remain silent
+	The Constitution protected a woman's right to an abortion
+14[President Clinton] ;d4 ;i8 ;a1 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q1
+	became only the second president in American history to be impeached
+	admitted to having affairs with Gennifer Flowers, Monica Lewinsky, and many other women
+	was successful in his campaign to end all discrimination against homosexuals in the military
+	opposed the NAFTA agreement
+15[To what was Ronald Reagan referring when he spoke of the evil empire ?] ;d3 ;i5 ;a1 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q3
+	The Soviet Union
+	The People's Republic of China
+	The growing federal bureaucracy
+	The Democratic Party
+16[Which of the following issues did evangelical Christians target in the 1970s ?] ;d6 ;i5 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q4
+	Abortion
+	Homosexuality
+	Public-school prayer
+	All the answers are correct
+17[The North American Free Trade Agreement] ;d7 ;i6 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz32.htm, q5
+	was a plan to encourage the Big Three automakers to move their production facilities to Mexico
+	admitted Mexico to a free-trade zone that had been formed by the U.S. and Canada
+	was opposed by most Mexicans out of fear that high wage jobs would flee to Canada
+	was supported by organized labor in the U.S.
+18[Opponents of American involvement in the Vietnam War said that] ;d8 ;i7 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q1
+	the war was a civil conflict in which the U.S. had no business meddling
+	the war would force drastic cutbacks in Great Society social programs
+	the U.S. could never win the war without impossible expense
+	all the answers are correct
+19[What policy did Lyndon Johnson follow with regard to American involvement in Vietnam ?] ;d8 ;i8 ;a3 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q2
+	Pull out immediately and declare that the U.S. had achieved its goals
+	Rapidly send American ground troops in for a massive invasion of North Vietnam
+	Gradually escalate the direct American role in the war
+	None of the answers is correct
+20[Which of the following statements most accurately describes conditions in the American army in Vietnam by 1969 ?] ;d6 ;i8 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q3
+	Morale had plummeted
+	Drug use had soared
+	Racial conflict among American soldiers had increased
+	All the answers are correct
+21[President Nixon's policy in Southeast Asia included all of the following except] ;d9 ;i7 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz29.htm, q4
+	escalation of American bombing of North Vietnam
+	massive increases in American ground troops to invade North Vietnam
+	secret direct negotiations with North Vietnam's foreign minister
+	widening of the war by invading Cambodia
+22[President Eisenhower was associated with each of the following except] ;d9 ;i4 ;a1 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q1
+	bringing about the downfall of Joseph McCarthy by publicly denouncing his irresponsible accusations
+	appointing Earl Warren as Chief Justice of the Supreme Court
+	bringing an end to the Korean War with the signing of an armistice in 1953
+	warning the nation about the growing power of the military and big industrial corporations in American life
+23[The United States' initial involvement in Vietnam consisted of] ;d5 ;i5 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q3
+	furnishing aid to the nationalist group, the Vietminh
+	furnishing aid to the French, who were trying to reconquer their former colony
+	committing atomic weapons to assist the French
+	none of the answers is correct
+24[Television in the 1950s] ;d6 ;i7 ;a3 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q4
+	helped to demolish old gender and racial stereotypes
+	exposed American viewers to the harsh realities of poverty in America
+	reinforced consumerism and conformity
+	was dominated by quality cultural shows
+25[Martin Luther King's philosophy of civil disobedience incorporated] ;d4 ;i6 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz27.htm, q5
+	nonviolent resistance
+	direct action
+	ideas of Thoreau and Gandhi
+	all the answers are correct
+26[Which of the following people was convicted and executed for conspiring to commit espionage ?] ;d9 ;i3 ;a4 % http://faculty.polytechnic.org//gfeldmeth/qz26.htm, q1
+	Dean Acheson
+	Whittaker Chambers
+	George Marshall
+	Julius Rosenberg
+27[What lesson in recent history impressed President Truman and his advisers and formed a basic diplomatic tenet of his administration ?] ;d8 ;i5 ;a2 % http://faculty.polytechnic.org//gfeldmeth/qz26.htm, q2
+	International peace could only be achieved when the Soviet Union felt secure on its borders
+	Appeasement toward aggressive dictators leads not to peace but to greater violence and bloodshed
+	The Japanese had an innate national tendency toward competition and aggression
+	
+{International Politics}
+
+1[The main actors on the international stage are] ;d4 ;i6 ;a2 % (6), Ch1 - q1
+	only powerful individuals
+	mainly states and other organizations
+	mainly corporations
+	only states 
+2[Approximately what percentage of Americans follow foreign news ?] ;d5 ;i7 ;a1 % (6), Ch1 - q2
+    20 percent
+    40 percent
+    60 percent
+    80 percent
+3[The impact of international economics on domestic societies] ;d5 ;i7 ;a1 % (6), Ch1 - q3
+    continues to increase
+    continues to decrease
+    is beginning to decrease after decades of growth
+    is beginning to increase after decades of contraction
+4[Which statement about military spending and the economy is not true ?] ;d6 ;i6 ;a4 % (6), Ch1 - q4
+    The proportion of economic resources spent on the military has decreased since the 1980s
+    Many states and communities see military bases as having economic benefits
+    Military spending creates jobs for communities
+    Policy makers view military spending only as an issue of national security
+5[The rising global population is] ;d2 ;i5 ;a1 % (6), Ch1 - q5
+    putting pressure on global resources
+    fairly moderate and manageable
+    has had little impact on human living conditions
+    nearing its peak and will soon begin to fall dramatically
+6[Consumer boycotts have brought about change all of the following areas excepts which area ?] ;d3 ;i5 ;a1 % (6), Ch1 - q6
+    Global warming
+    Clothing manufacturing
+    Footwear manufacturing
+    Tuna fishing
+7[In international relations, liberal theory] ;d7 ;i4 ;a3 % (6), Ch1 - q7
+    neatly matches with the Democratic party
+    neatly matches with the Republican party
+    could be described as an optimistic theory
+    could be described as an "unrealistic" theory
+8[Which trait might one associate with the realism ?] ;d4 ;i6 ;a1 % (6), Ch1 - q8
+    It is human nature to be conflictual
+    Optimism
+    Humans are naturally trustworthy
+    International relations is ruthless but can change
+9[When it comes to the "national interest," liberals tend to] ;d7 ;i6 ;a3 % (6), Ch1 - q9
+    ignore the concept completely
+    focus only on policies that advance the national interest
+    believe that the future of one country is linked to the future of the world as a whole
+    view the concept as unimportant for powerful states
+10[Liberals believe that all of the following are leading toward a more cooperative future except] ;d8 ;i7 ;a4 % (6), Ch1 - q10
+    spread of nuclear weapons
+    increased economic interdependence among countries
+    mounting damage to the global ecosystem
+    the rise of international terrorism
+	
+{Western Civilizations}
+	
+1[There is growing support for the theory that the earliest ancestors of humans probably appeared in Africa around] ;d6 ;i4 ;a1 % (2), Ch1 - q1
+    2,000,000 years ago
+    1,250,000 years ago
+    400,000 years ago
+    10,000 years ago
+2[Early (Old Stone Age) humans did all of the following EXCEPT] ;d3 ;i7 ;a3 % (2), Ch1 - q2
+    get their food by hunting and gathering
+    divide some types of work between women and men
+    develop pottery and weaving
+    make paintings of wild animals
+3[The agricultural revolution – the planting of crops and herding animals – had all of the following effects EXCEPT] ;d5 ;i5 ;a1 % (2), Ch1 - q3
+    it promoted the concept of male "father" deities
+    it supported a larger population
+    it created the impetus to gain control over territory
+    it was the imperative step to be taken on the path to cities and civilization
+4[The first agricultural villages appeared in the hills of the Near East because] ;d4 ;i7 ;a2 % (2), Ch1 - q4
+    the humans with sufficiently advanced brains were only found there
+    the region offered the necessary combination of animals for domestication and vegetables and cereals
+    the area's dry climate necessitated large-scale irrigation projects
+    the hills provided protection from less developed hunting and gathering peoples
+5[The appearance of civilization brought all of the following EXCEPT] ;d6 ;i8 ;a4 % (2), Ch1 - q5
+    the beginnings of government
+    complex social organization based on occupational specialization
+    the creation of laws and legal codes
+    the end to the period of extensive reliance on slavery
+6[The geography of Mesopotamia influenced Sumerian civilization in all the following ways EXCEPT] ;d7 ;i6 ;a3 % (2), Ch1 - q6
+    the rich alluvial plain supported an abundant agriculture
+    the lack of timber and stone forced it to develop trading to obtain these necessary materials
+    the region's isolation led Sumerians to see themselves as unique
+    it contributed to the idea of a patron god that either looked out for or punished by unleashing the forces of nature
+7[After around 2000 B.C., the Babylonian Kingdom established its control over lower Mesopotamia, subduing or destroying the Sumerian city-states. The greatest of the Babylonian kings was] ;d9 ;i4 ;a3 % (2), Ch1 - q7
+    Amorites
+    Sargon the Great.
+    Hammurabi
+    Gilgamesh
+8[The early Mesopotamians developed all of the following EXCEPT] ;d6 ;i7 ;a2 % (2), Ch1 - q8
+    writing
+    monotheism
+    astronomy
+    mathematics
+9[The geography of Egypt influenced Egyptian civilization in all the following ways EXCEPT] ;d7 ;i7 ;a2 % (2), Ch1 - q9
+    the dependability of the Nile's annual floods and the equability of the climate contributed to Egyptians' optimistic attitudes toward life and death
+    the looming presence of mountains inspired the Egyptians to build great pyramids
+    Egypt's isolation from other peoples allowed a long, generally unbroken development
+    it created the necessary conditions that allowed Egyptian kings to easily control their subjects
+10[All of the following characterized Egypt during the Old Kingdom EXCEPT] ;d5 ;i7 ;a3 % (2), Ch1 - q10
+    domination of both the government and the economy by a god-king.
+    notable political and social stability.
+    the concept of "right order" reflecting the will of Aton, the supreme sun god.
+    a rich literature including religious myths, instructions on how to get ahead, fables, and love poems.
+11[The Egyptian New Kingdom, strengthened its control over the nobles in order to create a powerful military state that extended its power beyond the Nile Valley into Palestine and Syria. The New Kingdom arose in response to the rule of which people?] ;d9 ;i5 ;a1 % (2), Ch1 - q11
+    the Hyksos
+    the Hittites
+    the Hebrews
+    the Hellenes
+12[The Egyptian pharaoh Ramses II concluded the first known non-aggression pact with] ;d9 ;i3 ;a3 % (2), Ch1 - q12
+    the Assyrians
+    the Sumerians
+    the Hittites
+    the Babylonians
+13[All of the following characterized Egyptian society EXCEPT] ;d7 ;i8 ;a4 % (2), Ch1 - q13
+    children were valued as security for the future
+    women had the right to own property, initiate legal action, and enter the priesthood
+    communication by ship was much faster than overland transportation
+    the economic difference between free citizens and slaves was vast
+14[The Phoenicians accomplished all of the following EXCEPT] ;d8 ;i4 ;a1 % (2), Ch1 - q14
+    establishing a centralized, sea-based colonial empire
+    creating the first phonetic alphabet
+    creating a sophisticated urban civilization
+    established a lucrative trade in the reddish dye called "purple"
+15[The chief legacy (or legacies) of the Hebrews to Western Civilization was/were] ;d8 ;i5 ;a2 % (2), Ch1 - q15
+    traditions of strong tribal monarchy and national unity
+    belief in a single God and ethical laws
+    ideas of women's equality and the rights of children
+    prophetic traditions of social criticism and moral reform
+16[The Assyrians accomplished all of the following EXCEPT] ;d6 ;i6 ;a3 % (2), Ch1 - q16
+    creating magnificent works of art
+    dominion over most of the Near East for a period
+    eliminating rebelliousness among subject peoples
+    creating a society that embraced militarism
+17[The Chaldeans and the Medes] ;d8 ;i6 ;a3 % (2), Ch1 - q17
+    left voluminous records of their daily life
+    shared the glory of conquering the Persians
+    divided the Mesopotamian territories of the Assyrians
+    rejected mathematics and astronomy as an affront to the gods
+18["Indo-European" refers to] ;d5 ;i6 ;a1 % (2), Ch1 - q18
+    a language group
+    a location in the Indian sub-continent
+    a powerful but mysterious empire in the Near East
+    a civilization
+19[Zoroaster] ;d4 ;i4 ;a2 % (2), Ch1 - q19
+    taught that the spirits of light, water, and earth had created the world
+    was not considered divine
+    taught a form of religion with a single divine force
+    brought about the reduction of religion as a major defining force in Persian life
+20[The most skillful administrator of the Persian Empire was] ;d8 ;i4 ;a4 % (2), Ch1 - q20
+    Cyrus
+    Cambyses
+    Alexander
+    Darius
+	
+{World History}
+	
+1[By scholarly convention, prehistory refers to the period] ;d5 ;i7 ;a3 % (1), Ch1 - q1
+	before the emergence of cities
+	before Homo sapiens appeared
+	before the invention of writing
+	before modern humans were born
+2[Human beings and large apes are significantly different in] ;d2 ;i4 ;a1 % (2), Ch1 - q2
+    level of intelligence
+    genetic makeup
+    body chemistry
+    the structure of the brain
+3[The famous Lucy was] ;d8 ;i2 ;a2 % (2), Ch1 - q3
+    a female ape
+    an Australopithecus
+    a Homo erectus
+    an archeologist
+4[The family of hominids includes all of the following EXCEPT] ;d3 ;i4 ;a4 % (2), Ch1 - q4
+    modern humans
+    Homo sapiens and Homo erectus
+    Homo neandertalensis and Homo sapiens
+    apes and monkeys
+5[A major difference between Homo erectus and Australopithecus was the ability to] ;d7 ;i5 ;a3 % (2), Ch1 - q5
+    walk upright on two legs
+    domesticate animals
+    communicate complex ideas
+    make stone tools
+6[Homo sapiens were better hunters than Australopithecus and Homo erectus because they] ;d2 ;i5 ;a3 % (2), Ch1 - q6
+    organized larger hunting bands than their ancestors did
+    were smaller in body size but swifter in action
+    had larger brains and higher intelligence
+    had more animals to hunt
+7[The most significant defining characteristic of the paleolithic era was that] ;d6 ;i7 ;a2 % (2), Ch1 - q7
+    human beings used stone and bone tools in their cultivation of crops
+    the peoples relied on hunting and gathering for subsistence
+    men and women engaged in the same economic activities
+    people domesticated animals
+8[What is the significance of the Natufian, Jomon, and Chinook cultures ?] ;d8 ;i6 ;a4 % (2), Ch1 - q8
+    They show that some paleolithic cultures settled permanently
+    They show that some paleolithic peoples lived in much larger groups
+    They show that some paleolithic cultures had hierarchies of authority
+    All the answers are correct
+9[Neandertal peoples developed a capacity for emotion and feelings, which can be seen from their] ;d8 ;i6 ;a1 % (2), Ch1 - q9
+    elaborate burials
+    cave paintings
+    ancestor worship
+    all the answers are correct
+10[Early humans showed their creativity by] ;d3 ;i6 ;a4 % (2), Ch1 - q10
+    creating complex languages
+    inventing the bow and arrow
+    learning to fish in deep water
+    all the answers are correct
+11[The prominent sexual features of Venus figurines at early human sites indicate that Homo sapiens] ;d4 ;i6 ;a3 % (2), Ch1 - q11
+    worshipped the goddess of love forty thousand years ago
+    had a deep interest in love-making activities
+    were strongly concerned with fertility and the generation of new life
+    all the answers are correct
+12[What was a likely purpose of an early human cave painting ?] ;d8 ;i8 ;a4 % (2), Ch1 - q12
+    To warn competing groups of people of their presence
+    To practice telepathy
+    To draw portraits of each other
+    To exercise sympathetic magic
+13[The term “neolithic era” originally meant one thing, but today has come to refer to] ;d6 ;i6 ;a1 % (2), Ch1 - q13
+    the early stages of agricultural society
+    the agricultural transition
+    the era in which the peoples began to use polished stone tools
+    the era in which people began to live permanently in villages
+14[By about 5000 B.C.E., agriculture had displaced hunting and gathering societies in several regions of the world, primarily because] ;d3 ;i7 ;a2 % (2), Ch1 - q14
+    cultivation required much less work than hunting and gathering
+    cultivation provided a relatively stable and regular supply of food
+    agriculture led to a more varied diet
+    none of the answers is correct
+15[All of the following social changes were brought about by agriculture EXCEPT] ;d2 ;i8 ;a3 % (2), Ch1 - q15
+    population growth
+    the emergence of villages and towns
+    the invention of writing
+    the specialization of labor
+16[The site of Jericho was one of the earliest known] ;d8 ;i3 ;a2 % (2), Ch1 - q16
+    agricultural sites
+    towns
+    villages
+    temples
+17[Three neolithic industries that illustrate the greatest potential of specialized labor include] ;d8 ;i8 ;a3 % (2), Ch1 - q17
+    stone tool making, leather, and jewelry
+    wood carving, beads, and baskets
+    pottery, metallurgy, and textiles
+    furs, fish, and grain
+18[Çatal Hüyük is an archaeological site in Anatolia from neolithic times, in which one can readily see evidence of] ;d8 ;i3 ;a1 % (2), Ch1 - q18
+    specialization of labor
+    iron production
+    long-distance trade
+    writing
+19[The belief that neolithic religious thought clearly reflected the natural world of early agricultural society is based on observation of] ;d7 ;i8 ;a2 % (2), Ch1 - q19
+    religious texts
+    representations of gods and goddesses
+    cave paintings
+    fossils
+20[Cities first emerged from agricultural villages and towns in] ;d7 ;i7 ;a4 % (1), Ch1 - q20
+    South America
+    Egypt
+    China
+    the valleys of the Tigris and Euphrates rivers
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

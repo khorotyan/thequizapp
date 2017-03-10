@@ -1,0 +1,46 @@
+% d4 - difficulty is 4 out of 9 (kind of easy, 1 - 9) (;d1 - Most of the people must know)
+% i8 - the interesting rate of the question is 8 out of 9 (very interesting, 1 - 9) (i9 - advertising)
+% a3 - the third one is the correct answer (the answer will be encrypted later)
+% http://connect.customer.mheducation.com/subjects/
+% http://highered.mheducation.com/sites/0071786198/student_view0/chapter1/index.html - (1) Computer Security
+% http://highered.mheducation.com/sites/0073398179/student_view0/chapter1/multiple_choice_quiz.html - (2) Thermodynamics
+% http://highered.mheducation.com/sites/0072988215/student_view0/chapter1/index.html - (3) Basic Electronics
+% http://glencoe.mheducation.com/sites/0078778387/student_view0/chapter1/index.html - (4) Electricity and Magnetism
+% http://highered.mheducation.com/sites/0073373761/student_view0/chapter1/index.html - (5) Electricity and Magnetism
+% http://glencoe.mheducation.com/sites/0078778360/student_view0/chapter1/index.html - (6) Motion, Forces, and Energy
+% http://glencoe.mheducation.com/sites/0078778409/student_view0/chapter1/index.html - (7) Waves, Sound, and Light
+
+{Computer Security}
+
+{Thermodynamics}
+
+{Basic Electronics}
+
+{Electricity and Magnetism}
+
+{Motion, Forces, and Energy}
+
+{Waves, Sound, and Light}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -35,6 +35,7 @@ public class CurrSessionManager : MonoBehaviour
     private HelpersDuringSess helpersDuringSess;
     private InfoManager infoManager;
     private PerkEffectManager perkEffectManager;
+    private StoreManager storeManager;
     private List<QuestionData> qsFromDivisions;
     private string topicName;
     private int sessionCorrAnsNum;
@@ -52,6 +53,7 @@ public class CurrSessionManager : MonoBehaviour
         helpersDuringSess = gameObject.GetComponent<HelpersDuringSess>();
         infoManager = gameObject.GetComponent<InfoManager>();
         perkEffectManager = gameObject.GetComponent<PerkEffectManager>();
+        storeManager = gameObject.GetComponent<StoreManager>();
 
         nextButton.onClick.AddListener(() => OnNextClick());
 
@@ -116,10 +118,7 @@ public class CurrSessionManager : MonoBehaviour
         // If the user is allowed to click next
         if (canClickNext == true)
         {
-            if (buttons[0].interactable == false) buttons[0].interactable = true;
-            if (buttons[1].interactable == false) buttons[1].interactable = true;
-            if (buttons[2].interactable == false) buttons[2].interactable = true;
-            if (buttons[3].interactable == false) buttons[3].interactable = true;
+            perkEffectManager.RemovePerkEffects(); // Remove effetcs of 
 
             ManageQShuffle();
 
@@ -128,6 +127,7 @@ public class CurrSessionManager : MonoBehaviour
 
             sessionCurrencyManager.CurrencyCalculations();
 
+            // - - -
             // When the user finishes the current game, the Results page opens
             if (currQNumber == sessionQCount + 1)
             {
@@ -135,6 +135,7 @@ public class CurrSessionManager : MonoBehaviour
                 perkEffectManager.UpdatePerksAfterGameEnds(); // Update the perk used statuses
                 SessionTimerManager.canStartTimerSubtracting = false;
             }
+            // - - -
         }
         // The user clicked next without answering the question
         else
@@ -190,6 +191,9 @@ public class CurrSessionManager : MonoBehaviour
                 infoManager.wrongAnsweredQs.Add(qsFromDivisions[currQNumber - 1]);
             }
 
+            // Time accumulator perk operation            
+            perkEffectManager.AccumulateTime(sessionTimerManager.totalTime, sessionTimerManager.fixedTotalTime, storeManager.GetBTAnswerPerc(), storeManager.GetBTBonusPerc());
+
             canClickNext = true;
             canClickAnswer = false;
         }
@@ -235,7 +239,8 @@ public class CurrSessionManager : MonoBehaviour
             }
 
             // Calculate the amount of time given for the current question and manage the timer
-            sessionTimerManager.DoTimerCalculations(qsFromDivisions[currQNumber]);   
+            sessionTimerManager.DoTimerCalculations(qsFromDivisions[currQNumber]);
+            
         }
         else
         {
