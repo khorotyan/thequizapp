@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class MainScreenManager : MonoBehaviour
 {
-    private SaveManager saveManager;
-    private LoadManager loadManager;
     private StoreManager storeManager;
 
     public Button categoriesButton;
@@ -17,8 +15,6 @@ public class MainScreenManager : MonoBehaviour
 
     private void Awake()
     {
-        saveManager = gameObject.GetComponent<SaveManager>();
-        loadManager = gameObject.GetComponent<LoadManager>();
         storeManager = gameObject.GetComponent<StoreManager>();
 
         categoriesButton.onClick.AddListener(OpenCategories);

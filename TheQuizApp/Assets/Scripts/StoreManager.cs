@@ -20,11 +20,11 @@ public class StoreManager : MonoBehaviour
 
     [Space(4)]
 
-    public GameObject Store5050Obj;
-    public GameObject StoreVaultObj;
-    public GameObject StoreComboMultObj;
-    public GameObject StoreMoreMoneyObj;
-    public GameObject StoreBonusTimeObj;
+    public GameObject store5050Obj;
+    public GameObject storeVaultObj;
+    public GameObject storeComboMultObj;
+    public GameObject storeMoreMoneyObj;
+    public GameObject storeBonusTimeObj;
 
     public int store5050Lvl = 0;
     int storeVaultLvl = 0;
@@ -134,11 +134,11 @@ public class StoreManager : MonoBehaviour
         storeMoreMoneyLvl = loadManager.LoadPerkLevel(3);
         storeBonusTimeLvl = loadManager.LoadPerkLevel(4);
 
-        UpdateSingleItemVisuals(Store5050Obj.transform.GetChild(0), store5050Lvl);
-        UpdateStoreItemVisuals(StoreVaultObj.transform.GetChild(0), storeVaultInfo, storeVaultLvl, false);
-        UpdateStoreItemVisuals(StoreComboMultObj.transform.GetChild(0), storeComboMultInfo, storeComboMultLvl, false);
-        UpdateStoreItemVisuals(StoreMoreMoneyObj.transform.GetChild(0), storeMoreMoneyInfo, storeMoreMoneyLvl, false);
-        UpdateStoreItemVisuals(StoreBonusTimeObj.transform.GetChild(0), storeBonusTimeInfo, storeBonusTimeLvl, true);
+        UpdateSingleItemVisuals(store5050Obj.transform.GetChild(0), store5050Lvl);
+        UpdateStoreItemVisuals(storeVaultObj.transform.GetChild(0), storeVaultInfo, storeVaultLvl, false);
+        UpdateStoreItemVisuals(storeComboMultObj.transform.GetChild(0), storeComboMultInfo, storeComboMultLvl, false);
+        UpdateStoreItemVisuals(storeMoreMoneyObj.transform.GetChild(0), storeMoreMoneyInfo, storeMoreMoneyLvl, false);
+        UpdateStoreItemVisuals(storeBonusTimeObj.transform.GetChild(0), storeBonusTimeInfo, storeBonusTimeLvl, true);
     }
 
     // Update the the texts and the level indicators of the perk
@@ -186,11 +186,11 @@ public class StoreManager : MonoBehaviour
     // Runs whenever a perk is clicked
     public void OnStoreItemClick(int itemID)
     {
-        if (itemID == 0) { CheckPurchase(Store5050Obj.transform.GetChild(2).gameObject); }
-        else if (itemID == 1) { CheckPurchase(StoreVaultObj.transform.GetChild(2).gameObject); }
-        else if (itemID == 2) { CheckPurchase(StoreComboMultObj.transform.GetChild(2).gameObject); }
-        else if (itemID == 3) { CheckPurchase(StoreMoreMoneyObj.transform.GetChild(2).gameObject); }
-        else if (itemID == 4) { CheckPurchase(StoreBonusTimeObj.transform.GetChild(2).gameObject); }
+        if (itemID == 0) { CheckPurchase(store5050Obj.transform.GetChild(2).gameObject); }
+        else if (itemID == 1) { CheckPurchase(storeVaultObj.transform.GetChild(2).gameObject); }
+        else if (itemID == 2) { CheckPurchase(storeComboMultObj.transform.GetChild(2).gameObject); }
+        else if (itemID == 3) { CheckPurchase(storeMoreMoneyObj.transform.GetChild(2).gameObject); }
+        else if (itemID == 4) { CheckPurchase(storeBonusTimeObj.transform.GetChild(2).gameObject); }
     }
 
     private void CheckPurchase(GameObject ResponceCheckerObj)
@@ -201,11 +201,11 @@ public class StoreManager : MonoBehaviour
 
     public void ClosePurchaseChecker()
     {
-        if (Store5050Obj.transform.GetChild(2).gameObject.activeSelf == true) { Store5050Obj.transform.GetChild(2).gameObject.SetActive(false); }
-        else if (StoreVaultObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreVaultObj.transform.GetChild(2).gameObject.SetActive(false); }
-        else if (StoreComboMultObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreComboMultObj.transform.GetChild(2).gameObject.SetActive(false); }
-        else if (StoreMoreMoneyObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreMoreMoneyObj.transform.GetChild(2).gameObject.SetActive(false); }
-        else if (StoreBonusTimeObj.transform.GetChild(2).gameObject.activeSelf == true) { StoreBonusTimeObj.transform.GetChild(2).gameObject.SetActive(false); }
+        if (store5050Obj.transform.GetChild(2).gameObject.activeSelf == true) { store5050Obj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (storeVaultObj.transform.GetChild(2).gameObject.activeSelf == true) { storeVaultObj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (storeComboMultObj.transform.GetChild(2).gameObject.activeSelf == true) { storeComboMultObj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (storeMoreMoneyObj.transform.GetChild(2).gameObject.activeSelf == true) { storeMoreMoneyObj.transform.GetChild(2).gameObject.SetActive(false); }
+        else if (storeBonusTimeObj.transform.GetChild(2).gameObject.activeSelf == true) { storeBonusTimeObj.transform.GetChild(2).gameObject.SetActive(false); }
     }
 
     public void ManageStore5050()
@@ -222,13 +222,13 @@ public class StoreManager : MonoBehaviour
         }
         else
         {  
-            Store5050Obj.transform.GetChild(3).gameObject.SetActive(true);
+            store5050Obj.transform.GetChild(3).gameObject.SetActive(true);
             StartCoroutine(DisableNotEnMoney());
         }
 
         UpdateTotalMoneyText();
 
-        UpdateSingleItemVisuals(Store5050Obj.transform.GetChild(0), store5050Lvl);
+        UpdateSingleItemVisuals(store5050Obj.transform.GetChild(0), store5050Lvl);
 
     }
 
@@ -246,13 +246,13 @@ public class StoreManager : MonoBehaviour
         }
         else
         { 
-            StoreVaultObj.transform.GetChild(3).gameObject.SetActive(true);
+            storeVaultObj.transform.GetChild(3).gameObject.SetActive(true);
             StartCoroutine(DisableNotEnMoney());
         }
 
         UpdateTotalMoneyText();
 
-        UpdateStoreItemVisuals(StoreVaultObj.transform.GetChild(0), storeVaultInfo, storeVaultLvl, false);
+        UpdateStoreItemVisuals(storeVaultObj.transform.GetChild(0), storeVaultInfo, storeVaultLvl, false);
         
     }
 
@@ -270,13 +270,13 @@ public class StoreManager : MonoBehaviour
         }
         else
         {       
-            StoreComboMultObj.transform.GetChild(3).gameObject.SetActive(true);
+            storeComboMultObj.transform.GetChild(3).gameObject.SetActive(true);
             StartCoroutine(DisableNotEnMoney());
         }
 
         UpdateTotalMoneyText();
 
-        UpdateStoreItemVisuals(StoreComboMultObj.transform.GetChild(0), storeComboMultInfo, storeComboMultLvl, false);
+        UpdateStoreItemVisuals(storeComboMultObj.transform.GetChild(0), storeComboMultInfo, storeComboMultLvl, false);
         
     }
 
@@ -294,13 +294,13 @@ public class StoreManager : MonoBehaviour
         }
         else
         {
-            StoreMoreMoneyObj.transform.GetChild(3).gameObject.SetActive(true);
+            storeMoreMoneyObj.transform.GetChild(3).gameObject.SetActive(true);
             StartCoroutine(DisableNotEnMoney());
         }
 
         UpdateTotalMoneyText();
 
-        UpdateStoreItemVisuals(StoreMoreMoneyObj.transform.GetChild(0), storeMoreMoneyInfo, storeMoreMoneyLvl, false);
+        UpdateStoreItemVisuals(storeMoreMoneyObj.transform.GetChild(0), storeMoreMoneyInfo, storeMoreMoneyLvl, false);
         
     }
 
@@ -318,13 +318,13 @@ public class StoreManager : MonoBehaviour
         }
         else
         {
-            StoreBonusTimeObj.transform.GetChild(3).gameObject.SetActive(true);
+            storeBonusTimeObj.transform.GetChild(3).gameObject.SetActive(true);
             StartCoroutine(DisableNotEnMoney());
         }
 
         UpdateTotalMoneyText();
 
-        UpdateStoreItemVisuals(StoreBonusTimeObj.transform.GetChild(0), storeBonusTimeInfo, storeBonusTimeLvl, true);
+        UpdateStoreItemVisuals(storeBonusTimeObj.transform.GetChild(0), storeBonusTimeInfo, storeBonusTimeLvl, true);
 
     }
 
@@ -333,23 +333,23 @@ public class StoreManager : MonoBehaviour
     {
         // 50/50 Perk
         int reqlvl5050 = 1;
-        CheckPerkLevel(reqlvl5050, Store5050Obj);
+        CheckPerkLevel(reqlvl5050, store5050Obj);
 
         // Vault Perk
         int reqlvlVault = 3;
-        CheckPerkLevel(reqlvlVault, StoreVaultObj);
+        CheckPerkLevel(reqlvlVault, storeVaultObj);
 
         // ComboMult Perk
         int reqlvlComboMult = 6;
-        CheckPerkLevel(reqlvlComboMult, StoreComboMultObj);
+        CheckPerkLevel(reqlvlComboMult, storeComboMultObj);
 
         // MoreMoney Perk
         int reqlvlMoreMoney = 9;
-        CheckPerkLevel(reqlvlMoreMoney, StoreMoreMoneyObj);
+        CheckPerkLevel(reqlvlMoreMoney, storeMoreMoneyObj);
 
         // BonusTime Perk
         int reqlvlBonusTime = 12;
-        CheckPerkLevel(reqlvlBonusTime, StoreBonusTimeObj);
+        CheckPerkLevel(reqlvlBonusTime, storeBonusTimeObj);
     }
 
     // If the perk is open, disable the perk hider
@@ -375,7 +375,7 @@ public class StoreManager : MonoBehaviour
     // Updates total money text
     private void UpdateTotalMoneyText()
     {
-        totalMoneyText.text = "Money: " + totalMoney.ToString();
+        totalMoneyText.text = totalMoney.ToString();
     }
 
     // Gets the answer percent (value1) of the Bonus Time perk
@@ -410,11 +410,11 @@ public class StoreManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
 
-        if (Store5050Obj.transform.GetChild(3).gameObject.activeSelf == true) { Store5050Obj.transform.GetChild(3).gameObject.SetActive(false); }
-        else if (StoreVaultObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreVaultObj.transform.GetChild(3).gameObject.SetActive(false); }
-        else if (StoreComboMultObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreComboMultObj.transform.GetChild(3).gameObject.SetActive(false); }
-        else if (StoreMoreMoneyObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreMoreMoneyObj.transform.GetChild(3).gameObject.SetActive(false); }
-        else if (StoreBonusTimeObj.transform.GetChild(3).gameObject.activeSelf == true) { StoreBonusTimeObj.transform.GetChild(3).gameObject.SetActive(false); }
+        if (store5050Obj.transform.GetChild(3).gameObject.activeSelf == true) { store5050Obj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (storeVaultObj.transform.GetChild(3).gameObject.activeSelf == true) { storeVaultObj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (storeComboMultObj.transform.GetChild(3).gameObject.activeSelf == true) { storeComboMultObj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (storeMoreMoneyObj.transform.GetChild(3).gameObject.activeSelf == true) { storeMoreMoneyObj.transform.GetChild(3).gameObject.SetActive(false); }
+        else if (storeBonusTimeObj.transform.GetChild(3).gameObject.activeSelf == true) { storeBonusTimeObj.transform.GetChild(3).gameObject.SetActive(false); }
     }
 }
 

@@ -133,6 +133,7 @@ public class CurrSessionManager : MonoBehaviour
             {
                 resultsPageManager.UpdateResultsPage(topicName, sessionCurrencyManager.sessTotalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
                 perkEffectManager.UpdatePerksAfterGameEnds(); // Update the perk used statuses
+
                 SessionTimerManager.canStartTimerSubtracting = false;
             }
             // - - -

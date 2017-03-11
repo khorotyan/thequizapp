@@ -41,7 +41,7 @@ public class PerkEffectManager : MonoBehaviour
         if (isInterpolating == true && helperIsActive == false)
         {
             float currPosY = Mathf.Lerp(1150, 650, t);
-            t += 2f * Time.deltaTime;
+            t += 3f * Time.deltaTime;
 
             helpersMain.GetComponent<RectTransform>().anchoredPosition = new Vector3(helpersMain.GetComponent<RectTransform>().anchoredPosition.x, currPosY, 0);          
 
@@ -55,7 +55,7 @@ public class PerkEffectManager : MonoBehaviour
         else if (isInterpolating == true && helperIsActive == true)
         {
             float currPosY = Mathf.Lerp(650, 1150, t);
-            t += 2f * Time.deltaTime;
+            t += 3f * Time.deltaTime;
 
             helpersMain.GetComponent<RectTransform>().anchoredPosition = new Vector3(helpersMain.GetComponent<RectTransform>().anchoredPosition.x, currPosY, 0);
 
@@ -123,8 +123,6 @@ public class PerkEffectManager : MonoBehaviour
             answerNums.Add(4);
 
             answerNums.Remove(corrAnsNum);
-
-            var rand = new System.Random();
 
             int wrong1 = answerNums[UnityEngine.Random.Range(0, 3)];
             answerNums.Remove(wrong1);

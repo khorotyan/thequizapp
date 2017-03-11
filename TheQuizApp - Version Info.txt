@@ -152,12 +152,40 @@ Upcoming:
 	If there were two '_____''s in the question
 		then check whether there is only one ',', if yes then replace it with ' /' in the answers
 
-
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 version 0.30.000 / --- March xx, 2017 --- \
 
-1. Make the achievements system
-2. Make the results page
+Added:
+
+1. Achievement Page UI with the information about the achievements
+
+Changes & Improvements:
+
+1. Small bug fixes and visual improvements
+
+Upcoming:
+
+- Make the achievements system
+- Make the results page
+- Optimize the images
+
+1. When a new level is gained, show the current level change with an animation
+2. Make a different time calculator for the calculation questions
+3. Close the helper panel before a new question is shown
+4. Automatically resize question textbox if a text gets outside its boundaries
+5. Question adder tool:
+	Improve the question adder program to be able to edit the current questions in the question containers
+	Change all _____, ______________  with ...
+	If the character at the end of the question is ':' then remove it
+	If there were two '_____''s in the question
+		then check whether there is only one ',', if yes then replace it with ' /' in the answers
+6. Change question page background and answer panel
+	it is difficult to instantly grasp whether the question was anwered correctly or incorrectly
+	background is not satisfiable to watch for the eyes
+7. Playing the same topic a lot gives decreasing amount of money
+	Ex. 50 Qs -> 10%, 100 Qs -> 25%, 150 Qs -> 45%, 200 Qs -> 70%, 250 Qs -> 80%, 300 Qs -> 85%, 400 Qs -> 90%, 500 Qs -> 95%  
+8. Change the 'x' symbol in the store to the actual value
+9. Swap money multiplier and time accumulator perk information, meaning that time accumulator opens at lvl 9
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 version 0.40.000 / --- April 23, 2017 --- \
