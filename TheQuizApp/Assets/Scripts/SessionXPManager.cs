@@ -15,8 +15,8 @@ public class SessionXPManager : MonoBehaviour {
     public static int remainingXP = 0;
     public static int xpPastLevel = 0;
 
-    private int xpForWrong = 1;
-    private int xpForCorrect = 5;
+    private int xpForWrong = 1 * 10;
+    private int xpForCorrect = 5 * 10;
 
     private void Awake()
     {

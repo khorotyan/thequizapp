@@ -11,6 +11,7 @@ public class ResultsPageManager : MonoBehaviour
     private InfoManager infoManager;
     private SessionXPManager sessionXPManager;
     private StoreManager storeManager;
+    private InfoGetter infoGetter;
 
     [SerializeField]
     private GameObject topicsPanel;
@@ -63,6 +64,7 @@ public class ResultsPageManager : MonoBehaviour
         infoManager = gameObject.GetComponent<InfoManager>();
         sessionXPManager = gameObject.GetComponent<SessionXPManager>();
         storeManager = gameObject.GetComponent<StoreManager>();
+        infoGetter = gameObject.GetComponent<InfoGetter>();
     }
 
     private void Update()
@@ -228,7 +230,13 @@ public class ResultsPageManager : MonoBehaviour
 
     public void OnResultsPageClose()
     {
+        StartCoroutine(WaitBeforeAnimEnd());
+        infoGetter.infoGetAnimator.SetTrigger("OpenPage");
+    }
+
+    IEnumerator WaitBeforeAnimEnd()
+    {
+        yield return new WaitForSeconds(1.5f);
         resultsPagePanel.SetActive(false);
-        topicsPanel.SetActive(true);
     }
 }

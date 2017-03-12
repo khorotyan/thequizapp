@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class InfoGetter : MonoBehaviour
 {
+    public Animator infoGetAnimator;
+    public GameObject questionPanel;
+
     private string[] textLines;
     private List<QuestionData> questionData = new List<QuestionData>();
 
@@ -23,6 +26,8 @@ public class InfoGetter : MonoBehaviour
     // Get information about the topic that the user chose
     public void OnTopicClick(string info)
     {
+        questionPanel.SetActive(true);
+
         var timeMeasurer = System.Diagnostics.Stopwatch.StartNew();
 
         string[] splitInfo = info.Split('/');
@@ -34,11 +39,13 @@ public class InfoGetter : MonoBehaviour
         startLine += 2;
         endLine = startLine + numOfQuestions * 5 - 1;
 
-        QuestionAnswerExtractor();
+        QuestionAnswerExtractor();       
 
         infoManager.ConstructQuestions(topicName, numOfQuestions, quesPerRound, questionData);
 
-        Debug.Log("InfoTime: " + timeMeasurer.ElapsedMilliseconds);
+        infoGetAnimator.SetTrigger("ClosePage");
+
+        Debug.Log("InfoTime: " + timeMeasurer.ElapsedMilliseconds);    
     }
 
     // Extracts and manages the information from the text file containing the quiz questions

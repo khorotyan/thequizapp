@@ -91,6 +91,8 @@ public class LoadManager : MonoBehaviour
             currLevel = ES2.Load<int>("svt.txt?tag=currLevel");
         }
 
+        currLevel = 12;
+
         return currLevel;
     }
 
@@ -102,6 +104,8 @@ public class LoadManager : MonoBehaviour
         {
             totalXP = ES2.Load<int>("svt.txt?tag=totalXP");
         }
+
+        totalXP = 4500;
 
         return totalXP;
     }

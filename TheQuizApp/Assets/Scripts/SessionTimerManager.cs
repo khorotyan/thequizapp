@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class SessionTimerManager : MonoBehaviour
 {
-    public Color32 beautyRed = new Color32(242, 68, 57, 200);
-    public Color32 beautyGreen = new Color32(0, 151, 136, 200);
+    public Color32 beautyRed = new Color32(242, 68, 57, 175);
+    public Color32 beautyGreen = new Color32(0, 151, 136, 175);
 
     [SerializeField]
     private Text timerText;

@@ -158,6 +158,8 @@ version 0.30.000 / --- March xx, 2017 --- \
 Added:
 
 1. Achievement Page UI with the information about the achievements
+2. Page Transition animations
+3. Question Change animations
 
 Changes & Improvements:
 

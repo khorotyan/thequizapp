@@ -65,19 +65,6 @@ public class AchievementManager : MonoBehaviour
         achMasterQuizerInfo[1] = new AchievementItemInfo(12, 1450, 15);
         achMasterQuizerInfo[2] = new AchievementItemInfo(30, 9999, 30);
     }
-
-    public void OnAchievementsOpen()
-    {
-        mainMenuPage.SetActive(false);
-        achievementsPage.SetActive(true);
-    }
-
-    public void OnAchievementsClose()
-    {
-        mainMenuPage.SetActive(true);
-        achievementsPage.SetActive(false);
-    }
-
 }
 
 // Custom datatype containing each perk level information

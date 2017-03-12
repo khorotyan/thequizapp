@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 // Manage the questions that the user answers during the session
 public class CurrSessionManager : MonoBehaviour
-{   
+{
+    public Animator changeQAnimator;
+
     [SerializeField]
-    private GameObject topicPanel;
-    [SerializeField]
-    private GameObject questionPanel;
+    private GameObject topicPanel;  
     [SerializeField]
     private Text questionText;
     [SerializeField]
@@ -43,6 +43,7 @@ public class CurrSessionManager : MonoBehaviour
     private int sessionQCount = 0;
     private int currQNumber = 0;
     private int numOfCorrAnss = 0;
+    private bool canShowNextQ = false;
 
     private void Awake()
     {
@@ -118,25 +119,9 @@ public class CurrSessionManager : MonoBehaviour
         // If the user is allowed to click next
         if (canClickNext == true)
         {
-            perkEffectManager.RemovePerkEffects(); // Remove effetcs of 
+            changeQAnimator.SetTrigger("ChangeQ");
+            StartCoroutine(ChangeQAfterAnim()); // Animate question change         
 
-            ManageQShuffle();
-
-            answerSelected = false;
-            canClickNext = false;
-
-            sessionCurrencyManager.CurrencyCalculations();
-
-            // - - -
-            // When the user finishes the current game, the Results page opens
-            if (currQNumber == sessionQCount + 1)
-            {
-                resultsPageManager.UpdateResultsPage(topicName, sessionCurrencyManager.sessTotalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
-                perkEffectManager.UpdatePerksAfterGameEnds(); // Update the perk used statuses
-
-                SessionTimerManager.canStartTimerSubtracting = false;
-            }
-            // - - -
         }
         // The user clicked next without answering the question
         else
@@ -149,12 +134,6 @@ public class CurrSessionManager : MonoBehaviour
     // Determines whether the question answer is correct or wrong
     public void CurrQManager()
     {
-        if (topicPanel.activeSelf == true && questionPanel.activeSelf == false)
-        {
-            topicPanel.SetActive(false);
-            questionPanel.SetActive(true);
-        }
-
         if (currQNumber != 0)
         {
             // Correct Answer
@@ -257,5 +236,33 @@ public class CurrSessionManager : MonoBehaviour
         uiResizer.ResizeUI();      
 
         currQNumber++;
-    } 
+    }
+
+    // Animate question change
+    IEnumerator ChangeQAfterAnim()
+    {
+        //string animLength = changeQAnimator.name;
+        //Debug.Log(animLength);
+        yield return new WaitForSeconds(1f);
+
+        perkEffectManager.RemovePerkEffects(); // Remove effetcs of 
+
+        ManageQShuffle();
+
+        answerSelected = false;
+        canClickNext = false;
+
+        sessionCurrencyManager.CurrencyCalculations();
+
+        // - - -
+        // When the user finishes the current game, the Results page opens
+        if (currQNumber == sessionQCount + 1)
+        {
+            resultsPageManager.UpdateResultsPage(topicName, sessionCurrencyManager.sessTotalMoney, sessionQCount, numOfCorrAnss, sessionCurrencyManager.maxConCorAns);
+            perkEffectManager.UpdatePerksAfterGameEnds(); // Update the perk used statuses
+
+            SessionTimerManager.canStartTimerSubtracting = false;
+        }
+        // - - -
+    }
 }

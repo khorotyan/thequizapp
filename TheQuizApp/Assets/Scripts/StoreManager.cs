@@ -10,6 +10,7 @@ public class StoreManager : MonoBehaviour
 
     public Button backButton;
     public Text totalMoneyText;
+    public Text totalGemsText;
     public GameObject mainPanel;
     public GameObject storePagePanel;
 
@@ -39,6 +40,7 @@ public class StoreManager : MonoBehaviour
     private StoreItemInfo[] storeBonusTimeInfo = new StoreItemInfo[4]; // ID = 4
 
     public static int totalMoney = 0;
+    public static int totalGems = 0;
 
     private void Awake()
     {
@@ -49,6 +51,16 @@ public class StoreManager : MonoBehaviour
 
         AllPerkInfo();
         LoadPerkData();
+    }
+
+    public void Cheat()
+    {
+        totalMoney += 500;
+        totalGems += 15;
+
+        UpdateTotalMoneyText();
+        UpdateTotalGemsText();
+        CheckAllPerkLevels();
     }
 
     // Creates the information of the levels of perks (prices and values)
@@ -378,6 +390,12 @@ public class StoreManager : MonoBehaviour
         totalMoneyText.text = totalMoney.ToString();
     }
 
+    // Updates total gems text
+    private void UpdateTotalGemsText()
+    {
+        totalGemsText.text = totalGems.ToString();
+    }
+
     // Gets the answer percent (value1) of the Bonus Time perk
     public float GetBTAnswerPerc()
     {
@@ -393,9 +411,6 @@ public class StoreManager : MonoBehaviour
     // Runs whenever the store page closes
     public void OnStorePageClose()
     {
-        storePagePanel.SetActive(false);
-        mainPanel.SetActive(true);
-
         saveManager.SaveTotalMoney(totalMoney);
 
         // Save perk levels
@@ -404,6 +419,8 @@ public class StoreManager : MonoBehaviour
         saveManager.SavePerkLevel(storeComboMultLvl, 2);
         saveManager.SavePerkLevel(storeMoreMoneyLvl, 3);
         saveManager.SavePerkLevel(storeBonusTimeLvl, 4);
+
+        ClosePurchaseChecker();
     }
 
     IEnumerator DisableNotEnMoney()
