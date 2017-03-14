@@ -136,6 +136,7 @@ public class StoreManager : MonoBehaviour
     public void OnStoreOpen()
     {
         totalMoney = loadManager.LoadTotalMoney();
+        totalGems = loadManager.LoadTotalGems();
         UpdateTotalMoneyText();
         CheckAllPerkLevels();
 
@@ -380,8 +381,10 @@ public class StoreManager : MonoBehaviour
     public void UpdateTMoneyOnResults(int sessionMoney)
     {
         totalMoney = loadManager.LoadTotalMoney();
+        totalGems = loadManager.LoadTotalGems();
         totalMoney += sessionMoney;
         saveManager.SaveTotalMoney(totalMoney);
+        saveManager.SaveTotalGems(totalGems);
     }
 
     // Updates total money text
@@ -412,6 +415,7 @@ public class StoreManager : MonoBehaviour
     public void OnStorePageClose()
     {
         saveManager.SaveTotalMoney(totalMoney);
+        saveManager.SaveTotalGems(totalGems);
 
         // Save perk levels
         saveManager.SavePerkLevel(store5050Lvl, 0);

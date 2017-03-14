@@ -91,8 +91,6 @@ public class LoadManager : MonoBehaviour
             currLevel = ES2.Load<int>("svt.txt?tag=currLevel");
         }
 
-        currLevel = 12;
-
         return currLevel;
     }
 
@@ -104,8 +102,6 @@ public class LoadManager : MonoBehaviour
         {
             totalXP = ES2.Load<int>("svt.txt?tag=totalXP");
         }
-
-        totalXP = 4500;
 
         return totalXP;
     }
@@ -124,6 +120,18 @@ public class LoadManager : MonoBehaviour
         return totalMoney;
     }
 
+    public int LoadTotalGems()
+    {
+        int totalGems = 0;
+
+        if (ES2.Exists("svt.txt?tag=totalGems"))
+        {
+            totalGems = ES2.Load<int>("svt.txt?tag=totalGems");
+        }
+
+        return totalGems;
+    }
+
     public int LoadPerkLevel(int perkID)
     {
         int perkLvl = 0;
@@ -136,4 +144,30 @@ public class LoadManager : MonoBehaviour
         return perkLvl;
     }
     // End of - Load Store Class Objects
+
+    // Load Achievements Class Objects    
+    public int LoadAchievementValues(int achID)
+    {
+        int achValue = 0;
+
+        if (ES2.Exists("svt.txt?tag=achValue" + achID))
+        {
+            achValue = ES2.Load<int>("svt.txt?tag=achValue" + achID);
+        }
+
+        return achValue;
+    }
+
+    public int LoadTotalPlayTime()
+    {
+        int quizTime = 0;
+
+        if (ES2.Exists("svt.txt?tag=quizTime"))
+        {
+            quizTime = ES2.Load<int>("svt.txt?tag=quizTime");
+        }
+
+        return quizTime;
+    }
+    // End of - Load Achievements Class Objects
 }

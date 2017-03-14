@@ -7,6 +7,7 @@ using System.Collections;
 public class MainScreenManager : MonoBehaviour
 {
     private StoreManager storeManager;
+    private AchievementManager achievementManager;
 
     public Animator mainAnimator;
     public Button categoriesButton;
@@ -19,6 +20,7 @@ public class MainScreenManager : MonoBehaviour
     private void Awake()
     {
         storeManager = gameObject.GetComponent<StoreManager>();
+        achievementManager = gameObject.GetComponent<AchievementManager>();
 
         categoriesButton.onClick.AddListener(OpenCategories);
         storeButton.onClick.AddListener(OpenStore);
@@ -36,12 +38,12 @@ public class MainScreenManager : MonoBehaviour
 
     IEnumerator WaitUntillClosed()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.8f);
     }
 
     IEnumerator WaitUntillOpened(GameObject objToClose)
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.8f);
         objToClose.SetActive(false);
     }
 
@@ -75,6 +77,8 @@ public class MainScreenManager : MonoBehaviour
     public void OpenAchievements()
     {
         DoTheAnimations(achievementsPage);
+
+        achievementManager.UpdateAllAchInfo();
     }
 
 }

@@ -159,7 +159,16 @@ Added:
 
 1. Achievement Page UI with the information about the achievements
 2. Page Transition animations
-3. Question Change animations
+3. Question Change animation
+4. General Achievement system is ready that is easily adaptable for new achievements
+5. Achievements added 
+	MoneyMaker - Ready - Make a total of x gold
+	SwiftSwift - NOT Ready - Answer x questions using less than 25% of the time
+	Learner - Ready - Answer a total of x questions
+	Progress - NOT Ready - Answer 100 questions in x topics
+	Tough - Ready - Answer 3 consecutive questions correctly x times 
+	Tougher - Ready - Answer 5 consecutive questions correctly x times 
+	MasterQuizer - Ready - Have a total of x hours of quiztime
 
 Changes & Improvements:
 
@@ -188,6 +197,13 @@ Upcoming:
 	Ex. 50 Qs -> 10%, 100 Qs -> 25%, 150 Qs -> 45%, 200 Qs -> 70%, 250 Qs -> 80%, 300 Qs -> 85%, 400 Qs -> 90%, 500 Qs -> 95%  
 8. Change the 'x' symbol in the store to the actual value
 9. Swap money multiplier and time accumulator perk information, meaning that time accumulator opens at lvl 9
+10. US History 27th question is incomplete
+11. Update the slider.maxValue of the timer whenever time adder perk is used 
+	ex. currTime = 32, bonusTime = 13, slider.maxValue = 40 -> slider.maxValue = 40 + 13 = 53
+12. ResultsPageManager -> SaveSessionInfo unknown error happened, investigate
+13. Sum up all the question timers together and compare it with the MasterQuizer Achievement time, 
+		MasterQuizer Achievement time is bigger than the maximum possible time -> cheating happened, register max sum
+14. Fix the UI animation problem, where pages get messed up 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 version 0.40.000 / --- April 23, 2017 --- \

@@ -7,10 +7,12 @@ public class InfoGetter : MonoBehaviour
     public Animator infoGetAnimator;
     public GameObject questionPanel;
 
+    private InfoManager infoManager;
+    private AchievementManager achievementManager;
+
     private string[] textLines;
     private List<QuestionData> questionData = new List<QuestionData>();
 
-    private InfoManager infoManager;
     private int quesPerRound = 6;
     private string topicName;
     private int numOfQuestions;
@@ -19,8 +21,10 @@ public class InfoGetter : MonoBehaviour
 
     void Awake()
     {
-        GetInfo();
         infoManager = gameObject.GetComponent<InfoManager>();
+        achievementManager = gameObject.GetComponent<AchievementManager>();
+
+        GetInfo();
     }
 
     // Get information about the topic that the user chose
@@ -43,7 +47,9 @@ public class InfoGetter : MonoBehaviour
 
         infoManager.ConstructQuestions(topicName, numOfQuestions, quesPerRound, questionData);
 
-        infoGetAnimator.SetTrigger("ClosePage");
+        infoGetAnimator.SetTrigger("ClosePage"); // Do the page close animation
+
+        achievementManager.GetAchTimerStartTime(Time.time);
 
         Debug.Log("InfoTime: " + timeMeasurer.ElapsedMilliseconds);    
     }

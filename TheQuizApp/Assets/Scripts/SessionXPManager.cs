@@ -15,10 +15,18 @@ public class SessionXPManager : MonoBehaviour {
     public static int remainingXP = 0;
     public static int xpPastLevel = 0;
 
-    private int xpForWrong = 1 * 10;
-    private int xpForCorrect = 5 * 10;
+    private int xpForWrong = 1;
+    private int xpForCorrect = 5;
 
     private void Awake()
+    {    
+        saveManager = gameObject.GetComponent<SaveManager>();
+        loadManager = gameObject.GetComponent<LoadManager>();
+
+        InitializeLevelXps();  
+    }
+
+    private void InitializeLevelXps()
     {
         levelXPs[0] = 0;
         levelXPs[1] = 50;
@@ -42,8 +50,10 @@ public class SessionXPManager : MonoBehaviour {
         levelXPs[19] = 12000;
         levelXPs[20] = 13500;
 
-        saveManager = gameObject.GetComponent<SaveManager>();
-        loadManager = gameObject.GetComponent<LoadManager>();
+        for (int i = 21; i < 500; i++)
+        {
+            levelXPs[i] = (int) (levelXPs[i - 1] + 1500 * ( ( (float) (i - 10) ) / 10));
+        }
     }
 
     // Calculates current xp, whenever a question is answered wrongly

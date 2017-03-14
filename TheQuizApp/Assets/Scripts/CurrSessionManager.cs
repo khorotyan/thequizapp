@@ -43,7 +43,6 @@ public class CurrSessionManager : MonoBehaviour
     private int sessionQCount = 0;
     private int currQNumber = 0;
     private int numOfCorrAnss = 0;
-    private bool canShowNextQ = false;
 
     private void Awake()
     {
@@ -243,7 +242,7 @@ public class CurrSessionManager : MonoBehaviour
     {
         //string animLength = changeQAnimator.name;
         //Debug.Log(animLength);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         perkEffectManager.RemovePerkEffects(); // Remove effetcs of 
 

@@ -12,6 +12,7 @@ public class ResultsPageManager : MonoBehaviour
     private SessionXPManager sessionXPManager;
     private StoreManager storeManager;
     private InfoGetter infoGetter;
+    private AchievementManager achievementManager;
 
     [SerializeField]
     private GameObject topicsPanel;
@@ -65,27 +66,13 @@ public class ResultsPageManager : MonoBehaviour
         sessionXPManager = gameObject.GetComponent<SessionXPManager>();
         storeManager = gameObject.GetComponent<StoreManager>();
         infoGetter = gameObject.GetComponent<InfoGetter>();
+        achievementManager = gameObject.GetComponent<AchievementManager>();
     }
 
     private void Update()
     {
         UpdateXPInfo();
     }
-
-    /*
-    float time = 0f;
-
-    private void Update()
-    {
-        UpdateXPSlider(150);
-    }
-
-    private void UpdateXPSlider(int addedXP)
-    {
-        XPSlider.value = Mathf.Lerp(XPSlider.value, addedXP, time);
-        time += Time.deltaTime / 20;
-    }
-    */
     
     // Update the results in the Results panel
     public void UpdateResultsPage(string topicName, int sessTotalMoney, int sessionQCount, int numOfCorrAnss, int maxConsCorrAnss)
@@ -98,6 +85,8 @@ public class ResultsPageManager : MonoBehaviour
         storeManager.UpdateTMoneyOnResults(sessTotalMoney);
         corrWrongRatioText.text = numOfCorrAnss + " : " + (sessionQCount - numOfCorrAnss);
         maxConsecutiveAnssText.text = maxConsCorrAnss.ToString();
+       
+        DealWithTheAchievements(topicName, sessTotalMoney, sessionQCount, numOfCorrAnss, maxConsCorrAnss); // Update the achievement values
 
         questionPanel.SetActive(false);
         resultsPagePanel.SetActive(true);
@@ -219,6 +208,25 @@ public class ResultsPageManager : MonoBehaviour
                 curInterPolTime = 0f;
             }
         }
+    }
+
+    private void DealWithTheAchievements(string topicName, int sessTotalMoney, int sessionQCount, int numOfCorrAnss, int maxConsCorrAnss)
+    {
+        achievementManager.UpdateMoneyMakerValue(sessTotalMoney); // Update MoneyMaker achievement value
+        achievementManager.UpdateLearnerValue(sessionQCount); // Update MoneyMaker achievement value
+
+        // Update Tough and Tougher achievement values
+        if (maxConsCorrAnss == 3 || maxConsCorrAnss == 4)
+        {
+            achievementManager.UpdateToughValue();
+        }
+        else if (maxConsCorrAnss == 5 || maxConsCorrAnss == 6)
+        {
+            achievementManager.UpdateTougherValue();
+        }
+
+        achievementManager.GetAchTimerEndTime(Time.time); // Get the session end time for the MasterQuizer achievement
+        achievementManager.UpdateMasterQuizerValue();
     }
 
     // Wait for some time before playing the XP update animation

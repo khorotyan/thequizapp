@@ -54,9 +54,26 @@ public class SaveManager : MonoBehaviour
         ES2.Save(totalMoney, "svt.txt?tag=totalMoney");
     }
 
+    public void SaveTotalGems(int totalGems)
+    {
+        ES2.Save(totalGems, "svt.txt?tag=totalGems");
+    }
+
     public void SavePerkLevel(int perkLvl, int perkID)
     {
         ES2.Save(perkLvl, "svt.txt?tag=perkLvl" + perkID);
     }
     // End of - Save Store Class Objects
+
+    // Save Achievements Class Objects    
+    public void SaveAchievementValues(int achValue, int achID)
+    {
+        ES2.Save(achValue, "svt.txt?tag=achValue" + achID);
+    }
+
+    public void SaveTotalPlayTime(int quizTime)
+    {
+        ES2.Save(quizTime, "svt.txt?tag=quizTime");
+    }
+    // End of - Save Achievements Class Objects
 }
