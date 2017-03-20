@@ -36,6 +36,7 @@ public class CurrSessionManager : MonoBehaviour
     private InfoManager infoManager;
     private PerkEffectManager perkEffectManager;
     private StoreManager storeManager;
+    private AchievementManager achievementManager;
     private List<QuestionData> qsFromDivisions;
     private string topicName;
     private int sessionCorrAnsNum;
@@ -54,6 +55,7 @@ public class CurrSessionManager : MonoBehaviour
         infoManager = gameObject.GetComponent<InfoManager>();
         perkEffectManager = gameObject.GetComponent<PerkEffectManager>();
         storeManager = gameObject.GetComponent<StoreManager>();
+        achievementManager = gameObject.GetComponent<AchievementManager>();
 
         nextButton.onClick.AddListener(() => OnNextClick());
 
@@ -84,7 +86,7 @@ public class CurrSessionManager : MonoBehaviour
 
         CurrQManager();
         ManageQShuffle();
-        sessionCurrencyManager.CurrencyCalculations();
+        sessionCurrencyManager.CurrencyCalculations(topicName);
     }
 
     // When an answer is clicked, the this method is run
@@ -110,6 +112,12 @@ public class CurrSessionManager : MonoBehaviour
         {
             helpersDuringSess.AnsweredTooQuickly();
         }     
+
+        // Update SwiftSwift achievement info if its conditions are met
+        if (sessionTimerManager.isSwiftSwift == true)
+        {
+            achievementManager.UpdateSwiftSwiftValue();
+        }
     }
 
     // When the Next Button is clicked, the question is changed
@@ -251,7 +259,7 @@ public class CurrSessionManager : MonoBehaviour
         answerSelected = false;
         canClickNext = false;
 
-        sessionCurrencyManager.CurrencyCalculations();
+        sessionCurrencyManager.CurrencyCalculations(topicName);
 
         // - - -
         // When the user finishes the current game, the Results page opens

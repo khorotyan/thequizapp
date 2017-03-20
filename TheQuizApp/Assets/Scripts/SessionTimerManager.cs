@@ -27,6 +27,9 @@ public class SessionTimerManager : MonoBehaviour
     private float wordsPerSecond = 0.8f;
     private float fakeAnswerPercentage = 0.999f;
 
+    // Achievement variables
+    public bool isSwiftSwift = false;
+
     private void Awake()
     {
         currSessionManager = gameObject.GetComponent<CurrSessionManager>();
@@ -72,8 +75,20 @@ public class SessionTimerManager : MonoBehaviour
                 currSessionManager.canClickNext = true;
                 canStartTimerSubtracting = false;
             }
+
+            // Check if SwiftSwift achievement condition was met
+            if (totalTime >= 0.75f * timerSlider.maxValue)
+            {
+                isSwiftSwift = true;
+            }
+            else
+            {
+                isSwiftSwift = false;
+            }
+            // End of - Check if SwiftSwift achievement condition was met
+
         }
-        
+
         if (timerWarning == true && timerStateChanged == false) // Enable Warning 
         {
             ChangeTimerText();

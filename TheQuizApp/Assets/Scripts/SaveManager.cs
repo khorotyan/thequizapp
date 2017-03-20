@@ -75,5 +75,10 @@ public class SaveManager : MonoBehaviour
     {
         ES2.Save(quizTime, "svt.txt?tag=quizTime");
     }
+
+    public void SaveQCountForTopics(int eachQAnswerCount, string topicName)
+    {
+        ES2.Save(eachQAnswerCount, "svt.txt?tag=eachQAnswerCount" + topicName);
+    }
     // End of - Save Achievements Class Objects
 }

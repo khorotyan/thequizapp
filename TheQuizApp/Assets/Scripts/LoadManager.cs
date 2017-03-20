@@ -169,5 +169,17 @@ public class LoadManager : MonoBehaviour
 
         return quizTime;
     }
+
+    public int LoadQCountForTopics(string topicName)
+    {
+        int eachQAnswerCount = 0;
+
+        if (ES2.Exists("svt.txt?tag=eachQAnswerCount" + topicName))
+        {
+            eachQAnswerCount = ES2.Load<int>("svt.txt?tag=eachQAnswerCount" + topicName);
+        }
+
+        return eachQAnswerCount;
+    }
     // End of - Load Achievements Class Objects
 }

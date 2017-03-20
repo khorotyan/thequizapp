@@ -218,6 +218,13 @@ public class AchievementManager : MonoBehaviour
         saveManager.SaveAchievementValues(achMoneyMakerValue, 0);
     }
 
+    public void UpdateSwiftSwiftValue() // ID 1
+    {
+        achSwiftSwiftValue++;
+
+        saveManager.SaveAchievementValues(achSwiftSwiftValue, 1);
+    }
+
     public void UpdateLearnerValue(int noQs) // ID = 2
     {
         achLearnerValue += noQs;
@@ -225,16 +232,50 @@ public class AchievementManager : MonoBehaviour
         saveManager.SaveAchievementValues(achLearnerValue, 2);
     }
 
+    public void UpdateProgressValue(int noQs, string topicName) // ID = 3
+    {
+        noQs += loadManager.LoadQCountForTopics(topicName);
+        saveManager.SaveQCountForTopics(noQs, topicName);
+
+        string[] tagsInFile = ES2.GetTags("svt.txt");
+        List<string> topics = new List<string>();
+        int topics100Ans = 0;
+
+        // Load all the topic names associated with Progress achievement
+        foreach (string item in tagsInFile)
+        {
+            if (item.Contains("eachQAnswerCount"))
+            {
+                topics.Add(item.Substring("eachQAnswerCount".Length));
+            }
+        }
+
+        // Check the number of topics having 100+ questions answered
+        for (int i = 0; i < topics.Count; i++)
+        {
+            int qCount = loadManager.LoadQCountForTopics(topics[i]);
+
+            if (qCount >= 100)
+            {
+                topics100Ans++;
+            }
+        }
+
+        achProgressValue = topics100Ans;
+
+        saveManager.SaveAchievementValues(achProgressValue, 3);
+    }
+
     public void UpdateToughValue() // ID = 4
     {
-        achToughValue += 1;
+        achToughValue++;
 
         saveManager.SaveAchievementValues(achToughValue, 4);
     }
 
     public void UpdateTougherValue() // ID = 5
     {
-        achTougherValue += 1;
+        achTougherValue++;
 
         saveManager.SaveAchievementValues(achTougherValue, 5);
     }
@@ -250,8 +291,6 @@ public class AchievementManager : MonoBehaviour
         saveManager.SaveTotalPlayTime(quizTime);
         saveManager.SaveAchievementValues(achMasterQuizerValue, 6);
     }
-
-
 
     public void GetAchTimerStartTime(float startTime)
     {

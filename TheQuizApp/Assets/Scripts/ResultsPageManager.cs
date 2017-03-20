@@ -214,6 +214,7 @@ public class ResultsPageManager : MonoBehaviour
     {
         achievementManager.UpdateMoneyMakerValue(sessTotalMoney); // Update MoneyMaker achievement value
         achievementManager.UpdateLearnerValue(sessionQCount); // Update MoneyMaker achievement value
+        achievementManager.UpdateProgressValue(sessionQCount, topicName); // Update Progress achievement value
 
         // Update Tough and Tougher achievement values
         if (maxConsCorrAnss == 3 || maxConsCorrAnss == 4)

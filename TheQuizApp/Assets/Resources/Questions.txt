@@ -1998,7 +1998,7 @@
     They involve fundamental concepts that are unavoidable by the thoughtful person
     They are purely semantic questions
     They aren't relevant to ordinary, everyday situations
-3[Which is the branch of philosophy that studies issues concerning art and beauty ?] ;d4 ;i5 ;a1 % (6), Ch1 - q3
+3[Which is the branch of  that studies issues concerning art and beauty ?] ;d4 ;i5 ;a1 % (6), Ch1 - q3
     Aesthetics
     Epistemology
     Logic

@@ -17,6 +17,8 @@ public class MainScreenManager : MonoBehaviour
     public GameObject storePage;
     public GameObject achievementsPage;
 
+    public static bool animating = false;
+
     private void Awake()
     {
         storeManager = gameObject.GetComponent<StoreManager>();
@@ -24,6 +26,11 @@ public class MainScreenManager : MonoBehaviour
 
         categoriesButton.onClick.AddListener(OpenCategories);
         storeButton.onClick.AddListener(OpenStore);
+    }
+
+    private void Update()
+    {
+        //Debug.Log(animating);
     }
 
     public void PlayCloseAnimation()
@@ -39,27 +46,34 @@ public class MainScreenManager : MonoBehaviour
     IEnumerator WaitUntillClosed()
     {
         yield return new WaitForSeconds(0.8f);
+        animating = false;
     }
 
     IEnumerator WaitUntillOpened(GameObject objToClose)
     {
         yield return new WaitForSeconds(0.8f);
         objToClose.SetActive(false);
+        animating = false;
     }
 
     private void DoTheAnimations(GameObject pageObj)
     {
-        if (pageObj.activeSelf == false)
+        if (animating == false)
         {
-            pageObj.SetActive(true);
-            PlayCloseAnimation();
-        }
-        else
-        {
-            PlayOpenAnimation();
-            StartCoroutine(WaitUntillOpened(pageObj));
-            
-        }
+            animating = true;
+
+            if (pageObj.activeSelf == false)
+            {
+                pageObj.SetActive(true);
+                PlayCloseAnimation();
+                StartCoroutine(WaitUntillClosed());
+            }
+            else
+            {
+                PlayOpenAnimation();
+                StartCoroutine(WaitUntillOpened(pageObj));
+            }
+        }     
     }
 
     public void OpenCategories()
